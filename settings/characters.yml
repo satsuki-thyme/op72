@@ -1,0 +1,181 @@
+# キャラクター
+summary:
+  - 
+
+
+detail:
+  - group: 
+    member:
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        innate nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
+        existing nature:
+          overview:
+            - 
+            - 
+            - 
+          special skills:
+            - 
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          hobby:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
+        personality:
+          overview:
+            - 
+            - 
+            - 
+            - 
+          emotional expression:
+            - name: 喜び、楽しい
+              contents: 
+
+            - name: 安心、安らぎ
+              contents: 
+
+            - name: 期待、待ち遠しい
+              contents: 
+
+            - name: 心配
+              contents: 
+
+            - name: 恐怖
+              contents: 
+
+            - name: 怒り
+              contents: 
+
+            - name: 悲しみ
+              contents: 
+
+            - name: 憎悪
+              contents: 
+
+            - name: 驚愕
+              contents: 
+
+            - name: 警戒
+              contents: 
+
+          outlook on life:
+            - name: 死生観
+              contents: 
+
+            - name: 将来の展望、夢、希望
+              contents: 
+
+            - name: 現在に対する価値観
+              contents: 
+
+            - name: 過去に対する価値観
+              contents: 
+
+            - name: 未来に対する価値観
+              contents: 
+
+            - name: 自分への態度
+              contents: 
+
+            - name: 対峙する相手への態度
+              contents: 
+
+            - name: 社会への態度
+              contents: 
+
+            - name: 学びに対する姿勢
+              contents: 
+
+            - name: 仕事や責任に対する姿勢
+              contents: 
+
+            - name: 個人的な物事・時間への姿勢
+              contents: 
+
+            - name: 安定していることに対する感覚
+              contents: 
+
+            - name: 変化することへの態度・感覚
+              contents: 
+
+            - name: 予測可能な状況に対する態度
+              contents: 
+
+          situational state:
+            - name: 通常時
+              contents: 
+
+            - name: 好調時
+              contents: 
+
+            - name: 困難時
+              contents: 
+
+            - name: 突然の喜び
+              contents: 
+
+            - name: 不測の困難
+              contents: 
+
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
+              contents: 
+
+        appearance:
+          overview: 
+          eye-catching features: 
+          first impression: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        biography:
+          - age: 
+            event:
+              - birth:
+                day: 
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 
