@@ -21,6 +21,7 @@
 - plot/01/outline/log.yml:             ログ
 - plot/01/outline/narrative-clues.yml: 前兆要素
 - plot/01/outline/ref-note.md:         参照ノート
+- plot/01/outline/stream.yml:          概要プロット
 
 ### 設定
 - settings/background.yml: 背景設定
