@@ -45,5 +45,6 @@
 - todo.md:  ToDoリスト
 
 ### 思考ノート
+- thinking-notes/thi-001.md: ウィスプ
 
 ### アーカイブ
