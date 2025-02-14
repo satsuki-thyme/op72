@@ -3,12 +3,43 @@
   contents:
     - item: 好奇心旺盛で興味のあることに夢中になる
       portrayal:
-        - 際立った特徴のあるものに関心を示す
+        際立った特徴のあるものに関心を示す
 
     - item: 楽天的で後先のことを気にしていない
       portrayal:
-        - 行き当たりばったりで場当たり的に対処する
+        行き当たりばったりで場当たり的に対処する
 
     - item: 気が弱いものの勇気がある
       portrayal:
-        - 勇気を振り絞って気持ちを伝える
+        勇気を振り絞って気持ちを伝える
+
+
+- dn: キスカ
+  contents:
+    - item: 意志が強くなんでもはっきりと決めたがる
+      portrayal:
+        エルクを引っ張っていく
+
+    - item: 強気でなんにでも挑んでいく
+      portrayal:
+        売られた勝負は買わないでいられない
+
+    - item: 心配性で如才ない
+      portrayal:
+        エルクの面倒を見る
+        アイテムなどを周到に用意する
+
+
+- dn: 
+  contents:
+    - item: 
+      portrayal:
+        -
+
+    - item: 
+      portrayal:
+        -
+
+    - item: 
+      portrayal:
+        -
