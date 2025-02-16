@@ -41,7 +41,11 @@
 - settings/place.yml:      場所設定
 - settings/things.yml:     物事設定
 
-### 歴史
+#### 歴史
+
+### メモ
+#### 第1章
+- memo/01/mem-001.md: キスカと実家
 
 ### その他
 - notes.md: ノート
