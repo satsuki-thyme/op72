@@ -181,16 +181,16 @@ detail:
                   - 
 
 
-      - dn: 
+      - dn: キスカ
         meta data:
-          role: 
-          applicable chapter: 
+          role: ヒロイン
+          applicable chapter: continuous
         innate nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
+          full name: キスカ（・レイネ・フレイザー）
+          nickname: キスカ
+          race: 葦人
+          gender: 女
+          age: 17
         approximate nature:
           overview:
             - 
@@ -222,10 +222,10 @@ detail:
             - 
         personality:
           overview:
-            - 
-            - 
-            - 
-            - 
+            - 気が強い
+            - 心配性
+            - 如才ない
+            - ロマンチシスト
           emotional expression:
             - name: 喜び、楽しい
               contents: 
