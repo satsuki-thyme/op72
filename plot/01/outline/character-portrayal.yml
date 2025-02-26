@@ -30,6 +30,23 @@
         アイテムなどを周到に用意する
 
 
+- dn: フェリ
+  contents:
+    - item: クールで知的
+      portrayal:
+        博識で物事を教える
+        エルクに魔法を教える
+
+    - item: 計画的で予定を立てたがる
+      portrayal:
+        旅程を計算したりする
+
+    - item: 情熱的で粘り強い
+      portrayal:
+        負けを認めず挑み続ける
+        エルクに魔法を教えてもらう
+
+
 - dn: 
   contents:
     - item: 
