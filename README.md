@@ -32,10 +32,12 @@
 ##### 基礎計画
 - plot/01/build/001.md: 基礎計画 第1話
 - plot/01/build/003.md: 基礎計画 第3話
+- plot/01/build/005.md: 基礎計画 第5話
 
 ##### 詳細
-- plot/01/details/001.md: プロット詳細 第1話
-- plot/01/details/003.md: プロット詳細 第3話
+- plot/01/details/001.md: 詳細プロット 第1話
+- plot/01/details/003.md: 詳細プロット 第3話
+- plot/01/details/005.md: 詳細プロット 第5話
 
 ### 設定
 - settings/background.yml: 背景設定
