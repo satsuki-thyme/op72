@@ -1,1 +1,16 @@
 # 前兆要素
+- item: ゼヴァロ
+  resolution: 000 xxx
+  narrative-clues:
+    - 004 ダブロア男爵の元から逃走
+
+- item: 魔物使い
+  resolution: 000 xxx
+  narrative-clues:
+    - 003 短剣を持ったゴブリン
+    - 004 ゼヴァロがゴブリンとトロールを使役する
+
+- item: 
+  resolution: 000 xxx
+  narrative-clues:
+    - 000 xxx
