@@ -15,13 +15,13 @@ detail:
  ##       ##       ##    ##
  ######## ########  ######
 
-      - dn: エルク
+      - dn: エリア
         meta data:
           role: 主人公
           applicable chapter: continuous
         innate nature:
-          full name: レヴィテ村のエルク
-          nickname: エルク
+          full name: レヴィテ村のエリア
+          nickname: エリア
           race: 葦人
           gender: 男
           age: 17
