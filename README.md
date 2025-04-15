@@ -25,8 +25,8 @@
 - plot/01/outline/character-base.yml:      キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml: キャラクター描写
 - plot/01/outline/log.yml:                 ログ
-- plot/01/outline/narrative-clues.yml:     前兆要素
 - plot/01/outline/outline.yml:             概要プロット
+- plot/01/outline/precursor.yml:           前駆体
 - plot/01/outline/ref-note.md:             参照ノート
 
 ##### 基礎計画
