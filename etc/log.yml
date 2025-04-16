@@ -1,0 +1,48 @@
+# ログ
+- episode: 006
+  episode number: 
+  title: タイトル未定
+  elapsed days: 
+  battle: 
+  erro: 
+  summary: 
+
+- episode: 005
+  episode number: 002-3
+  title: タイトル未定
+  elapsed days: 0
+  battle: true
+  erro: true
+  summary: 
+
+- episode: 004
+  episode number: 002-2
+  title: 突入戦まかり通る
+  elapsed days: 0
+  battle: true
+  erro: true
+  summary: 
+
+- episode: 003
+  episode number: 002-1
+  title: 盗賊城への招待状
+  elapsed days: 0
+  battle: true
+  erro: true
+  summary: 
+
+- episode: 002
+  episode number: 001-2
+  title: 決闘への乱入者
+  elapsed days: 0
+  battle: true
+  erro: true
+  summary: 
+
+- episode: 001
+  episode number: 001-1
+  title: 憤れる森の美少女
+  elapsed days: 0
+  battle: true
+  erro: false
+  summary: 
