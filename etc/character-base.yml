@@ -1,0 +1,162 @@
+# キャラクターの基本設計
+## 概要比較
+overview comparison:
+  エクト 楽天的だが気が小さいところもある
+  キスカ 強気だが心配性なところもある
+  フェリ クールだが粘着質なところもある
+
+
+## 詳細
+details:
+  - dn: エクト
+    charm:
+      title:
+        好奇心旺盛で芯が強い
+      entity:
+        predicament:
+          どうすると乗り越えられるのかに興味津々
+        normaly:
+          珍しい物に興味津々
+    desire:
+      title:
+        見たことがないものを見たい
+      conflict:
+        行く手を阻む障害
+      background connected to desire:
+        里は退屈だった
+    plot requirements:
+      type:
+        -
+      contents:
+        title:
+          -
+        inner self that confront (weaknesses):
+          -
+        antagonist:
+          -
+        how to overcome:
+          -
+        inner change:
+          -
+        right point:
+          -
+        wrong point:
+          -
+    what to do:
+      困難を乗り越えることを楽しむ
+
+
+  - dn: キスカ
+    charm:
+      title:
+        しっかり者で気が強い
+      entity:
+        predicament:
+          獰猛に向かっていく
+        normaly:
+          お姉さん
+    desire:
+      title:
+        戦って勝ちたい
+      conflict:
+        旅の困難
+      background connected to desire:
+        幼少期に兄に負けた悔しさ
+    plot requirements:
+      type:
+        -
+      contents:
+        title:
+          -
+        inner self that confront (weaknesses):
+          -
+        antagonist:
+          -
+        how to overcome:
+          -
+        inner change:
+          -
+        right point:
+          -
+        wrong point:
+          -
+    what to do:
+      困難を乗り越えることを楽しむ
+
+
+  - dn: フェリ
+    charm:
+      title:
+        クールで情熱的
+      entity:
+        predicament:
+          踏ん張って粘り強い
+        normaly:
+          熱意を秘めた優等生
+    desire:
+      title:
+        魔法を極めたい
+      conflict:
+        旅の困難
+      background connected to desire:
+        魔法使いに拾われて育てられた
+    plot requirements:
+      type:
+        -
+      contents:
+        title:
+          -
+        inner self that confront (weaknesses):
+          -
+        antagonist:
+          -
+        how to overcome:
+          -
+        inner change:
+          -
+        right point:
+          -
+        wrong point:
+          -
+    what to do:
+      困難を乗り越えることを楽しむ
+
+
+  - dn: 
+    charm:
+      title:
+        -
+      entity:
+        predicament:
+          -
+        normaly:
+          -
+    desire:
+      title:
+        -
+      conflict:
+        -
+      background connected to desire:
+        -
+    plot requirements:
+      type:
+        -
+      contents:
+        title:
+          -
+        inner self that confront (weaknesses):
+          -
+        antagonist:
+          -
+        how to overcome:
+          -
+        inner change:
+          -
+        right point:
+          -
+        wrong point:
+          -
+    what to do:
+      -
+
+
