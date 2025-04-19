@@ -14,14 +14,14 @@
 - etc/precursor.yml: 前駆体
 
 ##### 基礎計画
-- plot/01/build/001.md: 基礎計画 第1話
-- plot/01/build/003.md: 基礎計画 第3話
-- plot/01/build/005.md: 基礎計画 第5話
+- plot/01/build/bld-001.md: 基礎計画 第1話
+- plot/01/build/bld-003.md: 基礎計画 第3話
+- plot/01/build/bld-005.md: 基礎計画 第5話
 
 ##### 詳細プロット
-- plot/01/details/001.md: 詳細プロット 第1話
-- plot/01/details/003.md: 詳細プロット 第3話
-- plot/01/details/005.md: 詳細プロット 第5話
+- plot/01/details/det-001.md: 詳細プロット 第1話
+- plot/01/details/det-003.md: 詳細プロット 第3話
+- plot/01/details/det-005.md: 詳細プロット 第5話
 
 ### 設定
 - settings/background.yml: 背景設定
