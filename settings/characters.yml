@@ -7,13 +7,14 @@ detail:
   - group: 主人公側
     member:
 
- ######## ##        ######
- ##       ##       ##    ##
- ##       ##       ##
- ######   ##       ##
- ##       ##       ##
- ##       ##       ##    ##
- ######## ########  ######
+ ########  ######  ########
+ ##       ##    ##    ##
+ ##       ##          ##
+ ######   ##          ##
+ ##       ##          ##
+ ##       ##    ##    ##
+ ########  ######     ##
+
 
       - dn: エクト
         meta data:
@@ -27,9 +28,9 @@ detail:
           age: 17
         approximate nature:
           overview:
-            - 
-            - 
-            - 
+            - 武に関心がある
+            - 世界に強い興味を持っている
+            - 鍵言のある魔法に興味を持っている
           special skills:
             - 魔法 => 精緻かつ強力
             - 剣 => 流麗かつ怜悧
@@ -60,104 +61,7 @@ detail:
             - 芯が強い
             - 弱気なところもある
             - 天真爛漫
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
+            - 戦いになると勇猛で野蛮な面が表出する
 
         appearance:
           overview: 
@@ -177,16 +81,6 @@ detail:
             buttocks: 
             leg: 
           voice: 
-        biography:
-          - age: 
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
  ##    ## ####  ######   ######     ###
  ##   ##   ##  ##    ## ##    ##   ## ##
@@ -208,17 +102,18 @@ detail:
           age: 17
         approximate nature:
           overview:
-            - 
-            - 
-            - 
+            - 剣の道に強い関心とこだわりがある
+            - エクトの剣の強さに興味がある
+            - 元気
           special skills:
-            - 
+            - 剣
             - 
             - 
           forte:
-            - 
-            - 
-            - 
+            - 物怖じしない
+            - 勘がいい
+            - 如才ない
+            - 料理が得意
           weaknesses:
             - 
             - 
@@ -232,8 +127,8 @@ detail:
             - 
             - 
           etc:
-            - 
-            - 
+            - 普段は強気だが酒が入ると女になる
+            - センスは女性らしさがある
             - 
         personality:
           overview:
@@ -241,104 +136,6 @@ detail:
             - 心配性
             - 如才ない
             - ロマンチシスト
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
 
         appearance:
           overview: 
@@ -346,28 +143,18 @@ detail:
           first impression: 
           face:
             overview: 
-            hair: 
+            hair: 栗色のロング
             eyes: 
           body:
-            overview: 
-            height: 
+            overview: スタイルがいい
+            height: エクトより低い
             arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
+            breast/chest: 小ぶりな林檎
+            waist: くびれている
+            hips: 色っぽい
+            buttocks: 形がいい
             leg: 
           voice: 
-        biography:
-          - age: 
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
  ######## ######## ########  ####
  ##       ##       ##     ##  ##
@@ -389,21 +176,22 @@ detail:
           age: 16
         approximate nature:
           overview:
-            - 
-            - 
-            - 
+            - 魔法の道に強い関心とこだわりがある
+            - エクトの無詠唱魔法に興味がある
+            - 上品
           special skills:
-            - 
+            - 魔法
             - 
             - 
           forte:
-            - 
-            - 
+            - 頭がいい
+            - 論理思考が得意
             - 
           weaknesses:
-            - 
-            - 
-            - 
+            - 引っ込み思案
+            - 魔法に関わることには分別がない
+            - ものぐさ
+            - 料理が苦手
           secret:
             - 
             - 
@@ -413,7 +201,7 @@ detail:
             - 
             - 
           etc:
-            - 
+            - 普段は物静かだが酒が入ると強気になる
             - 
             - 
         personality:
@@ -422,104 +210,6 @@ detail:
             - 知的
             - 情熱的
             - 子供っぽい
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
 
         appearance:
           overview: 
@@ -527,29 +217,18 @@ detail:
           first impression: 
           face:
             overview: 
-            hair: 
+            hair: 鳶色のボブ
             eyes: 
           body:
-            overview: 
-            height: 
+            overview: 小柄だがボディラインの起伏が豊か
+            height: 小柄
             arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
+            breast/chest: 桃
+            waist: くびれている
+            hips: デフォルメが利いている
+            buttocks: ボリュームがある
             leg: 
           voice: 
-        biography:
-          - age: 
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
 
 
 
@@ -601,104 +280,6 @@ detail:
             - 
             - 
             - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
 
         appearance:
           overview: 
@@ -718,15 +299,4 @@ detail:
             buttocks: 
             leg: 
           voice: 
-        biography:
-          - age: 
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
 

@@ -17,6 +17,7 @@
 - plot/01/build/bld-001.md: 基礎計画 第1話
 - plot/01/build/bld-003.md: 基礎計画 第3話
 - plot/01/build/bld-005.md: 基礎計画 第5話
+- plot/01/build/bld-006.md: 基礎計画 第6話
 
 ##### 詳細プロット
 - plot/01/details/det-001.md: 詳細プロット 第1話
