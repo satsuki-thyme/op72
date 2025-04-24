@@ -3,6 +3,7 @@
   episode number: 
   title: 
   elapsed days: 
+  time: 
   battle: 
   erro: 
   summary: 
@@ -11,6 +12,7 @@
   episode number: 002-4
   title: 
   elapsed days: 0
+  time: 午後
   battle: 
   erro: 
   summary: 
@@ -19,6 +21,7 @@
   episode number: 002-3
   title: 雄峰の片鱗
   elapsed days: 0
+  time: 昼
   battle: true
   erro: true
   summary: 
@@ -27,6 +30,7 @@
   episode number: 002-2
   title: 放つ災禍の影
   elapsed days: 0
+  time: 昼
   battle: true
   erro: true
   summary: 
@@ -35,6 +39,7 @@
   episode number: 002-1
   title: 盗賊城への招待状
   elapsed days: 0
+  time: 午前中
   battle: true
   erro: true
   summary: 
@@ -43,6 +48,7 @@
   episode number: 001-2
   title: 決闘への乱入者
   elapsed days: 0
+  time: 午前中
   battle: true
   erro: true
   summary: 
@@ -51,6 +57,7 @@
   episode number: 001-1
   title: 憤れる森の美少女
   elapsed days: 0
+  time: 午前中
   battle: true
   erro: false
   summary: 
