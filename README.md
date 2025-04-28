@@ -7,6 +7,7 @@
 - text/01/003.txt: 盗賊城への招待状
 - text/01/004.txt: 放つ災禍の影
 - text/01/005.txt: 雄峰の片鱗
+- text/01/006.txt: タイトル未定
 
 ### etc.
 - etc/idea.yml:      アイデア
