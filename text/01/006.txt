@@ -3,6 +3,7 @@
   declaration: 謁見室
   tone: +
   contents:
+　
     \feri- dia + ありがとう
     \ect-- dia + ああ、助けられてよかった
     \feri- dia + 私はフェリ　あなた強いんですね

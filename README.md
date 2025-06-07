@@ -10,15 +10,19 @@
 - text/01/006.txt: タイトル未定
 
 ### etc.
-- etc/idea.yml:      アイデア
-- etc/log.yml:       ログ
-- etc/precursor.yml: 前駆体
+- etc/note.yml:      ノート
 
 ##### 基礎計画
 - plot/01/build/bld-001.md: 基礎計画 第1話
 - plot/01/build/bld-003.md: 基礎計画 第3話
 - plot/01/build/bld-005.md: 基礎計画 第5話
 - plot/01/build/bld-006.md: 基礎計画 第6話
+
+##### 概要プロット
+- plot/01/outline/character-base.yml: キャラクターの基礎設定
+- plot/01/outline/log.yml:            ログ
+- plot/01/outline/precursor.yml:      前駆体
+- plot/01/outline/ref-note.yml:       レファレンスノート
 
 ##### 詳細プロット
 - plot/01/details/det-001.md: 詳細プロット 第1話
