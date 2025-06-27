@@ -10,7 +10,7 @@
 - text/01/006.txt: タイトル未定
 
 ### etc.
-- etc/note.yml:      ノート
+- etc/note.yml: ノート
 
 ##### 基礎計画
 - plot/01/build/bld-001.md: 基礎計画 第1話
@@ -25,9 +25,10 @@
 - plot/01/outline/ref-note.yml:       レファレンスノート
 
 ##### 詳細プロット
-- plot/01/details/det-001.md: 詳細プロット 第1話
-- plot/01/details/det-003.md: 詳細プロット 第3話
-- plot/01/details/det-005.md: 詳細プロット 第5話
+- plot/01/details/det-001.md:  詳細プロット 第1話
+- plot/01/details/det-003.md:  詳細プロット 第3話
+- plot/01/details/det-005.md:  詳細プロット 第5話
+- plot/01/details/det-006.yml: 詳細プロット 第6話
 
 ### 設定
 - settings/background.yml: 背景設定
