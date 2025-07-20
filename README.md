@@ -17,19 +17,20 @@
 
 - etc/note.yml: ノート
 
-##### 基礎計画
-
-- plot/01/build/bld-001.md: 基礎計画 第1話
-- plot/01/build/bld-003.md: 基礎計画 第3話
-- plot/01/build/bld-005.md: 基礎計画 第5話
-- plot/01/build/bld-006.md: 基礎計画 第6話
-
 ##### 概要プロット
 
 - plot/01/outline/character-base.yml: キャラクターの基礎設定
 - plot/01/outline/log.yml:            ログ
 - plot/01/outline/precursor.yml:      前駆体
 - plot/01/outline/ref-note.yml:       レファレンスノート
+
+##### 基礎計画
+
+- plot/01/build/bld-001.md: 基礎計画 第1話
+- plot/01/build/bld-003.md: 基礎計画 第3話
+- plot/01/build/bld-005.md: 基礎計画 第5話
+- plot/01/build/bld-006.md: 基礎計画 第6話
+- plot/01/build/bld-007.md: 基礎計画 第7話
 
 ##### 詳細プロット
 
@@ -44,6 +45,7 @@
 - settings/characters.yml: キャラクター設定
 - settings/subject.yml:    主体設定
 - settings/place.yml:      場所設定
+- settings/things.yml:     物事設定
 
 ### メモ
 
