@@ -26,18 +26,19 @@
 
 ##### 基礎計画
 
-- plot/01/build/bld-001.md: 基礎計画 第1話
-- plot/01/build/bld-003.md: 基礎計画 第3話
-- plot/01/build/bld-005.md: 基礎計画 第5話
-- plot/01/build/bld-006.md: 基礎計画 第6話
-- plot/01/build/bld-007.md: 基礎計画 第7話
+- plot/01/build/bld-001.md: 基礎計画 第1章 第1話
+- plot/01/build/bld-003.md: 基礎計画 第1章 第3話
+- plot/01/build/bld-005.md: 基礎計画 第1章 第5話
+- plot/01/build/bld-006.md: 基礎計画 第1章 第6話
+- plot/01/build/bld-007.md: 基礎計画 第1章 第7話
 
 ##### 詳細プロット
 
-- plot/01/details/det-001.md:  詳細プロット 第1話
-- plot/01/details/det-003.md:  詳細プロット 第3話
-- plot/01/details/det-005.md:  詳細プロット 第5話
-- plot/01/details/det-006.yml: 詳細プロット 第6話
+- plot/01/details/det-001.md:  詳細プロット 第1章 第1話
+- plot/01/details/det-003.md:  詳細プロット 第1章 第3話
+- plot/01/details/det-005.md:  詳細プロット 第1章 第5話
+- plot/01/details/det-006.yml: 詳細プロット 第1章 第6話
+- plot/01/details/det-007.yml: 詳細プロット 第1章 第7話
 
 ### 設定
 
