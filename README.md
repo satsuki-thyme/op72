@@ -14,10 +14,6 @@
 - text/01/006.txt: 少女たちの事情
 - text/01/007.txt: タイトル未定
 
-### etc.
-
-- etc/note.yml: ノート
-
 ##### 概要プロット
 
 - plot/01/outline/character-base.yml: キャラクターの基礎設定
@@ -55,9 +51,10 @@
 
 - memo/01/mem-001.md: キスカと実家
 
-### その他
+### etc.
 
-- todo.md:  ToDoリスト
+- etc/note.yml: ノート
+- etc/todo.md:  ToDoリスト
 
 ### 思考ノート
 
