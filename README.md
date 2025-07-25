@@ -2,9 +2,9 @@
 
 ## 文書
 
-### 本文
+### 第1章
 
-#### 第1章
+#### 本文
 
 - text/01/001.txt: 憤れる森の美少女
 - text/01/002.txt: 決闘への乱入者
@@ -14,14 +14,14 @@
 - text/01/006.txt: 少女たちの事情
 - text/01/007.txt: タイトル未定
 
-##### 概要プロット
+#### 概要プロット
 
 - plot/01/outline/character-base.yml: キャラクターの基礎設定
 - plot/01/outline/log.yml:            ログ
 - plot/01/outline/precursor.yml:      前駆体
 - plot/01/outline/ref-note.yml:       レファレンスノート
 
-##### 基礎計画
+#### 基礎計画
 
 - plot/01/build/bld-001.md: 基礎計画 第1章 第1話
 - plot/01/build/bld-003.md: 基礎計画 第1章 第3話
@@ -29,7 +29,7 @@
 - plot/01/build/bld-006.md: 基礎計画 第1章 第6話
 - plot/01/build/bld-007.md: 基礎計画 第1章 第7話
 
-##### 詳細プロット
+#### 詳細プロット
 
 - plot/01/details/det-001.md:  詳細プロット 第1章 第1話
 - plot/01/details/det-003.md:  詳細プロット 第1章 第3話
