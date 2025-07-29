@@ -11,6 +11,11 @@
     - 004 ゼヴァロがゴブリンとトロールを使役する
     - 004 剣を持ったゴブリン
 
+- item: 魔法の塔
+  resolution: 000 xxx
+  precursor:
+    - 006 フェリのセリフ「魔法の塔に知られたらどうなるか」
+
 - item: 
   resolution: 000 xxx
   precursor:
