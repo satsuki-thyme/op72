@@ -1,4 +1,4 @@
-# 前兆要素
+# 前駆体
 - item: ゼヴァロ
   resolution: 000 xxx
   precursor:
@@ -15,6 +15,12 @@
   resolution: 000 xxx
   precursor:
     - 006 フェリのセリフ「魔法の塔に知られたらどうなるか」
+    - 007 キスカが魔法使いの集団に使い魔で襲われかける
+
+- item: 
+  resolution: 000 xxx
+  precursor:
+    - 000 xxx
 
 - item: 
   resolution: 000 xxx

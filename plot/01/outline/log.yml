@@ -24,7 +24,7 @@
   time: 午後
   battle: false
   erro: false
-  summary: 
+  summary: エクト、フェリ救出し弟子契約、キスカも旅に同行。
 
 - unit: 005
   episode: 002-3
@@ -33,7 +33,7 @@
   time: 昼
   battle: true
   erro: true
-  summary: 
+  summary: エクト、盗賊ロアを圧倒し炎で葬り少女救出。
 
 - unit: 004
   episode: 002-2
@@ -42,7 +42,7 @@
   time: 昼
   battle: true
   erro: true
-  summary: 
+  summary: エクト、盗賊の城を急襲し魔物を退け囚人救出へ。
 
 - unit: 003
   episode: 002-1
@@ -51,7 +51,7 @@
   time: 午前中
   battle: true
   erro: true
-  summary: 
+  summary: 和解したエクトとキスカ、盗賊から女性救い城へ向かう決意。
 
 - unit: 002
   episode: 001-2
@@ -60,7 +60,7 @@
   time: 午前中
   battle: true
   erro: true
-  summary: 
+  summary: エクト、決闘で少女キスカに勝利し魔物ウィスプを聖炎で討つ。
 
 - unit: 001
   episode: 001-1
@@ -69,4 +69,4 @@
   time: 午前中
   battle: true
   erro: false
-  summary: 
+  summary: 少年エクト、森で妖精と遭遇し魔物を討伐、泉で裸の少女を見て決闘に。
