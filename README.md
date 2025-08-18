@@ -60,3 +60,4 @@
 
 - thinking-notes/thi-001.md: ウィスプ
 - thinking-notes/thi-002.md: 暴行
+- thinking-notes/thi-003.md: 魔法の塔の改名
