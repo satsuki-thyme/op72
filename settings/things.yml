@@ -1,13 +1,11 @@
 # 物事設定
 - item: 
-  applicable chapter:
-    -
+  applicable chapter: 
   description:
     - 
 
 - item: ゼレストラ王国
-  applicable chapter:
-    continuous
+  applicable chapter: continuous
   description:
     - [bld-007]
     - 2000年前の魔力氾濫と魔物の出現で滅んだ
@@ -16,16 +14,14 @@
     - 2100年前に邪神を封印した者が興した国
 
 - item: 魔法の塔
-  applicable chapter:
-    continuous
+  applicable chapter: continuous
   description:
     - [bld-007]
     - 魔法研究の世界的な団体
     - 幹部が心を邪神によって乗っ取られた
 
 - item: ルトの予言書
-  applicable chapter:
-    continuous
+  applicable chapter: continuous
   description:
     - [bld-007]
     - 1000年前に預言者ルトによって書かれた

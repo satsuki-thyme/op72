@@ -55,6 +55,7 @@
 
 - etc/note.yml: ノート
 - etc/todo.md:  ToDoリスト
+- tmp.txt:      一時ファイル
 
 ### 思考ノート
 
