@@ -1,4 +1,13 @@
 # ログ
+- unit: 009
+  episode: 
+  title: 
+  elapsed days: 
+  time: 
+  battle: 
+  erro: 
+  summary: 
+
 - unit: 008
   episode: 
   title: 
@@ -9,13 +18,13 @@
   summary: 
 
 - unit: 007
-  episode: 
-  title: 
-  elapsed days: 
-  time: 
-  battle: 
-  erro: 
-  summary: 
+  episode: 003
+  title: 見えない敵の強襲
+  elapsed days: 0
+  time: 晩～夜
+  battle: true
+  erro: false
+  summary: エクトが襲撃を退け仲間守る夜。
 
 - unit: 006
   episode: 002-4
