@@ -3,7 +3,7 @@ summary:
   - 
 
 
-detail:
+details:
   - group: 主人公側
     member:
 
@@ -21,6 +21,7 @@ detail:
           role: 主人公
           applicable chapter: continuous
         innate nature:
+          self awareness: 
           full name: レヴィテ村のエクト
           nickname: エクト
           race: 葦人
@@ -95,6 +96,7 @@ detail:
           role: ヒロイン
           applicable chapter: continuous
         innate nature:
+          self awareness: 
           full name: フェレスの街のキスカ（・レイネ・フレイザー）
           nickname: キスカ
           race: 葦人
@@ -171,6 +173,7 @@ detail:
           role: ヒロイン
           applicable chapter: continuous
         innate nature:
+          self awareness: 
           full name: エルクリットの街のフェリ
           nickname: フェリ
           race: 葦人
@@ -233,6 +236,87 @@ detail:
             leg: 
           voice: 
 
+ ######## ##     ## #### ##           ######    #######  ########
+ ##       ##     ##  ##  ##          ##    ##  ##     ## ##     ##
+ ##       ##     ##  ##  ##          ##        ##     ## ##     ##
+ ######   ##     ##  ##  ##          ##   #### ##     ## ##     ##
+ ##        ##   ##   ##  ##          ##    ##  ##     ## ##     ##
+ ##         ## ##    ##  ##          ##    ##  ##     ## ##     ##
+ ########    ###    #### ########     ######    #######  ########
+
+
+  - group: 邪神
+    member:
+    
+      - dn: 邪神
+        meta data:
+          role: 
+          applicable chapter: 
+        innate nature:
+          self awareness: 世界を支配する者
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
+        approximate nature:
+          overview:
+            - [bld-007]
+            - 世界を闇に閉ざして支配したい
+            - 魔法の塔の幹部の心を乗っ取た
+            - 魔法の塔に自身の封印を解かせている
+            - 魔法の塔にルトの予言書にある王と戦姫を殺させようとしている
+            - 2100年前に封印される
+          special skills:
+            - 
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          hobby:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
+        personality:
+          overview:
+            - 
+            - 
+            - 
+            - 
+
+        appearance:
+          overview: 
+          eye-catching features: 
+          first impression: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+
 
 
   - group: 
@@ -243,6 +327,7 @@ detail:
           role: 
           applicable chapter: 
         innate nature:
+          self awareness: 
           full name: 
           nickname: 
           race: 

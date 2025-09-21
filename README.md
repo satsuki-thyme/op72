@@ -42,7 +42,6 @@
 
 - settings/background.yml: 背景設定
 - settings/characters.yml: キャラクター設定
-- settings/subject.yml:    主体設定
 - settings/place.yml:      場所設定
 - settings/things.yml:     物事設定
 
