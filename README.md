@@ -13,6 +13,7 @@
 - text/01/005.txt: 舞い踊る武闘
 - text/01/006.txt: 少女たちの事情
 - text/01/007.txt: 見えない敵の強襲
+- text/01/008.txt: タイトル未定
 
 #### 概要プロット
 
@@ -63,3 +64,4 @@
 - thinking-notes/thi-002.md: 暴行
 - thinking-notes/thi-003.md: 魔法の塔の改名
 - thinking-notes/thi-004.md: 魔法の塔の目的
+- thinking-notes/thi-005.md: ゼヴァロのいる組織
