@@ -38,6 +38,7 @@
 - plot/01/details/det-005.md:  詳細プロット 第1章 第5話
 - plot/01/details/det-006.yml: 詳細プロット 第1章 第6話
 - plot/01/details/det-007.yml: 詳細プロット 第1章 第7話
+- plot/01/details/det-008.yml: 詳細プロット 第1章 第8話
 
 ### 設定
 

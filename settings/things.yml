@@ -4,21 +4,48 @@
   description:
     - 
 
+
+- item: 淵神
+  applicable chapter: 1
+  description:
+    - 反逆の影の首領を操っている
+
+
 - item: ゼレストラ王国
   applicable chapter: continuous
   description:
     - [bld-007]
-    - 2000年前の魔力氾濫と魔物の出現で滅んだ
+    - 5000年前の魔力氾濫と魔物の出現で滅んだ
     - 天地戦争（5000年前）の時代の第3勢力
     - エクト、キスカ、フェリの由来の王家
+
+
+- item: ゼレストラの騎士王の伝説
+  applicable chapter: continuous
+  description:
+    - 予言された救世の騎士王と盟約の姫
+    - 世界の崩壊を止めると言われている
+    - 魔法の塔が、野望を阻止する存在として危険視している
+
+
+- item: 反逆の影
+  applicable chapter: 1
+  description:
+    - [thi-005]
+    - \{フェリの王国}の商人が国を乗っ取るために出資して作った組織
+    - 淵神とつながりが深い
+    - 異端の力を持った者が集まっている
+
 
 - item: 魔法の塔
   applicable chapter: continuous
   description:
     - [bld-007]
-    - 世界を支配する目論見がある
+    - 世界を魔法にする目論見がある
     - 魔法技術に固執している
     - 魔法使いとして選民意識が強い
+    - 体のどこかに塔の入れ墨をしている
+
 
 - item: ルトの予言書
   applicable chapter: continuous
