@@ -42,10 +42,11 @@
 
 ### 設定
 
-- settings/background.yml: 背景設定
-- settings/characters.yml: キャラクター設定
-- settings/place.yml:      場所設定
-- settings/things.yml:     物事設定
+- settings/background.yml:                        背景設定
+- settings/characters.yml:                        キャラクター設定
+- settings/differencies-from-common-settings.yml: 共通設定との差分
+- settings/place.yml:                             場所設定
+- settings/things.yml:                            物事設定
 
 ### メモ
 
@@ -66,3 +67,4 @@
 - thinking-notes/thi-003.md: 魔法の塔の改名
 - thinking-notes/thi-004.md: 魔法の塔の目的
 - thinking-notes/thi-005.md: ゼヴァロのいる組織
+- thinking-notes/thi-006.md: 淵神

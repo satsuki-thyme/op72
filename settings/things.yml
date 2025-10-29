@@ -5,6 +5,23 @@
     - 
 
 
+- item: アルトレア王国
+  applicable chapter: 1
+  description:
+    - エクトが最初に訪れた国
+    - キスカが暮らしていた国
+    - フェリが旅していた国
+    - クレアレイド王国と接していて良好な関係
+    - マールトラス王国と接していて良好な関係
+
+
+- item: クレアレイド王国
+  applicable chapter: continuous
+  description:
+    - キスカが王女の立場である国
+    - アルトレア王国と接していて良好な関係
+
+
 - item: 淵神
   applicable chapter: 1
   description:
@@ -32,9 +49,16 @@
   applicable chapter: 1
   description:
     - [thi-005]
-    - \{フェリの王国}の商人が国を乗っ取るために出資して作った組織
+    - アルトレア王国の商人が国を乗っ取るために出資して作った組織
     - 淵神とつながりが深い
     - 異端の力を持った者が集まっている
+
+
+- item: マールトラス王国
+  applicable chapter: continuous
+  description:
+    - フェリが王女の立場である国
+    - アルトレア王国と接していて良好な関係
 
 
 - item: 魔法の塔
