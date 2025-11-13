@@ -56,9 +56,8 @@
 
 ### etc.
 
-- etc/note.yml: ノート
-- etc/todo.md:  ToDoリスト
-- tmp.txt:      一時ファイル
+- etc/todo.md: ToDoリスト
+- tmp.txt:     一時ファイル
 
 ### 思考ノート
 
@@ -66,5 +65,5 @@
 - thinking-notes/thi-002.md: 暴行
 - thinking-notes/thi-003.md: 魔法の塔の改名
 - thinking-notes/thi-004.md: 魔法の塔の目的
-- thinking-notes/thi-005.md: ゼヴァロのいる組織
+- thinking-notes/thi-005.md: 反逆の影（ゼヴァロのいる組織）
 - thinking-notes/thi-006.md: 淵神
