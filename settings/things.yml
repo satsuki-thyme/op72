@@ -25,7 +25,7 @@
 - item: 淵神
   applicable chapter: 1
   description:
-    - 反逆の影の首領を操っている
+    - $組織B$の首領を操っている
 
 
 - item: ゼレストラ王国
@@ -45,7 +45,7 @@
     - 魔法の塔が、野望を阻止する存在として危険視している
 
 
-- item: 反逆の影
+- item: 組織B
   applicable chapter: 1
   description:
     - [thi-005]

@@ -18,9 +18,13 @@
 #### 概要プロット
 
 - plot/01/outline/character-base.yml: キャラクターの基礎設定
-- plot/01/outline/log.yml:            ログ
-- plot/01/outline/precursor.yml:      前駆体
-- plot/01/outline/ref-note.yml:       レファレンスノート
+
+#### 管理
+
+- management/log.yml:       ログ
+- management/plan.md:       計画
+- management/precursor.yml: 前駆体
+- management/var.md:        変数
 
 #### 基礎計画
 
@@ -65,5 +69,5 @@
 - thinking-notes/thi-002.md: 暴行
 - thinking-notes/thi-003.md: 魔法の塔の改名
 - thinking-notes/thi-004.md: 魔法の塔の目的
-- thinking-notes/thi-005.md: 反逆の影（ゼヴァロのいる組織）
+- thinking-notes/thi-005.md: $組織B$
 - thinking-notes/thi-006.md: 淵神
