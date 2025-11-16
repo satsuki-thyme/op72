@@ -24,7 +24,6 @@
 - management/log.yml:       ログ
 - management/plan.md:       計画
 - management/precursor.yml: 前駆体
-- management/var.md:        変数
 
 #### 基礎計画
 

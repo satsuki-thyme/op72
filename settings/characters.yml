@@ -1,4 +1,6 @@
 # キャラクター
+
+
 summary:
   エクト
   キスカ
@@ -8,6 +10,7 @@ summary:
 details:
   - group: 主人公側
     member:
+
 
       - dn: エクト
         meta data:
@@ -57,6 +60,7 @@ details:
             - 天真爛漫
             - 戦いになると勇猛で野蛮な面が表出する
 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -75,6 +79,7 @@ details:
             buttocks: 
             leg: 
           voice: 
+
 
       - dn: キスカ
         meta data:
@@ -126,6 +131,7 @@ details:
             - 如才ない
             - ロマンチシスト
 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -144,6 +150,7 @@ details:
             buttocks: 形がいい
             leg: 
           voice: 
+
 
       - dn: フェリ
         meta data:
@@ -194,6 +201,7 @@ details:
             - 情熱的
             - 子供っぽい
 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -213,8 +221,10 @@ details:
             leg: 
           voice: 
 
+
   - group: 
     member:
+
 
       - dn: 
         meta data:
@@ -263,6 +273,7 @@ details:
             - 
             - 
 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -281,4 +292,79 @@ details:
             buttocks: 
             leg: 
           voice: 
+
+
+  - group: 
+    member:
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        contents:
+          - 
+
+
+  - group: その他
+    member:
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        contents:
+          - 
+
+
+#   ## ##      ######## ########  ######
+#   ## ##      ##          ##    ##    ##
+# #########    ##          ##    ##
+#   ## ##      ######      ##    ##
+# #########    ##          ##    ##
+#   ## ##      ##          ##    ##    ##
+#   ## ##      ########    ##     ######
+
+
+      - dn: 淵神
+        meta data:
+          role: 敵
+          applicable chapter: 1
+        contents:
+          - [thi-006]
+          - 妖怪的な存在
+          - $組織B$と手を組んでアルトレア王国の$秘宝$を盗み出そうとしている
+          - $秘宝$で寿命を延ばそうとしている
+          - 衰えてきているため聖戦姫でも倒せた
+
+
+#   ## ##       #######  ########   ######         ##
+#   ## ##      ##     ## ##     ## ##    ##      ####
+# #########    ##     ## ##     ## ##              ##
+#   ## ##      ##     ## ########  ##   ####       ##
+# #########    ##     ## ##   ##   ##    ##        ##
+#   ## ##      ##     ## ##    ##  ##    ##        ##
+#   ## ##       #######  ##     ##  ######       ######
+
+
+  - group: $組織B$
+    member:
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        contents:
+          - 
+
+
+      - dn: ゼヴァロ
+        meta data:
+          role: 敵
+          applicable chapter: 1
+        contents:
+          - 
+
 

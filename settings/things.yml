@@ -1,36 +1,63 @@
 # 物事設定
 - item: 
   applicable chapter: 
-  description:
+  contents:
     - 
 
 
 - item: アルトレア王国
   applicable chapter: 1
-  description:
+  contents:
     - エクトが最初に訪れた国
     - キスカが暮らしていた国
     - フェリが旅していた国
     - クレアレイド王国と接していて良好な関係
-    - マールトラス王国と接していて良好な関係
+    - マールセフト王国と接していて良好な関係
 
 
 - item: クレアレイド王国
   applicable chapter: continuous
-  description:
+  contents:
     - キスカが王女の立場である国
     - アルトレア王国と接していて良好な関係
 
 
-- item: 淵神
-  applicable chapter: 1
-  description:
-    - $組織B$の首領を操っている
+- item: 邪霊
+  applicable chapter: continuous
+  contents:
+    - ウィスプや$組織B$の成員など
+    - 基本的に不死だが聖神の力（聖神教会、聖戦姫）で滅される
+
+- item: 聖神教会
+  applicable chapter: continuous
+  contents:
+    - [thi-005]
+    - 邪霊（ウィスプなど）を討伐する役割を担っている
+    - 聖神教会は諸神教会の中で最大規模をしている
+      - 信者が多い
+      - 他神に授能を受けていても信仰対象は聖神という人は多い
+    - 貧民の救済が最も盛んに行われている
+    - 死後の安寧を得られるとして貴族や豪商などが財貨を寄進している
+    - 寄進された領地を多く所有している
+    - 授能の費用がかなりの高額をしている
+
+
+- item: 聖戦姫
+  applicable chapter: \?
+  contents:
+    - 超越的な能力を授かる
+    - 剣と魔法が使える
+    - 聖神教会に所属する
+    - 処女
+    - 聖神によって決められる
+      - 本人に聖神が告げる
+      - 特別な巫女が宣託を受ける
+    - 聖戦姫は$組織B$に扇動された人族によって狙われている
 
 
 - item: ゼレストラ王国
   applicable chapter: continuous
-  description:
+  contents:
     - [bld-007]
     - 5000年前の魔力氾濫と魔物の出現で滅んだ
     - 天地戦争（5000年前）の時代の第3勢力
@@ -39,31 +66,34 @@
 
 - item: ゼレストラの騎士王の伝説
   applicable chapter: continuous
-  description:
+  contents:
     - 予言された救世の騎士王と盟約の姫
     - 世界の崩壊を止めると言われている
     - 魔法の塔が、野望を阻止する存在として危険視している
 
 
-- item: 組織B
-  applicable chapter: 1
-  description:
+- item: $組織B$
+  applicable chapter: 1-5
+  contents:
     - [thi-005]
-    - アルトレア王国の商人が国を乗っ取るために出資して作った組織
-    - 淵神とつながりが深い
-    - 異端の力を持った者が集まっている
+    - 混沌を生み出す
+      - 死を振りまく
+      - 混乱
+      - 動乱
+      - 戦争
+    - 成員は基本的に不死身だが神聖教会や聖戦姫の力で滅されるため見つかるのを恐れている
 
 
-- item: マールトラス王国
+- item: マールセフト王国
   applicable chapter: continuous
-  description:
+  contents:
     - フェリが王女の立場である国
     - アルトレア王国と接していて良好な関係
 
 
 - item: 魔法の塔
   applicable chapter: continuous
-  description:
+  contents:
     - [bld-007]
     - 世界を魔法にする目論見がある
     - 魔法技術に固執している
@@ -73,7 +103,7 @@
 
 - item: ルトの予言書
   applicable chapter: continuous
-  description:
+  contents:
     - [bld-007]
     - 1000年前に預言者ルトによって書かれた
     - 様々な預言が書かれている

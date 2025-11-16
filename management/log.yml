@@ -1,90 +1,141 @@
 # ログ
-- episode: 009
+
+
+# rule:
+#  - 主体（左辺）が右辺に所属 . 左辺が所属
+#  - 主体（左辺）が右辺を包含 / 左辺に所属
+
+- episode: 9
   sequence: 
   title: 
   elapsed days: 
   location: アルティバの街 . アルトレア王国
   time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
   battle: 
-  erro: 
+  erros: 
   summary: 
 
-- episode: 008
+- episode: 8
   sequence: 
   title: 
   elapsed days: 
   location: アルティバの街 . アルトレア王国
   time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
   battle: 
-  erro: 
+  erros: 
   summary: 
 
-- episode: 007
-  sequence: 003
+- episode: 7
+  sequence: 3(1/1)
   title: 見えない敵の強襲
   elapsed days: 0
   location: アルティバの街 . アルトレア王国
   time: 晩～夜
+  contact: 使い魔 . 魔法の塔
+  first contact: 使い魔 . 魔法の塔
+  first appearance: 魔法の塔 / 使い魔
+  companion: キスカ, フェリ
+  monster: 
   battle: true
-  erro: false
+  erros: false
   summary: エクトが襲撃を退け仲間守る夜。
 
-- episode: 006
-  sequence: 002-4
+- episode: 6
+  sequence: 2(4/4)
   title: 少女たちの事情
   elapsed days: 0
   location: アルティバの街の近くの森からアルティバの街への道 . アルトレア王国
   time: 午後
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: キスカ, フェリ
+  monster: セラクル
   battle: false
-  erro: false
+  erros: false
   summary: エクト、フェリ救出し弟子契約、キスカも旅に同行。
 
-- episode: 005
-  sequence: 002-3
+- episode: 5
+  sequence: 2(3/4)
   title: 舞い踊る武闘
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 昼
+  contact: 男爵ロア . 男爵ロア一党
+  first contact: フェリ, 男爵ロア . 男爵ロア一党
+  first appearance: 
+  companion: 
+  monster: 
   battle: true
-  erro: true
+  erros: true
   summary: エクト、盗賊ロアを圧倒し炎で葬り少女救出。
 
-- episode: 004
-  sequence: 002-2
+- episode: 4
+  sequence: 2(2/4)
   title: 放つ災禍の影
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 昼
+  contact: 盗賊 . 男爵ロア一党, ゼヴァロ . $組織B$
+  first contact: ゼヴァロ . $組織B$
+  first appearance: フェリ, 男爵ロア . 男爵ロア一党
+  companion: 
+  monster: ゴブリン . 使役, トロール . 使役
   battle: true
-  erro: true
+  erros: true
   summary: エクト、盗賊の城を急襲し魔物を退け囚人救出へ。
 
-- episode: 003
-  sequence: 002-1
+- episode: 3
+  sequence: 2(1/4)
   title: 盗賊城への招待状
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 午前中
+  contact: 盗賊 . 男爵ロア一党
+  first contact: 盗賊 . 男爵ロア一党
+  first appearance: 
+  companion: キスカ
+  monster: ゴブリン . 使役
   battle: true
-  erro: true
+  erros: true
   summary: 和解したエクトとキスカ、盗賊から女性救い城へ向かう決意。
 
-- episode: 002
-  sequence: 001-2
+- episode: 2
+  sequence: 1(2/2)
   title: 決闘への乱入者
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 午前中
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: ウィスプ
   battle: true
-  erro: true
+  erros: true
   summary: エクト、決闘で少女キスカに勝利し魔物ウィスプを聖炎で討つ。
 
-- episode: 001
-  sequence: 001-1
+- episode: 1
+  sequence: 1(1/2)
   title: 憤れる森の美少女
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 午前中
+  contact: 
+  first contact: キスカ
+  first appearance: キスカ
+  companion: 
+  monster: ゴブリン
   battle: true
-  erro: false
+  erros: false
   summary: 少年エクト、森で妖精と遭遇し魔物を討伐、泉で裸の少女を見て決闘に。
