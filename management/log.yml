@@ -6,7 +6,7 @@
 #  - 主体（左辺）が右辺を包含 / 左辺に所属
 
 - episode: 9
-  sequence: 
+  case: 
   title: 
   elapsed days: 
   location: アルティバの街 . アルトレア王国
@@ -21,7 +21,7 @@
   summary: 
 
 - episode: 8
-  sequence: 
+  case: 
   title: 
   elapsed days: 
   location: アルティバの街 . アルトレア王国
@@ -36,7 +36,7 @@
   summary: 
 
 - episode: 7
-  sequence: 3(1/1)
+  case: 3(1/1)
   title: 見えない敵の強襲
   elapsed days: 0
   location: アルティバの街 . アルトレア王国
@@ -51,7 +51,7 @@
   summary: エクトが襲撃を退け仲間守る夜。
 
 - episode: 6
-  sequence: 2(4/4)
+  case: 2(4/4)
   title: 少女たちの事情
   elapsed days: 0
   location: アルティバの街の近くの森からアルティバの街への道 . アルトレア王国
@@ -66,7 +66,7 @@
   summary: エクト、フェリ救出し弟子契約、キスカも旅に同行。
 
 - episode: 5
-  sequence: 2(3/4)
+  case: 2(3/4)
   title: 舞い踊る武闘
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
@@ -81,13 +81,13 @@
   summary: エクト、盗賊ロアを圧倒し炎で葬り少女救出。
 
 - episode: 4
-  sequence: 2(2/4)
+  case: 2(2/4)
   title: 放つ災禍の影
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
   time: 昼
-  contact: 盗賊 . 男爵ロア一党, ゼヴァロ . $組織B$
-  first contact: ゼヴァロ . $組織B$
+  contact: 盗賊 . 男爵ロア一党, ゼヴァロ . '組織B'
+  first contact: ゼヴァロ . '組織B'
   first appearance: フェリ, 男爵ロア . 男爵ロア一党
   companion: 
   monster: ゴブリン . 使役, トロール . 使役
@@ -96,7 +96,7 @@
   summary: エクト、盗賊の城を急襲し魔物を退け囚人救出へ。
 
 - episode: 3
-  sequence: 2(1/4)
+  case: 2(1/4)
   title: 盗賊城への招待状
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
@@ -111,7 +111,7 @@
   summary: 和解したエクトとキスカ、盗賊から女性救い城へ向かう決意。
 
 - episode: 2
-  sequence: 1(2/2)
+  case: 1(2/2)
   title: 決闘への乱入者
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
@@ -126,7 +126,7 @@
   summary: エクト、決闘で少女キスカに勝利し魔物ウィスプを聖炎で討つ。
 
 - episode: 1
-  sequence: 1(1/2)
+  case: 1(1/2)
   title: 憤れる森の美少女
   elapsed days: 0
   location: アルティバの街の近くの森 . アルトレア王国
