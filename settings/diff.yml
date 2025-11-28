@@ -1,0 +1,15 @@
+# 共通設定との差分
+
+common settings: world-1
+difference:
+
+  - item: 神
+    handling of common settings: 使用しない
+    contents:
+      単に超常の存在であるとか、土地神のような雰囲気
+      多神教ではない
+
+  - item: 魔法
+    handling of common settings: 一部を使用しない
+    contents:
+      権能魔法は存在しない

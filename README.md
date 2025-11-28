@@ -45,11 +45,11 @@
 
 ### 設定
 
-- settings/background.yml:                        背景設定
-- settings/characters.yml:                        キャラクター設定
-- settings/differencies-from-common-settings.yml: 共通設定との差分
-- settings/place.yml:                             場所設定
-- settings/things.yml:                            物事設定
+- settings/background.yml: 背景設定
+- settings/characters.yml: キャラクター設定
+- settings/diff.yml:       共通設定との差分
+- settings/place.yml:      場所設定
+- settings/things.yml:     物事設定
 
 ### メモ
 
