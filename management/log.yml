@@ -5,6 +5,21 @@
 #  - 主体（左辺）が右辺に所属 . 左辺が所属
 #  - 主体（左辺）が右辺を包含 / 左辺に所属
 
+- episode: 10
+  case: 
+  title: 
+  elapsed days: 
+  location: アルティバの街 . アルトレア王国
+  time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
+  battle: 
+  erros: 
+  summary: 
+
 - episode: 9
   case: 
   title: 
@@ -21,19 +36,19 @@
   summary: 
 
 - episode: 8
-  case: 
-  title: 
-  elapsed days: 
+  case: 4
+  title: 許されざる者
+  elapsed days: 1
   location: アルティバの街 . アルトレア王国
-  time: 
-  contact: 
-  first contact: 
-  first appearance: 
-  companion: 
+  time: 午前
+  contact: ディックス . ディックス一党
+  first contact: ディックス . ディックス一党
+  first appearance: ディックス . ディックス一党
+  companion: キスカ, フェリ
   monster: 
-  battle: 
-  erros: 
-  summary: 
+  battle: true
+  erros: true
+  summary: 魔法結社の影が迫る中、キスカたちは街で横暴な男を撃退するが、エクトの暴走で騒ぎとなり、衛兵に囲まれて捕らえられてしまう。
 
 - episode: 7
   case: 3(1/1)
@@ -48,7 +63,7 @@
   monster: 
   battle: true
   erros: false
-  summary: エクトが襲撃を退け仲間守る夜。
+  summary: 城塞都市に到着したエクトたちは、キスカの案内で彼女の家に到着。屋内に潜む水の使い魔を瞬時に無力化した後、三人は居間で夕食を囲む。食事の間、エクトは魔法使いの気配や潜在的な脅威について報告し、フェリとキスカはそれぞれ反応を示す。夜になり、就寝前にエクトは侵入者警戒用の魔法を施す。深夜、家に忍び込んだ五人の使い魔的存在を察知すると、エクトは影から奇襲し、格闘で次々と無力化。裏手に待機していた一人も逃れる間もなく制圧し、侵入者は完全に排除された。
 
 - episode: 6
   case: 2(4/4)
@@ -63,7 +78,7 @@
   monster: セラクル
   battle: false
   erros: false
-  summary: エクト、フェリ救出し弟子契約、キスカも旅に同行。
+  summary: ロア撃破後、エクトはフェリを救出し治癒する。彼女は同行を願い出て承諾されるが、合流したキスカと火花を散らす。道中の魔物を撃退し和解した二人は共に旅へ加わる。
 
 - episode: 5
   case: 2(3/4)
@@ -78,7 +93,7 @@
   monster: 
   battle: true
   erros: true
-  summary: エクト、盗賊ロアを圧倒し炎で葬り少女救出。
+  summary: ロアに囚われたフェリを救うためエクトが乱入し、激戦の末ロアを討ち倒して彼女を解放する。
 
 - episode: 4
   case: 2(2/4)
@@ -93,7 +108,7 @@
   monster: ゴブリン . 使役, トロール . 使役
   battle: true
   erros: true
-  summary: エクト、盗賊の城を急襲し魔物を退け囚人救出へ。
+  summary: エクトは仲間を残して城へ突入し、盗賊やゴブリン、トロールを圧倒。首魁の側近ゼヴァロは転移で逃亡し、敵はほぼ制圧される。
 
 - episode: 3
   case: 2(1/4)
@@ -108,7 +123,7 @@
   monster: ゴブリン . 使役
   battle: true
   erros: true
-  summary: 和解したエクトとキスカ、盗賊から女性救い城へ向かう決意。
+  summary: エクトとキスカは和解して急速に距離を縮め、共に森を進む中でゴブリンや暴漢を撃退。助けた女から盗賊の城の存在を聞き、三人で救出に向かう決意を固める。
 
 - episode: 2
   case: 1(2/2)
@@ -123,7 +138,7 @@
   monster: ウィスプ
   battle: true
   erros: true
-  summary: エクト、決闘で少女キスカに勝利し魔物ウィスプを聖炎で討つ。
+  summary: エクトはキスカとの決闘を制するが、直後に現れた強力なウィスプを聖なる魔法で撃破し、彼女を守る。
 
 - episode: 1
   case: 1(1/2)
@@ -138,4 +153,4 @@
   monster: ゴブリン
   battle: true
   erros: false
-  summary: 少年エクト、森で妖精と遭遇し魔物を討伐、泉で裸の少女を見て決闘に。
+  summary: エクトは森で魔物を倒しつつ進み、泉で入浴中の少女キスカを誤って見てしまい、怒った彼女に決闘を申し込まれる。

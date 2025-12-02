@@ -33,6 +33,7 @@
 - plot/01/build/bld-006.md: 基礎計画 第1章 第6話
 - plot/01/build/bld-007.md: 基礎計画 第1章 第7話
 - plot/01/build/bld-008.md: 基礎計画 第1章 第8話
+- plot/01/build/bld-009.md: 基礎計画 第1章 第9話
 
 #### 詳細プロット
 
