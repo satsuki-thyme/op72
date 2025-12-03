@@ -69,5 +69,5 @@
 - thinking-notes/thi-002.md: 暴行
 - thinking-notes/thi-003.md: 魔法の塔の改名
 - thinking-notes/thi-004.md: 魔法の塔の目的
-- thinking-notes/thi-005.md: '組織B'
+- thinking-notes/thi-005.md: 屍蝋の闇炎
 - thinking-notes/thi-006.md: 淵神
