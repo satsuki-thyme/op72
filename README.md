@@ -43,6 +43,7 @@
 - plot/01/details/det-006.yml: 詳細プロット 第1章 第6話
 - plot/01/details/det-007.yml: 詳細プロット 第1章 第7話
 - plot/01/details/det-008.yml: 詳細プロット 第1章 第8話
+- plot/01/details/det-009.yml: 詳細プロット 第1章 第9話
 
 ### 設定
 
@@ -60,8 +61,8 @@
 
 ### etc.
 
-- etc/todo.md: ToDoリスト
-- tmp.txt:     一時ファイル
+- etc/office.md: 作業管理オフィス
+- tmp.txt:       一時ファイル
 
 ### 思考ノート
 
