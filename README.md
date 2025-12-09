@@ -14,6 +14,7 @@
 - text/01/006.txt: 少女たちの事情
 - text/01/007.txt: 見えない敵の強襲
 - text/01/008.txt: 許されざる者
+- text/01/009.txt: タイトル未定
 
 #### 概要プロット
 
@@ -61,8 +62,8 @@
 
 ### etc.
 
-- etc/office.md: 作業管理オフィス
-- tmp.txt:       一時ファイル
+- etc/management.md: 作業管理
+- etc/tmp.txt:       一時ファイル
 
 ### 思考ノート
 
