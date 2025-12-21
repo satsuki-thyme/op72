@@ -4,10 +4,15 @@
   gist:
     - 謁見の間
     - 謁見の間のエクトたち
-  unpredictability of the end:
-    - なぜこんなことになっているのか
+  destiny:
+    - item:
+      dn: なし
+      desire: なし
+      results: なし
   intarest:
     - 何が起こるのかという期待
+  unpredictability of the end:
+    - なぜこんなことになっているのか
   contents:
     /noCha = s 厳粛にして荘厳な武威を湛えた騎士が両側の壁際に並ぶ
     /noCha = s 謁見の間の装飾、雰囲気
@@ -18,10 +23,15 @@
 - scene: 2
   gist:
     - 状況の説明
-  unpredictability of the end:
-    - 呼び出された理由
+  destiny:
+    - item:
+      dn: なし
+      desire: なし
+      results: なし
   intarest:
     - 魔力がディックスのせいになっていること
+  unpredictability of the end:
+    - 呼び出された理由
   contents:
     /noCha = m ディックスはアルティノール子爵ウィーネン公の三男で鼻つまみ者で無頼漢とつるんで悪さをしていて子爵が対応した
     /noCha = m 魔力の被害はディックスが持っていた魔導具が原因だと判断された
@@ -35,14 +45,20 @@
     - ディックスの魔導具と男爵ロアの魔導具について
     - 屍蝋の闇炎、ゼヴァロについて
     - 魔法の塔について
-  unpredictability of the end:
-    - 魔法の塔が公開した魔法とは
+  destiny:
+    - item:
+      dn: エクト, キスカ, フェリ
+      desire: 魔法の塔について知りたい
+      results: true
   intarest:
     - ゼヴァロの身元が割れる
     - 魔法の塔の情報
+  unpredictability of the end:
+    - 魔法の塔が公開した魔法とは
   contents:
     /third + s 子爵「昨日はディックスが迷惑をかけたようだな。矛を収めてくれたこと感謝する。きつい沙汰を下すゆえ許してくれ」
     /ect-- + s ご子息に手傷を負わせたにもかかわらず寛大なお言葉、痛み入ります
+    /multi = s エクトたちは雰囲気がよければ魔法の塔について尋ねるつもりだったが、上手くいきそうだ
     /third + s 子爵「済まぬな。ディックスを諫めてくれた謝礼を取らせる」
     /noCha + m 子爵がそう言ったところで執事だろう老紳士が金子の詰まった革袋をエクトとキスカに渡した　キスカは片手に収まらないほどの袋に驚いた
     /third = f 「時にディックスが使った魔導具の効果はどうであった」
@@ -65,12 +81,21 @@
     - 三人に関係のある紋章
     - 宝石商で鑑定してもらい、それより高値で買い取る
     - 翌日神殿遺跡に一緒に行く約束をする
+  destiny:
+    - item:
+      dn: エクト, キスカ, フェリ
+      desire: エルミナの宝玉が欲しい
+      results: true
+    - item:
+      dn: エクト, キスカ, フェリ
+      desire: 神殿遺跡の碑文が見たい
+      results: pending
+  intarest:
+    - 三人を結びつける紋章の意味
   unpredictability of the end:
     - 紋章の意味
     - 神殿遺跡の碑文とは
     - 魔法の塔の魔法とは
-  intarest:
-    - 三人を結びつける紋章の意味
   contents:
     /multi = m 四人で食事したあと広場で輪を作っている
     /third = m エルミナ「皆さんに守ってもらった宝玉を見てもらいたくて」
