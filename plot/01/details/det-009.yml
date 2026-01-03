@@ -1,3 +1,57 @@
 # 詳細プロット 第1章 第9話
 
-- 
+- scene: 1
+  gist:
+    - 幻影闘技場の説明
+    - 魔狩協会の建屋が見えるところから幻影闘技場脇の小屋まで四人で会話する
+    - 幻影闘技場に食いつくエクト
+  value change:
+    - dn: エクト
+      value: 幻影闘技場についての知識
+      change: 0 / -1
+  intarest:
+    - 初見となる幻影闘技場のこと
+    - キャラクターそれぞれの少し大げさな態度
+  unpredictability of the end:
+    - 模擬戦の行方
+  contents:
+
+- scene: 2
+  gist:
+    - 模擬戦
+      - 痛覚は下から二番目
+      - エクト vs キスカ & フェリ
+      - エクトをロープで縛って左腕だけ自由にする
+      - エクトは素手、魔法は身体強化系のみ
+      - エクトはキスカとフェリの背に触れるのが勝利条件
+      - エクトが手を引いて耳打ちする
+      - エルミナ、観客
+    - 事件の顛末
+      - 捕縛のあとのこと
+      - ヴィックスのこと
+      - 魔力氾濫事件のこと
+      - 全て子爵の判断であること
+  value change:
+    - dn: エクト
+      value: 勝負
+      change: -1 / inf
+  intarest:
+    - エクトがロープで縛られる, 観客の反応
+    - エクトが躱す様
+    - エルミナ、観客の驚き
+  unpredictability of the end:
+    - 
+  contents:
+
+- scene: 3
+  gist:
+    - 宝玉の話
+  value change:
+    - dn: 
+      value: 
+      change: 
+  intarest:
+    - 
+  unpredictability of the end:
+    - 
+  contents:
