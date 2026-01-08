@@ -8,7 +8,7 @@
   value change:
     - dn: エクト
       value: 幻影闘技場についての知識
-      change: 0 / -1
+      change: . / +
   intarest:
     - 初見となる幻影闘技場のこと
     - キャラクターそれぞれの少し大げさな態度
@@ -34,7 +34,7 @@
   value change:
     - dn: エクト
       value: 勝負
-      change: -1 / inf
+      change: -1 / +++++
   intarest:
     - エクトがロープで縛られる, 観客の反応
     - エクトが躱す様
