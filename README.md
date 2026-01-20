@@ -28,13 +28,13 @@
 
 #### 基礎計画
 
-- plot/01/build/bld-001.md: 基礎計画 第1章 第1話
-- plot/01/build/bld-003.md: 基礎計画 第1章 第3話
-- plot/01/build/bld-005.md: 基礎計画 第1章 第5話
-- plot/01/build/bld-006.md: 基礎計画 第1章 第6話
-- plot/01/build/bld-007.md: 基礎計画 第1章 第7話
-- plot/01/build/bld-008.md: 基礎計画 第1章 第8話
-- plot/01/build/bld-009.md: 基礎計画 第1章 第9話
+- plot/01/build/bui-001.md: 基礎計画 第1章 第1話
+- plot/01/build/bui-003.md: 基礎計画 第1章 第3話
+- plot/01/build/bui-005.md: 基礎計画 第1章 第5話
+- plot/01/build/bui-006.md: 基礎計画 第1章 第6話
+- plot/01/build/bui-007.md: 基礎計画 第1章 第7話
+- plot/01/build/bui-008.md: 基礎計画 第1章 第8話
+- plot/01/build/bui-009.md: 基礎計画 第1章 第9話
 
 #### 詳細プロット
 

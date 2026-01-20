@@ -23,42 +23,35 @@ details:
           race: 葦人
           gender: 男
           age: 17
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
         approximate nature:
           overview:
-            - 武に関心がある
-            - 世界に強い興味を持っている
-            - 鍵言のある魔法に興味を持っている
+            武に関心がある
+            世界に強い興味を持っている
+            鍵言のある魔法に興味を持っている
           special skills:
-            - 魔法 => 精緻かつ強力
-            - 剣 => 流麗かつ怜悧
-            - 
+            魔法 => 精緻かつ強力
+            剣 => 流麗かつ怜悧
           forte:
-            - 
-            - 
-            - 
+            !
           weaknesses:
-            - 
-            - 
-            - 
+            !
           secret:
-            - 
-            - 
-            - 
+            !
           hobby:
-            - 
-            - 
-            - 
+            !
           etc:
-            - 
-            - 
-            - 
+            !
         personality:
           overview:
-            - 好奇心旺盛
-            - 芯が強い
-            - 弱気なところもある
-            - 天真爛漫
-            - 戦いになると勇猛で野蛮な面が表出する
+            好奇心旺盛
+            芯が強い
+            弱気なところもある
+            天真爛漫
+            戦いになると勇猛で野蛮な面が表出する
 
 
         appearance:
@@ -87,49 +80,48 @@ details:
           applicable chapter: continuous
         innate nature:
           self awareness: 
-          full name: フェレスの街のキスカ（・レイネ・フレイザー）
+          full name: フェレスの街のキスカ, 王女 = キスティス・レイフェリス・シャイルフレイド
           nickname: キスカ
           race: 葦人
           gender: 女
           age: 17
+          birthplace: 王都ハーバネリア . イースエイク王国
+        current status:
+          address: （アルティバの街 . アルティノール領 . ロートエリナ王国）
+          affiliation: 魔狩
         approximate nature:
           overview:
-            - 剣の道に強い関心とこだわりがある
-            - エクトの剣の強さに興味がある
-            - 元気
+            剣の道に強い関心とこだわりがある
+            エクトの剣の強さに興味がある
+            元気
           special skills:
-            - 剣
-            - ナイフ投げ
-            - 格闘
+            剣
+            ナイフ投げ
+            格闘
           forte:
-            - 物怖じしない
-            - 勘がいい
-            - 如才ない
-            - 料理が得意
+            物怖じしない
+            勘がいい
+            如才ない
+            料理が得意
           weaknesses:
-            - 売られた喧嘩は買わずにいられない
-            - 融通が利かないことがある
-            - 恋愛下手
-            - 気分屋、感情的
-            - 男勝り
+            売られた喧嘩は買わずにいられない
+            融通が利かないことがある
+            恋愛下手
+            気分屋、感情的
+            男勝り
           secret:
-            - 
-            - 
-            - 
+            !
           hobby:
-            - 
-            - 
-            - 
+            !
           etc:
-            - 普段は強気だが酒が入ると女になる
-            - センスは女性らしさがある
-            - 
+            普段は強気だが酒が入ると女になる
+            センスは女性らしさがある
         personality:
           overview:
-            - 気が強い
-            - 頑固
-            - 如才ない
-            - ロマンチシスト
+            気が強い
+            頑固
+            如才ない
+            ロマンチシスト
 
 
         appearance:
@@ -163,43 +155,40 @@ details:
           race: 葦人
           gender: 女
           age: 16
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
         approximate nature:
           overview:
-            - 魔法の道に強い関心とこだわりがある
-            - エクトの無詠唱魔法に興味がある
-            - 上品
+            魔法の道に強い関心とこだわりがある
+            エクトの無詠唱魔法に興味がある
+            上品
           special skills:
-            - 魔法
-            - 魔法制作
-            - 
+            魔法
+            魔法制作
           forte:
-            - 頭がいい
-            - 論理思考が得意
-            - 器用
-            - 魔法が関われば大胆になれる
+            頭がいい
+            論理思考が得意
+            器用
+            魔法が関われば大胆になれる
           weaknesses:
-            - 引っ込み思案
-            - 魔法に関わることには分別がない
-            - ものぐさ
-            - 料理が苦手
+            引っ込み思案
+            魔法に関わることには分別がない
+            ものぐさ
+            料理が苦手
           secret:
-            - 
-            - 
-            - 
+            !
           hobby:
-            - 
-            - 
-            - 
+            !
           etc:
-            - 普段は物静かだが酒が入ると強気になる
-            - 
-            - 
+            普段は物静かだが酒が入ると強気になる
         personality:
           overview:
-            - クール
-            - 知的
-            - 情熱的
-            - 子供っぽい
+            クール
+            知的
+            情熱的
+            子供っぽい
 
 
         appearance:
@@ -222,6 +211,47 @@ details:
           voice: 
 
 
+  - group: イースエイク王国
+    member:
+
+
+      - dn: ロイドイーフ伯爵
+        meta data:
+          role: キスカとイースエイク王国をつなぐ
+          applicable chapter: 1
+        innate nature:
+          self awareness: 
+          full name: ロイドイーフ伯爵フェルダー・ゼルフ・ハイフレック
+          nickname: フェルダー
+          race: 葦人
+          gender: 男
+          age: 33
+          birthplace: 
+        current status:
+          address: ロイドイーフ領 . イースエイク王国
+          affiliation: 
+        approximate nature:
+          中肉中背で壮健な面差し、力が漲り、しかし30を過ぎたほどとは思えない老獪な眼差しをしている
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+
+
   - group: 
     member:
 
@@ -235,75 +265,13 @@ details:
           full name: 
           nickname: 
           race: 
-          gender: 
+          gender:
           age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
         approximate nature:
-          overview:
-            - 
-            - 
-            - 
-          special skills:
-            - 
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-
-
-        appearance:
-          overview: 
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-
-
-  - group: 
-    member:
-
-
-      - dn: 
-        meta data:
-          role: 
-          applicable chapter: 
-        contents:
-          - 
 
 
   - group: その他
@@ -314,8 +282,18 @@ details:
         meta data:
           role: 
           applicable chapter: 
-        contents:
-          - 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
 
 
 #   ## ##      ######## ########  ######
@@ -331,12 +309,23 @@ details:
         meta data:
           role: 敵
           applicable chapter: 1
-        contents:
-          - [thi-006]
-          - 妖怪的な存在
-          - 屍蝋の闇炎と手を組んでアルトレア王国の$秘宝$を盗み出そうとしている
-          - $秘宝$で寿命を延ばそうとしている
-          - 衰えてきているため聖戦姫でも倒せた
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+          /[thi-006]
+          妖怪的な存在
+          屍蝋の闇炎と手を組んでアルトレア王国の$秘宝$を盗み出そうとしている
+          $秘宝$で寿命を延ばそうとしている
+          衰えてきているため聖戦姫でも倒せた
 
 
 #   ## ##       #######  ########   ######         ##
@@ -356,15 +345,35 @@ details:
         meta data:
           role: 
           applicable chapter: 
-        contents:
-          - 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
 
 
       - dn: ゼヴァロ
         meta data:
           role: 敵
           applicable chapter: 1
-        contents:
-          - 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
 
 

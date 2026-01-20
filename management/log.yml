@@ -2,14 +2,14 @@
 
 
 # rule:
-#  - 主体（左辺）が右辺に所属 . 左辺が所属
-#  - 主体（左辺）が右辺を包含 / 左辺に所属
+#  - 社会が右辺に所属 . 左辺が所属する社会
+#  - 右辺を包含する社会 / 個人が左辺に所属
 
 - episode: 10
   case: 
   title: 
   elapsed days: 
-  location: アルティバの街 . アルトレア王国
+  location: アルティバの街 . アルティノール領 . ロートエリナ王国
   time: 
   contact: 
   first contact: 
@@ -24,7 +24,7 @@
   case: 
   title: 
   elapsed days: 
-  location: アルティバの街 . アルトレア王国
+  location: アルティバの街 . アルティノール領 . ロートエリナ王国
   time: 
   contact: 
   first contact: 
@@ -39,11 +39,11 @@
   case: 4
   title: 許されざる者
   elapsed days: 1
-  location: アルティバの街 . アルトレア王国
+  location: アルティバの街 . アルティノール領 . ロートエリナ王国
   time: 午前
-  contact: ディックス . ディックス一党
-  first contact: ディックス . ディックス一党
-  first appearance: ディックス . ディックス一党
+  contact: ディックス一党 / ディックス
+  first contact: ディックス一党 / ディックス
+  first appearance: ディックス一党 / ディックス
   companion: キスカ, フェリ
   monster: 
   battle: true
@@ -54,10 +54,10 @@
   case: 3(1/1)
   title: 見えない敵の強襲
   elapsed days: 0
-  location: アルティバの街 . アルトレア王国
+  location: アルティバの街 . アルティノール領 . ロートエリナ王国
   time: 晩～夜
-  contact: 使い魔 . 魔法の塔
-  first contact: 使い魔 . 魔法の塔
+  contact: 魔法の塔 / 使い魔
+  first contact: 魔法の塔 / 使い魔
   first appearance: 魔法の塔 / 使い魔
   companion: キスカ, フェリ
   monster: 
@@ -69,7 +69,7 @@
   case: 2(4/4)
   title: 少女たちの事情
   elapsed days: 0
-  location: アルティバの街の近くの森からアルティバの街への道 . アルトレア王国
+  location: アルティバの街の近くの森からアルティバの街への道 . アルティノール領 . ロートエリナ王国
   time: 午後
   contact: 
   first contact: 
@@ -84,10 +84,10 @@
   case: 2(3/4)
   title: 舞い踊る武闘
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルトレア王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
   time: 昼
-  contact: 男爵ロア . 男爵ロア一党
-  first contact: フェリ, 男爵ロア . 男爵ロア一党
+  contact: 男爵ロア一党 / 男爵ロア
+  first contact: フェリ, 男爵ロア一党 / 男爵ロア
   first appearance: 
   companion: 
   monster: 
@@ -99,13 +99,13 @@
   case: 2(2/4)
   title: 放つ災禍の影
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルトレア王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
   time: 昼
-  contact: 盗賊 . 男爵ロア一党, ゼヴァロ . 屍蝋の闇炎
-  first contact: ゼヴァロ . 屍蝋の闇炎
-  first appearance: フェリ, 男爵ロア . 男爵ロア一党
+  contact: 男爵ロア一党 / 盗賊, 屍蝋の闇炎 / ゼヴァロ
+  first contact: 屍蝋の闇炎 / ゼヴァロ
+  first appearance: フェリ, 男爵ロア一党 / 男爵ロア
   companion: 
-  monster: ゴブリン . 使役, トロール . 使役
+  monster: 使役 / ゴブリン, トロール . 使役
   battle: true
   erros: true
   summary: エクトは仲間を残して城へ突入し、盗賊やゴブリン、トロールを圧倒。首魁の側近ゼヴァロは転移で逃亡し、敵はほぼ制圧される。
@@ -114,13 +114,13 @@
   case: 2(1/4)
   title: 盗賊城への招待状
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルトレア王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
   time: 午前中
-  contact: 盗賊 . 男爵ロア一党
-  first contact: 盗賊 . 男爵ロア一党
+  contact: 男爵ロア一党 / 盗賊
+  first contact: 男爵ロア一党 / 盗賊
   first appearance: 
   companion: キスカ
-  monster: ゴブリン . 使役
+  monster: 使役 / ゴブリン
   battle: true
   erros: true
   summary: エクトとキスカは和解して急速に距離を縮め、共に森を進む中でゴブリンや暴漢を撃退。助けた女から盗賊の城の存在を聞き、三人で救出に向かう決意を固める。
@@ -129,7 +129,7 @@
   case: 1(2/2)
   title: 決闘への乱入者
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルトレア王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
   time: 午前中
   contact: 
   first contact: 
@@ -144,7 +144,7 @@
   case: 1(1/2)
   title: 憤れる森の美少女
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルトレア王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
   time: 午前中
   contact: 
   first contact: キスカ
