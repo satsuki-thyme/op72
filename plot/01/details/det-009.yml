@@ -32,27 +32,27 @@
 
     - beat:
       descriptor: 惨めな状況
-          
       unexpectedness: 惨めさに耐える理由
       turning point: true
-
-      pre-action:
-        - dn: エクトたち（エルミナを含む四人）
-          contents: 神妙
-          activity: 縄を打たれて後ろ手に縛られている　敗者の首輪
-      narration in the beat:
-        contents:
-          斜め前方には騎士に守られた子爵
-          横には自由の身で跪くヴィックスたち
-          壁際には筆記机に着いた書記
-      action:
-        - dn: 子爵
-          contents: 権威を示す
-          activity: 宣言　我が三男ヴィックスのため領主裁判とする
       foreshadowing:
         - item:
           send: 縄を打たれて後ろ手に縛られている　敗者の首輪
           receive: 牢
+
+      performance:
+        - pre-action:
+          - dn: エクトたち（エルミナを含む四人）
+            contents: 神妙
+            activity: 縄を打たれて後ろ手に縛られている　敗者の首輪
+        - narration in the beat:
+          contents:
+            斜め前方には騎士に守られた子爵
+            横には自由の身で跪くヴィックスたち
+            壁際には筆記机に着いた書記
+        - action:
+          - dn: 子爵
+            contents: 権威を示す
+            activity: 宣言　我が三男ヴィックスのため領主裁判とする
 
 
 
@@ -87,70 +87,113 @@
 
     - narration:
       descriptor: 牢に入れられる
-      unexpectedness: 暴力に耐えるエクト、キスカとフェリを触る兵士に耐えるエクト
+      unexpectedness: 暴力に耐えるエクト
       turning point: false
+      foreshadowing:
+        - item:
+          send: エクトは声一つ上げない
+          receive: 鍛えたから平気
+
       contents:
+        事は前日に遡る　ヴィックスをねじ伏せ衛兵に囲まれたあと、門塔の牢へ連行されていた
+        エルミナは別の塔の牢
         暴力を受ける
+        女には手を出すな、ヴィックス様がいただくそうだからな
         鍵
         牢の様子
         大広間と同じ格好で縛られている
+
+    - beat:
+      descriptor: 平気なエクト
+      unexpectedness: エクトがケロッとしている
+      turning point: false
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: キスカの慌てようが酷い
+          receive: キスカには自責の念がある
+
+      performance:
+        - action:
+          - dn: キスカとフェリ
+            contents: エクトは大丈夫だろうか
+            activity: 早く横になって
+        - reaction:
+          - dn: エクト
+            contents: 平気だよ
+            activity: 心配させてすまない　実は平気なんだ
+        - action:
+          - dn: キスカとフェリ
+            contents: なぜ？
+            activity: え、それって……どういうこと？
+        - reaction:
+          - dn: エクト
+            contents: つまらないことを言うのが申し訳ない
+            activity: 面白い答えじゃないよ。鍛えたってだけ
+        - post-reaction:
+          - dn: キスカとフェリ
+            contents: 呆れた
+            activity: 身も蓋もないわね
 
     - beat:
       descriptor: 謝罪と許し
-      unexpectedness: work location
+      unexpectedness: キスカの急な転換
       turning point: false
-      action:
-        - dn: キスカ
-          contents: 全部自分のせい
-          activity: ごめんなさい、巻き込んでしまって
-      reaction:
-        - dn: エクト
-          contents: 自分こそ原因だ
-          activity: そんなことない　俺がしっかりしてれば
-        - dn: フェリ
-          contents: 自分はこれで満足だ
-          activity: もし二人が何もしなかったら私が強力な魔法を打ち込んでいた
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: キスカの自責の念があまりにも深い
+          receive: 絶対的なほど希望がない
+
+      performance:
+        - action:
+          - dn: キスカ
+            contents: 全部自分のせい
+            activity: 両膝を突く　ごめんなさい、巻き込んでしまって　命を懸けて贖うつもりだ
+        - reaction:
+          - dn: エクト
+            contents: 自分こそ原因だ
+            activity: そんなことない　俺がしっかりしてれば
+          - dn: フェリ
+            contents: 自分はこれで満足だ
+            activity: もし二人が何もしなかったら私が強力な魔法を打ち込んでいた
+        - post-reaction:
+          - dn: キスカ
+            contents: 気遣いが嬉しい
+            activity: 瞳を潤ませて　二人に会えてよかった
 
     - beat:
       descriptor: 希望と絶望
-      unexpectedness: 
+      unexpectedness: 絶対的なほど希望がない
       turning point: false
-      pre-action:
-        - dn: キスカ
-          contents: ヴィックスはならず者
-          activity: ボヤき
-      action:
-        - dn: エクト
-          contents: 希望を見る
-          activity: 公平な判断
-      reaction:
-        - dn: キスカ
-          contents: 悲観
-          activity: 子爵は切れ者だが潔白な人ではないという噂　それにヴィックスは子爵の三男　貴族の証人がいれば
       foreshadowing:
         - item:
           send: 貴族の証人がいれば
           receive: 伯爵
 
+      performance:
+        - pre-action:
+          - dn: エクト
+            contents: 話題を変えたい
+            activity: ヴィックスってやつは酷い奴だな
+        - action:
+          - dn: エクト
+            contents: 希望を見る
+            activity: でも公平な判断
+        - reaction:
+          - dn: キスカ
+            contents: 悲観
+            activity: 子爵は切れ者だが潔白な人ではないという噂　それにヴィックスは子爵の三男　貴族の証人がいれば
+
     - narration:
       descriptor: 決意
-      unexpectedness: 
+      unexpectedness: 三人が同じことを考えている
       turning point: false
-
-      contents:
-        いざとなればと思うエクト
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: いざとなれば逃げようと考える
+          receive: 逃げようと決意する
+
+      contents:
+        いざとなればと思うエクトたち三人
 
 
 
@@ -188,147 +231,154 @@
   scene elements:
 
     - narration:
-      unexpectedness: 
-      turning point: false
-
       descriptor: 回想からの復帰
-      contents:
-        ntt
+      unexpectedness: none
+      turning point: false
       foreshadowing:
         - item:
-          send: 
+          send: ヴィックスの押し殺しきれない愉快の面持ち
           receive: 
+
+      contents:
+        子爵の宣告に続いてエクトの陳述となった
+        ヴィックスは押し殺しきれない愉快の面持ちをしている
 
     - beat:
       descriptor: 両者の主張
-      unexpectedness: 
+      unexpectedness: ヴィックスが奪ったことを認める
       turning point: false
-
-      action:
-        - dn: エクト
-          contents: 無実です
-          activity: 取り調べでしたのと同じ話をする
-      reaction:
-        - dn: ヴィックス
-          contents: エクトは嘘を言っている
-          activity: 偽りの主張
-        - dn: 子爵
-          contents: 貴族に有利な判断
-          activity: 余所者では貴族ほど信頼できない
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 神殿遺跡に所有者はなし
+          receive: 魔狩協定
+
+      performance:
+        - action:
+          - dn: エクト
+            contents: 無実です
+            activity: 取り調べでしたのと同じ話をする
+        - reaction:
+          - dn: ヴィックス
+            contents: 正しい行動だった
+            activity: 奪ったのは事実だが聞けば神殿遺跡で見つけた宝玉とのこと　神殿遺跡に所有者はなし、つまり子爵のもの　これほどの逸品であれば子爵の宝となりましょう
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: 余所者では貴族ほど信頼できないし、ヴィックスの言には一理ある
 
     - beat:
       descriptor: キスカのフォロー
-      unexpectedness: 
+      unexpectedness: アルティバの有名人キスカも信用されず強引な判断をされる
       turning point: false
-
-      action:
-        - dn: キスカ
-          contents: この地で認められている自分の証言なら大丈夫
-          activity: 名乗り、エクトの証言を擁護する
-      reaction:
-        - dn: 子爵
-          contents: 貴族に有利な判断
-          activity: 平民は貴族ほど信頼できない
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 貴族と平民の差
+          receive: 貴族と平民の証言が平等な都市
+
+      performance:
+        - action:
+          - dn: キスカ
+            contents: この地で認められている自分の証言なら大丈夫　それに協定がある
+            activity: 名乗り、エクトの証言を擁護する　また魔狩協定を引き合いに出して発見者に所有権があると主張する
+        - reaction:
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: 平民は貴族ほど信頼できない　協定も特殊な場合には私の判断で決めることができる
 
     - beat:
       descriptor: フェリのフォロー
-      unexpectedness: 
+      unexpectedness: 子爵がアーマテウに怒りだす
       turning point: false
-
-      action:
-        - dn: フェリ
-          contents: 貴族も平民も平等に裁かれるべき
-          activity: 交易都市アーマテウの都市法では、貴族の証言も平民の証言も平等の価値がありました
-      reaction:
-        - dn: 子爵
-          contents: 貴族に有利な判断
-          activity: アルティバに都市法などない　慣習法でやっている　それに貴族があらゆることにおいて優位なのは正当な権利だ
       foreshadowing:
         - item:
           send: 
           receive: 
+
+      performance:
+        - action:
+          - dn: フェリ
+            contents: 貴族も平民も平等に裁かれるべき
+            activity: 交易都市アーマテウの都市法では、貴族の証言も平民の証言も平等の価値がありました
+        - reaction:
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: アーマテウだと！？ここはアルティバだ！アルティバに都市法などない　
 
     - beat:
       descriptor: エクトの屈辱
       unexpectedness: 
       turning point: false
-
-      action:
-        - dn: エクト
-          contents: 裁判の意味なんてないじゃないか
-          activity: 僕たちはどうしてここにいるんですか
-      reaction:
-        - dn: ディックス
-          contents: 負けるためにだ
-          activity: 判決を受けるために決まっているだろう　厳正な判決を、な
-        - dn: 子爵
-          contents: 貴族に逆らうのは許さない
-          activity: 私の公正な裁きに異議を申し立てるとは不届き
       foreshadowing:
         - item:
           send: 
           receive: 
 
+      performance:
+        - action:
+          - dn: エクト
+            contents: 裁判の意味なんてないじゃないか
+            activity: 僕たちはどうしてここにいるんですか
+        - reaction:
+          - dn: ディックス
+            contents: 負けるためにだ
+            activity: 判決を受けるために決まっているだろう　厳正な判決を、な
+          - dn: 子爵
+            contents: 貴族に逆らうのは許さない
+            activity: 私の公正な裁きに異議を申し立てるとは不届き
+
     - narration:
+      descriptor: インサイティング・インシデント
       unexpectedness: 
       turning point: false
+      foreshadowing:
+        - item:
+          send: 
+          receive: 
 
-      descriptor: インサイティング・インシデント
       contents:
         エクト　どのタイミングで逃げ出そうか
         召使い　子爵に耳打ち
         子爵　入っていただけ
         伯爵　中肉中背で壮健な面差し、力が漲り、しかし30を過ぎたほどとは思えない老獪な眼差しをしている
         伯爵　ロイドイーフ伯爵フェルダー・ゼルフ・ハイフレック
-      foreshadowing:
-        - item:
-          send: 
-          receive: 
 
     - beat:
       descriptor: 伯爵の証言による逆転
       unexpectedness: 
       turning point: true
-
-      action:
-        - dn: 伯爵
-          contents: エクトの証言は事実だ
-          activity: エクトの証言をなぞる
-      reaction:
-        - dn: 子爵
-          contents: 上位貴族には逆らえない
-          activity: 伯爵が仰るならそれ以上のものはない
-        - dn: ヴィックス
-          contents: 思いどおりいかないのは許せない
-          activity: 伯爵に襲いかかる「〈ガネフ・デルクロード〉！」
       foreshadowing:
         - item:
           send: 
           receive: 
+
+      performance:
+        - action:
+          - dn: 伯爵
+            contents: エクトの証言は事実だ
+            activity: エクトの証言をなぞる
+        - reaction:
+          - dn: 子爵
+            contents: 上位貴族には逆らえない
+            activity: 伯爵が仰るならそれ以上のものはない
+          - dn: ヴィックス
+            contents: 思いどおりいかないのは許せない
+            activity: 伯爵に襲いかかる「〈ガネフ・デルクロード〉！」
 
     - beat:
       descriptor: 決着
       unexpectedness: 
       turning point: false
-
-      action:
-        - dn: エクト
-          contents: 無法は許さない
-          activity: ヴィックスを沈める
-      reaction:
-        - dn: ヴィックス
-          contents: 無
-          activity: 沈む
       foreshadowing:
         - item:
           send: 
           receive: 
+
+      performance:
+        - action:
+          - dn: エクト
+            contents: 無法は許さない
+            activity: ヴィックスを沈める
+        - reaction:
+          - dn: ヴィックス
+            contents: 無
+            activity: 沈む
 
