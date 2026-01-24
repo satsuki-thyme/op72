@@ -32,7 +32,7 @@
 
     - beat:
       descriptor: 惨めな状況
-      unexpectedness: 惨めさに耐える理由
+      unexpectedness: 惨めさに耐える
       turning point: true
       foreshadowing:
         - item:
@@ -52,7 +52,7 @@
         - action:
           - dn: 子爵
             contents: 権威を示す
-            activity: 宣言　我が三男ヴィックスのため領主裁判とする
+            activity: 宣言　ヴィックス一等とエクト一党が関わる紛争について裁判を行う　また我が三男ヴィックスのため領主裁判とする
 
 
 
@@ -75,7 +75,7 @@
   value change:
     - dn: エクトたち
       value: 身の上がどうなるか
-      change: .- \ --
+      change: .- \ .--
 
   intarest:
     危機的状況
@@ -90,6 +90,9 @@
       unexpectedness: 暴力に耐えるエクト
       turning point: false
       foreshadowing:
+        - item:
+          send: 牢
+          receive: 拘束されたエクトたち
         - item:
           send: エクトは声一つ上げない
           receive: 鍛えたから平気
@@ -110,7 +113,7 @@
       foreshadowing:
         - item:
           send: キスカの慌てようが酷い
-          receive: キスカには自責の念がある
+          receive: キスカの急な転換（自責の念）
 
       performance:
         - action:
@@ -136,7 +139,7 @@
 
     - beat:
       descriptor: 謝罪と許し
-      unexpectedness: キスカの急な転換
+      unexpectedness: キスカの急な転換（自責の念）
       turning point: false
       foreshadowing:
         - item:
@@ -190,7 +193,7 @@
       foreshadowing:
         - item:
           send: いざとなれば逃げようと考える
-          receive: 逃げようと決意する
+          receive: 三人が同時に逃げようと決意する
 
       contents:
         いざとなればと思うエクトたち三人
@@ -219,7 +222,7 @@
   value change:
     - dn: エクトたち
       value: 身の上がどうなるか
-      change: .-- / +++++
+      change: .-- / .+++++
 
   intarest:
     裁判のやりとり
@@ -237,7 +240,7 @@
       foreshadowing:
         - item:
           send: ヴィックスの押し殺しきれない愉快の面持ち
-          receive: 
+          receive: 裁判のヴィックス優位の進展
 
       contents:
         子爵の宣告に続いてエクトの陳述となった
@@ -245,25 +248,25 @@
 
     - beat:
       descriptor: 両者の主張
-      unexpectedness: ヴィックスが奪ったことを認める
+      unexpectedness: none
       turning point: false
       foreshadowing:
         - item:
-          send: 神殿遺跡に所有者はなし
-          receive: 魔狩協定
+          send: 貴族の優位性
+          receive: アルティバの有名人キスカも信用されず強引な判断をされる
 
       performance:
         - action:
           - dn: エクト
-            contents: 無実です
+            contents: 自分たちに罪はない
             activity: 取り調べでしたのと同じ話をする
         - reaction:
           - dn: ヴィックス
-            contents: 正しい行動だった
-            activity: 奪ったのは事実だが聞けば神殿遺跡で見つけた宝玉とのこと　神殿遺跡に所有者はなし、つまり子爵のもの　これほどの逸品であれば子爵の宝となりましょう
+            contents: 自分たちは襲われた
+            activity: あの宝玉は自分たちの物　自分たちは襲われた
           - dn: 子爵
             contents: 貴族に有利な判断
-            activity: 余所者では貴族ほど信頼できないし、ヴィックスの言には一理ある
+            activity: 余所者の証言は信頼できない
 
     - beat:
       descriptor: キスカのフォロー
@@ -277,21 +280,21 @@
       performance:
         - action:
           - dn: キスカ
-            contents: この地で認められている自分の証言なら大丈夫　それに協定がある
-            activity: 名乗り、エクトの証言を擁護する　また魔狩協定を引き合いに出して発見者に所有権があると主張する
+            contents: この地で認められている自分の証言なら大丈夫
+            activity: 名乗り、エクトの証言を擁護する
         - reaction:
           - dn: 子爵
             contents: 貴族に有利な判断
-            activity: 平民は貴族ほど信頼できない　協定も特殊な場合には私の判断で決めることができる
+            activity: 平民は貴族ほど信頼できない
 
     - beat:
       descriptor: フェリのフォロー
-      unexpectedness: 子爵がアーマテウに怒りだす
+      unexpectedness: 貴族と平民の証言が平等な都市
       turning point: false
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 貴族の優位性
+          receive: 上位貴族の登場
 
       performance:
         - action:
@@ -301,22 +304,22 @@
         - reaction:
           - dn: 子爵
             contents: 貴族に有利な判断
-            activity: アーマテウだと！？ここはアルティバだ！アルティバに都市法などない　
+            activity: ここはアルティバだ　アルティバに都市法などない　
 
     - beat:
       descriptor: エクトの屈辱
-      unexpectedness: 
+      unexpectedness: none
       turning point: false
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 貴族の証言だけで決まっている
+          receive: 上位貴族の登場
 
       performance:
         - action:
           - dn: エクト
             contents: 裁判の意味なんてないじゃないか
-            activity: 僕たちはどうしてここにいるんですか
+            activity: 貴族の証言だけが取り上げられる　僕たちはどうしてここにいるんですか
         - reaction:
           - dn: ディックス
             contents: 負けるためにだ
@@ -327,28 +330,28 @@
 
     - narration:
       descriptor: インサイティング・インシデント
-      unexpectedness: 
+      unexpectedness: 上位貴族の登場
       turning point: false
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 上位貴族の登場
+          receive: キスカに視線をやる
 
       contents:
-        エクト　どのタイミングで逃げ出そうか
-        召使い　子爵に耳打ち
+        エクトたち　頃合いだな
+        召使い　走り込んで子爵に耳打ち
         子爵　入っていただけ
         伯爵　中肉中背で壮健な面差し、力が漲り、しかし30を過ぎたほどとは思えない老獪な眼差しをしている
-        伯爵　ロイドイーフ伯爵フェルダー・ゼルフ・ハイフレック
+        伯爵　隣国の伯爵　ロンディーフ伯爵フェルダー・ゼルフ・ハイフレック
 
     - beat:
       descriptor: 伯爵の証言による逆転
-      unexpectedness: 
+      unexpectedness: キスカに視線をやりその姿を拝受するように小さく礼をした
       turning point: true
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: 子爵の手のひら返し　ヴィックスはそんなはずでは、と子爵を見る
+          receive: ヴィックスの凶行
 
       performance:
         - action:
@@ -359,26 +362,23 @@
           - dn: 子爵
             contents: 上位貴族には逆らえない
             activity: 伯爵が仰るならそれ以上のものはない
-          - dn: ヴィックス
-            contents: 思いどおりいかないのは許せない
-            activity: 伯爵に襲いかかる「〈ガネフ・デルクロード〉！」
 
     - beat:
       descriptor: 決着
-      unexpectedness: 
+      unexpectedness: ヴィックスの凶行
       turning point: false
       foreshadowing:
         - item:
-          send: 
-          receive: 
+          send: none
+          receive: none
 
       performance:
         - action:
+          - dn: ヴィックス
+            contents: 思いどおりいかないのは許せない
+            activity: 伯爵に襲いかかる「〈ガネフ・デルクロード〉！」
+        - reaction:
           - dn: エクト
             contents: 無法は許さない
             activity: ヴィックスを沈める
-        - reaction:
-          - dn: ヴィックス
-            contents: 無
-            activity: 沈む
 
