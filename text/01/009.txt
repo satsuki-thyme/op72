@@ -1,136 +1,384 @@
 # 詳細プロット 第1章 第9話
 
 - scene: 1
+  descriptor: 裁判の冒頭
+
   gist:
-    - 謁見の間
-    - 謁見の間のエクトたち
-  destiny:
-    - item:
-      dn: なし
-      desire: なし
-      results: なし
+    大広間の描写
+    エクトたち、ヴィックスたち、子爵の描写
+
+  matters of desire:
+    - dn: エクトたち
+      desire: 真実が認められて無罪になりたい
+      opponent:
+        - dn: 裁  判
+          desire: 貴族に有利な判断をしたい
+      risk: 犯罪者として罰せられる
+      results: pending
+
+  value change:
+    - dn: エクトたち
+      value: 身の上がどうなるか
+      change: . \ .-
+
   intarest:
-    - 何が起こるのかという期待
+    厳粛な雰囲気
+    ヴィックスの意外な正体
+
   unpredictability of the end:
-    - なぜこんなことになっているのか
-  contents:
-    /noCha = s 厳粛にして荘厳な武威を湛えた騎士が両側の壁際に並ぶ
-    /noCha = s 謁見の間の装飾、雰囲気
-    /multi = m アルティノール子爵ウィーネン公の前に顔を伏せて跪くエクトたち四人
-    /third = f 四人目はエクトたちが助けたキスカの後輩｜魔狩《まがり》でエルミナと言う
-　武威を｜湛《たた》えた二人の騎士が主座の背に控える。
-鋼鉄の｜鎧《よろい》に身を包み、かつてあった｜兜《かぶと》は魔法の登場より廃され、場を｜逞《たくま》しい面貌が引き締めていた。
-アルティノール子爵ウィーネン公の居城、アルティビーラ城の中庭に面して立派な作りの広間だ。{ウィーネン公}%アルティノール領%%アルティビーラ城%
-下級貴族ながら膝元の都市アルティバを中心に所領が栄え、室内はタペストリーや｜絨毯《じゅうたん》で装飾されている。%アルティノール領%%アルティビーラ城%
+    裁判の行方
 
-　エクトたち四人は｜跪《ひざまず》き｜頭《こうべ》を垂れていた。
-キスカとフェリの他にもう一人、ディックスと揉めていたエルミナという少女がいる。
-｜魔狩《まがり》を｜生業《なりわい》としてキスカとは後輩として親しい。
-四人が対面するのは主座にあるウィーネン公だ。
-痩身に豪華な衣装を｜纏《まと》い悠然とある。
-エクトたちは昨日のディックスとの件で呼び出されていた。
+  scene elements:
 
-　ディックスはウィーネン公の三男だという。
-貴族や豪商の子息で、あぶれた者を連れ悪行を繰り返していた。
-エルミナへの暴行は元よりディックスの罪だ。
-そのうえ魔力｜氾濫《はんらん》の原因もディックスの魔導具だとされた。
-エクトは名乗り出ようとした。
-だがキスカとフェリが懇々と説いて思い｜留《とど》まらせた。
-エクトに武力は通じないと二人は思っている。
-とは言え民衆に｜外方《そっぽ》を向かれれば歩む道が暗くなる。
+    - beat:
+      descriptor: 惨めな状況
+      unexpectedness: 惨めさに耐える
+      turning point: true
+      foreshadowing:
+        - item:
+          send: 縄を打たれて後ろ手に縛られている　敗者の首輪
+          receive: 牢
+
+      performance:
+        - pre-action:
+          - dn: エクトたち（エルミナを含む四人）
+            contents: 神妙
+            activity: 縄を打たれて後ろ手に縛られている　敗者の首輪
+        - narration in the beat:
+          contents:
+            斜め前方には騎士に守られた子爵
+            横には自由の身で跪くヴィックスたち
+            壁際には筆記机に着いた書記
+        - action:
+          - dn: 子爵
+            contents: 権威を示す
+            activity: 宣言　ヴィックス一等とエクト一党が関わる紛争について裁判を行う　また我が三男ヴィックスのため領主裁判とする
+
+
 
 - scene: 2
+  descriptor: 回想 - 牢
+
   gist:
-    - 状況の説明
-  destiny:
-    - item:
-      dn: なし
-      desire: なし
-      results: なし
+    キスカ、エクトの謝罪
+    貴族の証人がいれば
+
+  matters of desire:
+    - dn: エクトたち
+      desire: 無事に釈放されたい
+      opponent:
+        - dn: 裁判
+          desire: 貴族に有利な判断をしたい
+      risk: 犯罪者として罰せられる
+      results: pending
+
+  value change:
+    - dn: エクトたち
+      value: 身の上がどうなるか
+      change: .- \ .--
+
   intarest:
-    - 魔力がディックスのせいになっていること
+    危機的状況
+
   unpredictability of the end:
-    - 呼び出された理由
-  contents:
-    /noCha = m ディックスはアルティノール子爵ウィーネン公の三男で鼻つまみ者で無頼漢とつるんで悪さをしていて子爵が対応した
-    /noCha = m 魔力の被害はディックスが持っていた魔導具が原因だと判断された
-    /noCha = m この話を聞いたときエクトが名乗り出ようとしたがキスカとフェリが止めた
-    /noCha = m 今は夕方までかかった取り調べの済んだ翌日、午前の中ほど
+    身の上
+
+  scene elements:
+
+    - narration:
+      descriptor: 牢に入れられる
+      unexpectedness: 暴力に耐えるエクト
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 牢
+          receive: 拘束されたエクトたち
+        - item:
+          send: エクトは声一つ上げない
+          receive: 鍛えたから平気
+
+      contents:
+        事は前日に遡る　ヴィックスをねじ伏せ衛兵に囲まれたあと、門塔の牢へ連行されていた
+        エルミナは別の塔の牢
+        暴力を受ける
+        女には手を出すな、ヴィックス様がいただくそうだからな
+        鍵
+        牢の様子
+        大広間と同じ格好で縛られている
+
+    - beat:
+      descriptor: 平気なエクト
+      unexpectedness: エクトがケロッとしている
+      turning point: false
+      foreshadowing:
+        - item:
+          send: キスカの慌てようが酷い
+          receive: キスカの急な転換（自責の念）
+
+      performance:
+        - action:
+          - dn: キスカとフェリ
+            contents: エクトは大丈夫だろうか
+            activity: 早く横になって
+        - reaction:
+          - dn: エクト
+            contents: 平気だよ
+            activity: 心配させてすまない　実は平気なんだ
+        - action:
+          - dn: キスカとフェリ
+            contents: なぜ？
+            activity: え、それって……どういうこと？
+        - reaction:
+          - dn: エクト
+            contents: つまらないことを言うのが申し訳ない
+            activity: 面白い答えじゃないよ。鍛えたってだけ
+        - post-reaction:
+          - dn: キスカとフェリ
+            contents: 呆れた
+            activity: 身も蓋もないわね
+
+    - beat:
+      descriptor: 謝罪と許し
+      unexpectedness: キスカの急な転換（自責の念）
+      turning point: false
+      foreshadowing:
+        - item:
+          send: キスカの自責の念があまりにも深い
+          receive: 絶対的なほど希望がない
+
+      performance:
+        - action:
+          - dn: キスカ
+            contents: 全部自分のせい
+            activity: 両膝を突く　ごめんなさい、巻き込んでしまって　命を懸けて贖うつもりだ
+        - reaction:
+          - dn: エクト
+            contents: 自分こそ原因だ
+            activity: そんなことない　俺がしっかりしてれば
+          - dn: フェリ
+            contents: 自分はこれで満足だ
+            activity: もし二人が何もしなかったら私が強力な魔法を打ち込んでいた
+        - post-reaction:
+          - dn: キスカ
+            contents: 気遣いが嬉しい
+            activity: 瞳を潤ませて　二人に会えてよかった
+
+    - beat:
+      descriptor: 希望と絶望
+      unexpectedness: 絶対的なほど希望がない
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 貴族の証人がいれば
+          receive: 伯爵
+
+      performance:
+        - pre-action:
+          - dn: エクト
+            contents: 話題を変えたい
+            activity: ヴィックスってやつは酷い奴だな
+        - action:
+          - dn: エクト
+            contents: 希望を見る
+            activity: でも公平な判断
+        - reaction:
+          - dn: キスカ
+            contents: 悲観
+            activity: 子爵は切れ者だが潔白な人ではないという噂　それにヴィックスは子爵の三男　貴族の証人がいれば
+
+    - narration:
+      descriptor: 決意
+      unexpectedness: 三人が同じことを考えている
+      turning point: false
+      foreshadowing:
+        - item:
+          send: いざとなれば逃げようと考える
+          receive: 三人が同時に逃げようと決意する
+
+      contents:
+        いざとなればと思うエクトたち三人
+
 
 
 - scene: 3
-  gist:
-    - ディックスの不始末について謝辞と褒美
-    - ディックスの魔導具と男爵ロアの魔導具について
-    - 屍蝋の闇炎、ゼヴァロについて
-    - 魔法の塔について
-  destiny:
-    - item:
-      dn: エクト
-      desire: 魔法の塔について知りたい
-      results: true
-  intarest:
-    - ゼヴァロの身元が割れる
-    - 魔法の塔の情報
-  unpredictability of the end:
-    - 魔法の塔が公開した魔法とは
-  contents:
-    /third + s 子爵「昨日はディックスが迷惑をかけたようだな。矛を収めてくれたこと感謝する。きつい沙汰を下すゆえ許してくれ」
-    /ect-- + s ご子息に手傷を負わせたにもかかわらず寛大なお言葉、痛み入ります
-    /multi = s エクトたちは雰囲気がよければ魔法の塔について尋ねるつもりだったが、上手くいきそうだ
-    /third + s 子爵「済まぬな。ディックスを諫めてくれた謝礼を取らせる」
-    /noCha + m 子爵がそう言ったところで執事だろう老紳士が金子の詰まった革袋をエクトとキスカに渡した　キスカは片手に収まらないほどの袋に驚いた
-    /third = f 「時にディックスが使った魔導具の効果はどうであった」
-    /noCha = f 昨日のことを説明　魔導具が輝き、筋肉が
-    /third = f 子爵「恐ろしいものよ。キスカの勇名は知っている。意表を突かれたとは言えそなたが不覚を取るほどの力、捨て置けん」
-    /noCha = s 子爵は調べて対処すると言った　ディックスの元にゼヴァロと呼ばれる不気味な者が出入りしていたと話す　襤褸のローブにフードの中は暗いにもかかわらず目の部分だけさらに黒い
-    /ect-- = f そいつはたぶん知っています　男爵ロアと名乗る盗賊の元にいました　男爵ロアもあの魔導具を　燃やしてしまったので残っていませんが
-    /third = f 子爵「あの事件にもか。屍蝋の闇炎という組織が関係しているようだ。ゼヴァロという者もその成員だろう」
-    /noCha + s 子爵は話は終わったとし、何か言いたいことなりないかと問われた
-    /ect-- = f 魔法の塔というのをご存じないでしょうか
-    /third = f 子爵「それも恐ろしい結社よ」
-    /noCha = s 子爵によると各国の中枢にも影響力を持っているとのこと　戦で使う魔法を融通するため、魔法の塔の思惑で戦の行方が左右されるのだとか　そんな結社にもかかわらず所在地すら知れないという
-    /third - m 子爵「あまり関わらぬほうがいい。しかし先日魔法の塔から魔法が公開された。神殿での販売が始まっているようだ」
-    /noCha = m これで謁見は終了となった
+  descriptor: 裁判の本番
 
-
-- scene: 4
   gist:
-    - エルミナから宝玉を見せられる
-    - 三人に関係のある紋章
-    - 宝石商で鑑定してもらい、それより高値で買い取る
-    - 翌日神殿遺跡に一緒に行く約束をする
-  destiny:
-    - item:
-      dn: エクト, キスカ, フェリ
-      desire: エルミナの宝玉が欲しい
-      results: true
-    - item:
-      dn: エクト, キスカ, フェリ
-      desire: 神殿遺跡の碑文が見たい
-      results: pending
+    裁判
+    劣勢
+    賓客の登場
+
+  matters of desire:
+    - dn: エクトたち
+      desire: 真実が認められて無罪になりたい
+      opponent:
+        - dn: 裁判
+          desire: 貴族に有利な判断
+        - dn: ヴィックス
+          desire: 嘘の証言で勝ちたい
+      risk: 犯罪者として罰せられる
+      results: 無実が証明される
+
+  value change:
+    - dn: エクトたち
+      value: 身の上がどうなるか
+      change: .-- / .+++++
+
   intarest:
-    - 三人を結びつける紋章の意味
+    裁判のやりとり
+    逆転無罪
+
   unpredictability of the end:
-    - 紋章の意味
-    - 神殿遺跡の碑文とは
-    - 魔法の塔の魔法とは
-  contents:
-    /multi = m 四人で食事したあと広場で輪を作っている
-    /third = m エルミナ「皆さんに守ってもらった宝玉を見てもらいたくて」
-    /noCha = s 手に収まるほどの無色透明な球体
-    /noCha = s 天空 = 大きな円の淵を上側には山並み、下側には海の波が描かれている
-    /noCha = s その中に二つの紋章が並んでいる
-    /noCha = s 太陽 = 円の周りに放射線状に配置された十字になった剣の具象
-    /noCha = s 月 = 三日月の円の中心に魔法陣
-    /ect-- = f 俺の家の紋章に似てる　太陽と月の代わりに百合の花が描かれているけど
-    /quisc = f 私は太陽の紋章を家で見たことがあるわ　古い、大切なものだっておばあちゃんが言ってた
-    /feri- = f 私の家には秘密の紋章としてこの月と魔法陣が伝えられています
-    /quisc = m これをどこで？
-    /third = m エルミナ「南の森で崖崩れして神殿か何かの入り口が出てきていたの　奥には広い空間があって、その中央に置かれてた」
-    /ect-- = f そこへ連れていってくれないか
-    /third = f いいよ
-    /feri- = f 日を改めたほうがよさそうですね
-    /quisc = f じゃぁ明日は？
-    /third = f うん、大丈夫
-    /noCha = m エルミナとはここで別れてエクトたちは神殿へ向かった
+    賓客の証人は誰なのか
+
+  scene elements:
+
+    - narration:
+      descriptor: 回想からの復帰
+      unexpectedness: none
+      turning point: false
+      foreshadowing:
+        - item:
+          send: ヴィックスの押し殺しきれない愉快の面持ち
+          receive: 裁判のヴィックス優位の進展
+
+      contents:
+        子爵の宣告に続いてエクトの陳述となった
+        ヴィックスは押し殺しきれない愉快の面持ちをしている
+
+    - beat:
+      descriptor: 両者の主張
+      unexpectedness: none
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 貴族の優位性
+          receive: アルティバの有名人キスカも信用されず強引な判断をされる
+
+      performance:
+        - action:
+          - dn: エクト
+            contents: 自分たちに罪はない
+            activity: 取り調べでしたのと同じ話をする
+        - reaction:
+          - dn: ヴィックス
+            contents: 自分たちは襲われた
+            activity: あの宝玉は自分たちの物　自分たちは襲われた
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: 余所者の証言は信頼できない
+
+    - beat:
+      descriptor: キスカのフォロー
+      unexpectedness: アルティバの有名人キスカも信用されず強引な判断をされる
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 貴族と平民の差
+          receive: 貴族と平民の証言が平等な都市
+
+      performance:
+        - action:
+          - dn: キスカ
+            contents: この地で認められている自分の証言なら大丈夫
+            activity: 名乗り、エクトの証言を擁護する
+        - reaction:
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: 平民は貴族ほど信頼できない
+
+    - beat:
+      descriptor: フェリのフォロー
+      unexpectedness: 貴族と平民の証言が平等な都市
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 貴族の優位性
+          receive: 上位貴族の登場
+
+      performance:
+        - action:
+          - dn: フェリ
+            contents: 貴族も平民も平等に裁かれるべき
+            activity: 交易都市アーマテウの都市法では、貴族の証言も平民の証言も平等の価値がありました
+        - reaction:
+          - dn: 子爵
+            contents: 貴族に有利な判断
+            activity: ここはアルティバだ　アルティバに都市法などない　
+
+    - beat:
+      descriptor: エクトの屈辱
+      unexpectedness: none
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 貴族の証言だけで決まっている
+          receive: 上位貴族の登場
+
+      performance:
+        - action:
+          - dn: エクト
+            contents: 裁判の意味なんてないじゃないか
+            activity: 貴族の証言だけが取り上げられる　僕たちはどうしてここにいるんですか
+        - reaction:
+          - dn: ディックス
+            contents: 負けるためにだ
+            activity: 判決を受けるために決まっているだろう　厳正な判決を、な
+          - dn: 子爵
+            contents: 貴族に逆らうのは許さない
+            activity: 私の公正な裁きに異議を申し立てるとは不届き
+
+    - narration:
+      descriptor: インサイティング・インシデント
+      unexpectedness: 上位貴族の登場
+      turning point: false
+      foreshadowing:
+        - item:
+          send: 上位貴族の登場
+          receive: キスカに視線をやる
+
+      contents:
+        エクトたち　頃合いだな
+        召使い　走り込んで子爵に耳打ち
+        子爵　入っていただけ
+        伯爵　中肉中背で壮健な面差し、力が漲り、しかし30を過ぎたほどとは思えない老獪な眼差しをしている
+        伯爵　隣国の伯爵　ロンディーフ伯爵フェルダー・ゼルフ・ハイフレック
+
+    - beat:
+      descriptor: 伯爵の証言による逆転
+      unexpectedness: キスカに視線をやりその姿を拝受するように小さく礼をした
+      turning point: true
+      foreshadowing:
+        - item:
+          send: 子爵の手のひら返し　ヴィックスはそんなはずでは、と子爵を見る
+          receive: ヴィックスの凶行
+
+      performance:
+        - action:
+          - dn: 伯爵
+            contents: エクトの証言は事実だ
+            activity: エクトの証言をなぞる
+        - reaction:
+          - dn: 子爵
+            contents: 上位貴族には逆らえない
+            activity: 伯爵が仰るならそれ以上のものはない
+
+    - beat:
+      descriptor: 決着
+      unexpectedness: ヴィックスの凶行
+      turning point: false
+      foreshadowing:
+        - item:
+          send: none
+          receive: none
+
+      performance:
+        - action:
+          - dn: ヴィックス
+            contents: 思いどおりいかないのは許せない
+            activity: 伯爵に襲いかかる「〈ガネフ・デルクロード〉！」
+        - reaction:
+          - dn: エクト
+            contents: 無法は許さない
+            activity: ヴィックスを沈める
+
