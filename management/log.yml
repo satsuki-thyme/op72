@@ -9,7 +9,7 @@
   case: 
   title: 
   elapsed days: 
-  location: アルティバの街 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
   time: 
   contact: 
   first contact: 
@@ -24,7 +24,7 @@
   case: 
   title: 
   elapsed days: 
-  location: アルティバの街 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
   time: 
   contact: 
   first contact: 
@@ -39,7 +39,7 @@
   case: 4
   title: 許されざる者
   elapsed days: 1
-  location: アルティバの街 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
   time: 午前
   contact: ディックス一党 / ディックス
   first contact: ディックス一党 / ディックス
@@ -54,7 +54,7 @@
   case: 3(1/1)
   title: 見えない敵の強襲
   elapsed days: 0
-  location: アルティバの街 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
   time: 晩～夜
   contact: 魔法の塔 / 使い魔
   first contact: 魔法の塔 / 使い魔
@@ -69,7 +69,7 @@
   case: 2(4/4)
   title: 少女たちの事情
   elapsed days: 0
-  location: アルティバの街の近くの森からアルティバの街への道 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森からアルティバの街への道 . アルティノール領 . ロットエーク王国
   time: 午後
   contact: 
   first contact: 
@@ -84,7 +84,7 @@
   case: 2(3/4)
   title: 舞い踊る武闘
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 昼
   contact: 男爵ロア一党 / 男爵ロア
   first contact: フェリ, 男爵ロア一党 / 男爵ロア
@@ -99,7 +99,7 @@
   case: 2(2/4)
   title: 放つ災禍の影
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 昼
   contact: 男爵ロア一党 / 盗賊, 屍蝋の闇炎 / ゼヴァロ
   first contact: 屍蝋の闇炎 / ゼヴァロ
@@ -114,7 +114,7 @@
   case: 2(1/4)
   title: 盗賊城への招待状
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 午前中
   contact: 男爵ロア一党 / 盗賊
   first contact: 男爵ロア一党 / 盗賊
@@ -129,7 +129,7 @@
   case: 1(2/2)
   title: 決闘への乱入者
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 午前中
   contact: 
   first contact: 
@@ -144,7 +144,7 @@
   case: 1(1/2)
   title: 憤れる森の美少女
   elapsed days: 0
-  location: アルティバの街の近くの森 . アルティノール領 . ロートエリナ王国
+  location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 午前中
   contact: 
   first contact: キスカ
