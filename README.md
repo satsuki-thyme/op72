@@ -74,3 +74,4 @@
 - thinking-notes/thi-005.md: 屍蝋の闇炎
 - thinking-notes/thi-006.md: 淵神
 - thinking-notes/thi-007.md: 裁判
+- thinking-notes/thi-008.md: 牢の面白み
