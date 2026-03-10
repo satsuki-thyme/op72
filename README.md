@@ -1,20 +1,24 @@
 # 最強が楽しむ幻想世界の冒険
 
+- グランド・オメガ
+- アーク・ゼロス
+- エクト・ザ・
+
 ## 文書
 
 ### 第1章
 
 #### 本文
 
-- text/01/001.txt: 憤れる森の美少女
-- text/01/002.txt: 決闘への乱入者
-- text/01/003.txt: 盗賊城への招待状
-- text/01/004.txt: 放つ災禍の影
-- text/01/005.txt: 舞い踊る武闘
-- text/01/006.txt: 少女たちの事情
-- text/01/007.txt: 見えない敵の強襲
-- text/01/008.txt: 許されざる者
-- text/01/009.txt: タイトル未定
+- text/01/tex-001.txt: 憤れる森の美少女
+- text/01/tex-002.txt: 決闘への乱入者
+- text/01/tex-003.txt: 盗賊城への招待状
+- text/01/tex-004.txt: 放つ災禍の影
+- text/01/tex-005.txt: 舞い踊る武闘
+- text/01/tex-006.txt: 少女たちの事情
+- text/01/tex-007.txt: 見えない敵の強襲
+- text/01/tex-008.txt: 許されざる者
+- text/01/tex-009.txt: タイトル未定
 
 #### 概要プロット
 
@@ -50,7 +54,6 @@
 
 - settings/background.yml: 背景設定
 - settings/characters.yml: キャラクター設定
-- settings/diff.yml:       共通設定との差分
 - settings/place.yml:      場所設定
 - settings/things.yml:     物事設定
 
