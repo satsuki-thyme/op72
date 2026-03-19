@@ -3,15 +3,16 @@
 - scene: 1
   descriptor: 裁判の冒頭
   gist:
-    大広間の描写
-    エクトたち、ヴィックスたち、伯爵の描写
+    - gis-item: 大広間の描写
+    - gis-item: エクトたち、ヴィックスたち、伯爵の描写
 
   reason for scene:
     !
 
   interest:
-    厳粛な雰囲気
-    ヴィックスの意外な正体
+    - int-item: 厳粛な雰囲気
+    - int-item: エクトたちのピンチ
+    - int-item: ヴィックスの意外な正体
 
   matters of desire:
     - dn: エクトたち
@@ -62,16 +63,16 @@
 - scene: 2
   descriptor: 回想 - 牢
   gist:
-    キスカ、エクトの謝罪
-    貴族の証人がいれば
+    - gis-item: キスカ、エクトの謝罪
+    - gis-item: 貴族の証人がいれば
 
   reason for scene:
     キスカ、エクトによる謝罪の必要性
     侯爵が証人として現れる伏線
 
   interest:
-    顔を突き合わせて相談する秘密感
-    いつでも逃げられるというエクトの身も蓋もないところ
+    - int-item: 顔を突き合わせて相談する秘密感
+    - int-item: いつでも逃げられるというエクトの身も蓋もないところ
 
   matters of desire:
     - dn: エクトたち
@@ -157,16 +158,16 @@
 - scene: 3
   descriptor: 裁判の本番
   gist:
-    裁判
-    劣勢
-    賓客の登場
+    - gis-item: 裁判
+    - gis-item: 劣勢
+    - gis-item: 賓客の登場
 
   reason for scene:
     本編であり見せ所
 
   interest:
-    裁判のやりとり
-    逆転無罪
+    - int-item: 裁判のやりとり
+    - int-item: 逆転無罪
 
   matters of desire:
     - dn: エクトたち
