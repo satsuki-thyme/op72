@@ -23,12 +23,9 @@
 #### 概要プロット
 
 - plot/01/outline/character-base.yml: キャラクターの基礎設定
-
-#### 管理
-
-- management/log.yml:       ログ
-- management/plan.md:       計画
-- management/precursor.yml: 前駆体
+- plot/01/outline/log.yml:            ログ
+- plot/01/outline/plan.md:            計画
+- plot/01/outline/precursor.yml:      前駆体
 
 #### 基礎計画
 
@@ -65,8 +62,7 @@
 
 ### etc.
 
-- etc/management.md: 作業管理
-- etc/tmp.txt:       一時ファイル
+- etc/MGMT.md: 作業管理
 
 ### 思考ノート
 
