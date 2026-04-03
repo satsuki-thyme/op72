@@ -1,0 +1,135 @@
+# エピソードプロット 第1章 第10話
+
+- scene: 1
+  descriptor: ディックスの処理と裁判の終了
+  gist:
+    - gis-item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
+
+  reason for scene:
+    結審
+
+  interest:
+    - int-item: なぜか余裕のフェルダー
+    - int-item: エクトが一瞬で沈める
+
+  matters of desire:
+    - dn: ディックス
+      desire: 裁判の行方を取り戻したい
+      conflict:
+        - dn: エクト
+          desire: 無法は許さない
+      risk: 犯罪者になる
+      results: 沈められる
+
+  value change:
+    - dn: エクト
+      value: 公正・平穏な裁判
+      change: .--- / .+++
+
+  unpredictability of the end:
+    これからどうするのか
+
+  scene elements:
+
+
+- scene: 2
+  descriptor: キスカが侯爵フェルダーに向かう
+  gist:
+    - gis-item: キスカが言いにくそうにして知り合いに会うと言う
+    - gis-item: エルミナが宝玉を見せたいから一緒に待つと言う
+    - gis-item: キスカがメイドを買収して侯爵フェルダーに会いにいく
+
+  reason for scene:
+    接続部
+
+  interest:
+    - int-item: キスカの様子が変
+    - int-item: キスカの世慣れた買収の様子
+
+  matters of desire:
+    - dn: キスカ
+      desire: エクトたちにバレずに侯爵フェルダーに会いたい
+      conflict:
+        - dn: エクトたち
+          desire: キスカの不審さへの困惑
+        - dn: メイド
+          desire: 平民を貴人に会わせるなんてとんでもない
+      risk: エクトたちに身の上がバレたり、侯爵フェルダーの真意を知ることができない
+      results: 上手くいく
+
+  value change:
+    - dn: キスカ
+      value: 作戦の成功
+      change: --. / .++
+
+  unpredictability of the end:
+    キスカはなぜ侯爵フェルダーに会いたいのか
+
+  scene elements:
+
+
+- scene: 3
+  descriptor: キスカと侯爵フェルダー
+  gist:
+    - gis-item: キスカが侯爵フェルダーに、報告するのか尋ねる
+    - gis-item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
+    - gis-item: 
+    - gis-item: 
+    - gis-item: 
+
+  reason for scene:
+    !
+
+  interest:
+    - int-item: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      conflict:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
+  value change:
+    - dn: 
+      value: 
+      change: .  .
+
+  unpredictability of the end:
+    !
+
+  scene elements:
+
+
+- scene: 
+  descriptor: 
+  gist:
+    - gis-item: 
+
+  reason for scene:
+    !
+
+  interest:
+    - int-item: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      conflict:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
+  value change:
+    - dn: 
+      value: 
+      change: .  .
+
+  unpredictability of the end:
+    !
+
+  scene elements:
+

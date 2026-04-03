@@ -5,8 +5,23 @@
 #  - 社会が右辺に所属 . 左辺が所属する社会
 #  - 右辺を包含する社会 / 個人が左辺に所属
 
-- episode: 10
+- episode: 11
   case: 
+  title: 
+  elapsed days: 
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
+  time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
+  battle: 
+  erros: 
+  summary: 
+
+- episode: 10
+  case: 4(3/)
   title: 
   elapsed days: 
   location: アルティバの街 . アルティノール領 . ロットエーク王国
@@ -21,29 +36,29 @@
   summary: 
 
 - episode: 9
-  case: 
-  title: 
-  elapsed days: 
+  case: 4(2/)
+  title: 判決の行方を握るもの
+  elapsed days: 2
   location: アルティバの街 . アルティノール領 . ロットエーク王国
-  time: 
-  contact: 
-  first contact: 
-  first appearance: 
-  companion: 
+  time: 午前中
+  contact: エルミナ, ディックス, 伯爵ロディーノ, 侯爵フェルダー
+  first contact: 伯爵ロディーノ, 侯爵フェルダー
+  first appearance: 伯爵ロディーノ, 侯爵フェルダー（正体明白の人物として）
+  companion: キスカ, フェリ
   monster: 
-  battle: 
-  erros: 
-  summary: 
+  battle: false
+  erros: false
+  summary: エクトたちが貴族の息子ディックスとの紛争で裁判にかけられるが、侯爵の証言によりエクト側の無罪が認められた。
 
 - episode: 8
-  case: 4
+  case: 4(1/)
   title: 許されざる者
   elapsed days: 1
   location: アルティバの街 . アルティノール領 . ロットエーク王国
   time: 午前
-  contact: ディックス一党 / ディックス
-  first contact: ディックス一党 / ディックス
-  first appearance: ディックス一党 / ディックス
+  contact: エルミナ, ディックス
+  first contact: エルミナ, ディックス
+  first appearance: エルミナ, ディックス, 侯爵フェルダー（正体不明の人物として）
   companion: キスカ, フェリ
   monster: 
   battle: true
@@ -86,8 +101,8 @@
   elapsed days: 0
   location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 昼
-  contact: 男爵ロア一党 / 男爵ロア
-  first contact: フェリ, 男爵ロア一党 / 男爵ロア
+  contact: 男爵ロア
+  first contact: フェリ, 男爵ロア
   first appearance: 
   companion: 
   monster: 
@@ -103,7 +118,7 @@
   time: 昼
   contact: 男爵ロア一党 / 盗賊, 屍蝋の闇炎 / ゼヴァロ
   first contact: 屍蝋の闇炎 / ゼヴァロ
-  first appearance: フェリ, 男爵ロア一党 / 男爵ロア
+  first appearance: フェリ, 男爵ロア
   companion: 
   monster: 使役 / ゴブリン, トロール . 使役
   battle: true
