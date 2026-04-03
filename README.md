@@ -20,32 +20,34 @@
 - text/01/tex-008.txt: 許されざる者
 - text/01/tex-009.txt: 判決の行方を握るもの
 
-#### 概要プロット
+#### チャプタープロット
 
-- plot/01/outline/character-base.yml: キャラクターの基礎設定
-- plot/01/outline/log.yml:            ログ
-- plot/01/outline/plan.md:            計画
-- plot/01/outline/precursor.yml:      前駆体
+- plot/01/chapter/character-base.yml: キャラクターの基礎設定
+- plot/01/chapter/log.yml:            ログ
+- plot/01/chapter/plan.md:            計画
+- plot/01/chapter/precursor.yml:      前駆体
 
 #### 基礎計画
 
-- plot/01/build/bui-001.md: 基礎計画 第1章 第1話
-- plot/01/build/bui-003.md: 基礎計画 第1章 第3話
-- plot/01/build/bui-005.md: 基礎計画 第1章 第5話
-- plot/01/build/bui-006.md: 基礎計画 第1章 第6話
-- plot/01/build/bui-007.md: 基礎計画 第1章 第7話
-- plot/01/build/bui-008.md: 基礎計画 第1章 第8話
-- plot/01/build/bui-009.md: 基礎計画 第1章 第9話
+- plot/01/build/eBu-001.md: 基礎計画 第1章 第1話
+- plot/01/build/eBu-003.md: 基礎計画 第1章 第3話
+- plot/01/build/eBu-005.md: 基礎計画 第1章 第5話
+- plot/01/build/eBu-006.md: 基礎計画 第1章 第6話
+- plot/01/build/eBu-007.md: 基礎計画 第1章 第7話
+- plot/01/build/eBu-008.md: 基礎計画 第1章 第8話
+- plot/01/build/eBu-009.md: 基礎計画 第1章 第9話
+- plot/01/build/eBu-010.md: 基礎計画 第1章 第10話
 
-#### 詳細プロット
+#### エピソードプロット
 
-- plot/01/details/det-001.md:  詳細プロット 第1章 第1話
-- plot/01/details/det-003.md:  詳細プロット 第1章 第3話
-- plot/01/details/det-005.md:  詳細プロット 第1章 第5話
-- plot/01/details/det-006.yml: 詳細プロット 第1章 第6話
-- plot/01/details/det-007.yml: 詳細プロット 第1章 第7話
-- plot/01/details/det-008.yml: 詳細プロット 第1章 第8話
-- plot/01/details/det-009.yml: 詳細プロット 第1章 第9話
+- plot/01/episode/ePl-001.md:  エピソードプロット 第1章 第1話
+- plot/01/episode/ePl-003.md:  エピソードプロット 第1章 第3話
+- plot/01/episode/ePl-005.md:  エピソードプロット 第1章 第5話
+- plot/01/episode/ePl-006.yml: エピソードプロット 第1章 第6話
+- plot/01/episode/ePl-007.yml: エピソードプロット 第1章 第7話
+- plot/01/episode/ePl-008.yml: エピソードプロット 第1章 第8話
+- plot/01/episode/ePl-009.yml: エピソードプロット 第1章 第9話
+- plot/01/episode/ePl-010.yml: エピソードプロット 第1章 第10話
 
 ### 設定
 
