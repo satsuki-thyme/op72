@@ -5,11 +5,11 @@
   gist:
     - gis-item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
 
-  reason for scene:
-    結審
+  meaning of the scene:
+    前話フックの回収
 
   interest:
-    - int-item: なぜか余裕のフェルダー
+    - int-item: なぜか余裕のフェルダー, 助けてもらえると信じていたよ
     - int-item: エクトが一瞬で沈める
 
   matters of desire:
@@ -31,6 +31,41 @@
 
   scene elements:
 
+    - beat:
+      descriptor: ディックス討伐
+      interest: ディックスを倒すところ
+      turning point: false
+      relationship:
+        - item:
+          send: 侯爵フェルダーが防御しようとしない
+          receive: 助けてもらえると信じていたよ
+
+      performance:
+        - pre-action:
+          - dn: ディックス
+            tone: 
+            contents: 
+            activity: 
+        - action:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            !
+        - reaction:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+        - post-reaction:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+
+
 
 - scene: 2
   descriptor: キスカが侯爵フェルダーに向かう
@@ -39,7 +74,7 @@
     - gis-item: エルミナが宝玉を見せたいから一緒に待つと言う
     - gis-item: キスカがメイドを買収して侯爵フェルダーに会いにいく
 
-  reason for scene:
+  meaning of the scene:
     接続部
 
   interest:
@@ -71,65 +106,69 @@
 - scene: 3
   descriptor: キスカと侯爵フェルダー
   gist:
-    - gis-item: キスカが侯爵フェルダーに、報告するのか尋ねる
+    - gis-item: キスカが侯爵フェルダーに、お父様に報告するのか尋ねる
     - gis-item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
-    - gis-item: 
-    - gis-item: 
-    - gis-item: 
 
-  reason for scene:
-    !
+  meaning of the scene:
+    メイン 1 = キスカの事情
 
   interest:
-    - int-item: 
+    - int-item: キスカの秘密
+    - int-item: 侯爵フェルダーの軽妙さ
+    - int-item: 謎の解明
+    - int-item: 侯爵フェルダーがエクトに何か言われたか尋ねる
 
   matters of desire:
-    - dn: 
-      desire: 
+    - dn: キスカ
+      desire: 侯爵フェルダーに報告させたくない
       conflict:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+        - dn: 侯爵フェルダー
+          desire: 不明
+      risk: 父王にバレる
+      results: バレずに済む
 
   value change:
-    - dn: 
-      value: 
-      change: .  .
+    - dn: キスカ
+      value: 今の生活の保障
+      change: .--- / .++++
 
   unpredictability of the end:
-    !
+    エクトは何か隠しているか
 
   scene elements:
 
 
-- scene: 
-  descriptor: 
+- scene: 4
+  descriptor: エルミナの気持ち
   gist:
-    - gis-item: 
+    - gis-item: エルミナがエクトに、キスカの恋人か尋ねる
+    - gis-item: エルミナがエクトに、キスカは男性に興味がなかったけどエクトに対しては違うと言う
+    - gis-item: エルミナがエクトに、キスカを大切にしてと言う
+    - gis-item: エクトはフェリの手首を握っている
+    - gis-item: キスカがやってくる
 
-  reason for scene:
-    !
+  meaning of the scene:
+    メイン 2, エクトとキスカの関係
 
   interest:
-    - int-item: 
+    - int-item: こいのドキドキ
 
   matters of desire:
-    - dn: 
-      desire: 
+    - dn: エルミナ
+      desire: キスカを大切にしてほしいと伝えたい
       conflict:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+        - dn: エクト
+          desire: 不明
+      risk: キスカの不幸
+      results: 成功
 
   value change:
-    - dn: 
-      value: 
-      change: .  .
+    - dn: エクト
+      value: キスカに思いを伝えないと
+      change: . / .+++++
 
   unpredictability of the end:
-    !
+    キスカは何を話すのか
 
   scene elements:
 
