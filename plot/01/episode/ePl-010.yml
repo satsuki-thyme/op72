@@ -6,7 +6,7 @@
     - gis-item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
 
   meaning of the scene:
-    前話フックの回収
+    - 前話フックの回収
 
   interest:
     - int-item: なぜか余裕のフェルダー, 助けてもらえると信じていたよ
@@ -27,7 +27,7 @@
       change: .--- / .+++
 
   unpredictability of the end:
-    これからどうするのか
+    - これからどうするのか
 
   scene elements:
 
@@ -43,27 +43,34 @@
       performance:
         - pre-action:
           - dn: ディックス
-            tone: 
-            contents: 
-            activity: 
+            tone: 狂気
+            contents: ぶち壊してやる
+            activity: 侯爵フェルダーに襲い掛かる
         - action:
-          - dn: 
-            tone: 
-            contents: 
-            activity: 
-            expectation: 
-        - narration in beat:
-            !
+          - dn: 侯爵フェルダー
+            tone: 冷静
+            contents: 言い伝えが真実ならエクト少年が助けてくれるはず
+            activity: 身動ぎもしない
+            expectation: 助かる
+          - dn: エクト
+            tone: 冷静
+            contents: 無法は許さない
+            activity: ディックスに攻撃する
+            expectation: 沈めたい
         - reaction:
-          - dn: 
-            tone: 
-            contents: 
-            activity: 
+          - dn: ディックス
+            tone: 悶絶
+            contents: 悶絶
+            activity: 沈む
         - post-reaction:
-          - dn: 
-            tone: 
-            contents: 
-            activity: 
+          - dn: 侯爵フェルダー
+            tone: 満足
+            contents: 満足
+            activity: 助けてくれると信じていたよ
+        - narration in beat:
+            - 結審
+            - エクトたちの縄と敗者の首輪が即座に解除される
+            - 貴族たちは退出し、傍聴者が帰され、最後にエクトたちが解放された
 
 
 
@@ -75,7 +82,7 @@
     - gis-item: キスカがメイドを買収して侯爵フェルダーに会いにいく
 
   meaning of the scene:
-    接続部
+    - 接続部
 
   interest:
     - int-item: キスカの様子が変
@@ -98,10 +105,80 @@
       change: --. / .++
 
   unpredictability of the end:
-    キスカはなぜ侯爵フェルダーに会いたいのか
+    - キスカはなぜ侯爵フェルダーに会いたいのか
 
   scene elements:
 
+    - beat:
+      descriptor: 不審なキスカ
+      interest: 不審なキスカ
+      turning point: false
+      relationship:
+        - item:
+          send: 不審なキスカ
+          receive: 実は王女
+
+      performance:
+        - action:
+          - dn: キスカ
+            tone: 不審
+            contents: みんなにバレないよう侯爵フェルダーに会いにいく
+            activity: 実家の知り合いに会ってくる
+            expectation: 不信を招きたくない
+        - reaction:
+          - dn: エクト
+            tone: 何気ない
+            contents: 城に知り合いがいるなんて凄い
+            activity: さすがだと驚く
+          - dn: フェリ
+            tone: 冷静
+            contents: 分析
+            activity: キスカの名は聞き及んでいたけど城に伝があるなんて余程ですね
+
+    - beat:
+      descriptor: 言い繕うキスカ
+      interest: 垣間見える嘘
+      turning point: false
+      relationship:
+        - item:
+          send: 大したことない
+          receive: 相手は侯爵
+
+      performance:
+        - action:
+          - dn: キスカ
+            tone: 不審
+            contents: 誤魔化す
+            activity: 相手はそんなに偉い人じゃない
+            expectation: 相手が侯爵だとバレませんように
+        - reaction:
+          - dn: エクトとフェリ
+            tone: 和やか
+            contents: 謙遜しているんだな
+            activity: エクトとフェリは分かってますよ、という表情で了解する
+
+    - narration:
+      descriptor: 後の予定調整
+      relationship:
+        - item:
+          send: エクトは改まって伝えたいことがある
+          receive: （エルミナとの、恋の話し合いを受けて）戻ってきたキスカ、伝えていことって？
+
+      contents:
+        - 城の門前広場には中央に古代の石柱があり、そこで待ち合わせすることに
+        - エルミナが宝玉を見せたいから自分も待たせてもらいたい
+        - 貴族の厄介さを知ったエクトが貴族に関わるとき助けてほしいとキスカとフェリに伝えたい
+
+    - narration:
+      descriptor: 世慣れしたキスカ
+      relationship:
+        - item:
+          send: /-
+          receive: /-
+
+      contents:
+        - 通り掛かったメイドに銀貨を掴ませて侯爵フェルダーと面会の機会を作った
+        - 侯爵フェルダーはこのことを予想していたので話は簡単だった
 
 - scene: 3
   descriptor: キスカと侯爵フェルダー
@@ -110,7 +187,7 @@
     - gis-item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
 
   meaning of the scene:
-    メイン 1 = キスカの事情
+    - メイン 1 = キスカの事情
 
   interest:
     - int-item: キスカの秘密
@@ -133,9 +210,43 @@
       change: .--- / .++++
 
   unpredictability of the end:
-    エクトは何か隠しているか
+    - エクトは何か隠しているか
 
   scene elements:
+
+    - beat:
+      descriptor: 
+      interest: 
+      turning point: true/false
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+        - action:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
+        - post-reaction:
+          - dn: 
+            tone: 
+            contents: 
+            activity: 
 
 
 - scene: 4
@@ -148,7 +259,7 @@
     - gis-item: キスカがやってくる
 
   meaning of the scene:
-    メイン 2, エクトとキスカの関係
+    - メイン 2, エクトとキスカの関係
 
   interest:
     - int-item: こいのドキドキ
@@ -168,7 +279,7 @@
       change: . / .+++++
 
   unpredictability of the end:
-    キスカは何を話すのか
+    - キスカは何を話すのか
 
   scene elements:
 
