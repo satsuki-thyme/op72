@@ -1,7 +1,7 @@
 # エピソードプロット 第1章 第10話
 
 - scene: 1
-  descriptor: ディックスの処理と裁判の終了
+  sn-descriptor: ディックスの処理と裁判の終了
   gist:
     - gis-item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
 
@@ -13,16 +13,16 @@
     - int-item: エクトが一瞬で沈める
 
   matters of desire:
-    - dn: ディックス
+    - ds-dn: ディックス
       desire: 裁判の行方を取り戻したい
       conflict:
-        - dn: エクト
+        - ds-dn: エクト
           desire: 無法は許さない
       risk: 犯罪者になる
       results: 沈められる
 
   value change:
-    - dn: エクト
+    - vl-dn: エクト
       value: 公正・平穏な裁判
       change: .--- / .+++
 
@@ -32,8 +32,7 @@
   scene elements:
 
     - beat:
-      descriptor: ディックス討伐
-      interest: ディックスを倒すところ
+      bt-descriptor: ディックス討伐
       turning point: false
       relationship:
         - item:
@@ -42,30 +41,30 @@
 
       performance:
         - pre-action:
-          - dn: ディックス
+          - pf-dn: ディックス
             tone: 狂気
-            contents: ぶち壊してやる
+            pf-contents: ぶち壊してやる
             activity: 侯爵フェルダーに襲い掛かる
         - action:
-          - dn: 侯爵フェルダー
+          - pf-dn: 侯爵フェルダー
             tone: 冷静
-            contents: 言い伝えが真実ならエクト少年が助けてくれるはず
+            pf-contents: 言い伝えが真実ならエクト少年が助けてくれるはず
             activity: 身動ぎもしない
             expectation: 助かる
-          - dn: エクト
+          - pf-dn: エクト
             tone: 冷静
-            contents: 無法は許さない
+            pf-contents: 無法は許さない
             activity: ディックスに攻撃する
             expectation: 沈めたい
         - reaction:
-          - dn: ディックス
+          - pf-dn: ディックス
             tone: 悶絶
-            contents: 悶絶
+            pf-contents: 悶絶
             activity: 沈む
         - post-reaction:
-          - dn: 侯爵フェルダー
+          - pf-dn: 侯爵フェルダー
             tone: 満足
-            contents: 満足
+            pf-contents: 満足
             activity: 助けてくれると信じていたよ
         - narration in beat:
             - 結審
@@ -75,7 +74,7 @@
 
 
 - scene: 2
-  descriptor: キスカが侯爵フェルダーに向かう
+  sn-descriptor: キスカが侯爵フェルダーに向かう
   gist:
     - gis-item: キスカが言いにくそうにして知り合いに会うと言う
     - gis-item: エルミナが宝玉を見せたいから一緒に待つと言う
@@ -89,18 +88,18 @@
     - int-item: キスカの世慣れた買収の様子
 
   matters of desire:
-    - dn: キスカ
+    - ds-dn: キスカ
       desire: エクトたちにバレずに侯爵フェルダーに会いたい
       conflict:
-        - dn: エクトたち
+        - ds-dn: エクトたち
           desire: キスカの不審さへの困惑
-        - dn: メイド
+        - ds-dn: メイド
           desire: 平民を貴人に会わせるなんてとんでもない
       risk: エクトたちに身の上がバレたり、侯爵フェルダーの真意を知ることができない
       results: 上手くいく
 
   value change:
-    - dn: キスカ
+    - vl-dn: キスカ
       value: 作戦の成功
       change: --. / .++
 
@@ -110,8 +109,7 @@
   scene elements:
 
     - beat:
-      descriptor: 不審なキスカ
-      interest: 不審なキスカ
+      bt-descriptor: 不審なキスカ
       turning point: false
       relationship:
         - item:
@@ -120,24 +118,23 @@
 
       performance:
         - action:
-          - dn: キスカ
+          - pf-dn: キスカ
             tone: 不審
-            contents: みんなにバレないよう侯爵フェルダーに会いにいく
+            pf-contents: みんなにバレないよう侯爵フェルダーに会いにいく
             activity: 実家の知り合いに会ってくる
             expectation: 不信を招きたくない
         - reaction:
-          - dn: エクト
+          - pf-dn: エクト
             tone: 何気ない
-            contents: 城に知り合いがいるなんて凄い
+            pf-contents: 城に知り合いがいるなんて凄い
             activity: さすがだと驚く
-          - dn: フェリ
+          - pf-dn: フェリ
             tone: 冷静
-            contents: 分析
+            pf-contents: 分析
             activity: キスカの名は聞き及んでいたけど城に伝があるなんて余程ですね
 
     - beat:
-      descriptor: 言い繕うキスカ
-      interest: 垣間見える嘘
+      bt-descriptor: 言い繕うキスカ
       turning point: false
       relationship:
         - item:
@@ -146,42 +143,43 @@
 
       performance:
         - action:
-          - dn: キスカ
+          - pf-dn: キスカ
             tone: 不審
-            contents: 誤魔化す
+            pf-contents: 誤魔化す
             activity: 相手はそんなに偉い人じゃない
             expectation: 相手が侯爵だとバレませんように
         - reaction:
-          - dn: エクトとフェリ
+          - pf-dn: エクトとフェリ
             tone: 和やか
-            contents: 謙遜しているんだな
+            pf-contents: 謙遜しているんだな
             activity: エクトとフェリは分かってますよ、という表情で了解する
 
     - narration:
-      descriptor: 後の予定調整
+      nr-descriptor: 後の予定調整
       relationship:
         - item:
           send: エクトは改まって伝えたいことがある
           receive: （エルミナとの、恋の話し合いを受けて）戻ってきたキスカ、伝えていことって？
 
-      contents:
+      nr-contents:
         - 城の門前広場には中央に古代の石柱があり、そこで待ち合わせすることに
         - エルミナが宝玉を見せたいから自分も待たせてもらいたい
         - 貴族の厄介さを知ったエクトが貴族に関わるとき助けてほしいとキスカとフェリに伝えたい
 
     - narration:
-      descriptor: 世慣れしたキスカ
+      nr-descriptor: 世慣れしたキスカ
       relationship:
         - item:
           send: /-
           receive: /-
 
-      contents:
-        - 通り掛かったメイドに銀貨を掴ませて侯爵フェルダーと面会の機会を作った
+      nr-contents:
+        - 通り掛かったメイドに銀貨を5枚掴ませて侯爵フェルダーと面会の機会を作った
+        - 侯爵フェルダーの部屋の護衛に渡す銀貨もある
         - 侯爵フェルダーはこのことを予想していたので話は簡単だった
 
 - scene: 3
-  descriptor: キスカと侯爵フェルダー
+  sn-descriptor: キスカと侯爵フェルダー
   gist:
     - gis-item: キスカが侯爵フェルダーに、お父様に報告するのか尋ねる
     - gis-item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
@@ -196,16 +194,16 @@
     - int-item: 侯爵フェルダーがエクトに何か言われたか尋ねる
 
   matters of desire:
-    - dn: キスカ
+    - ds-dn: キスカ
       desire: 侯爵フェルダーに報告させたくない
       conflict:
-        - dn: 侯爵フェルダー
+        - ds-dn: 侯爵フェルダー
           desire: 不明
       risk: 父王にバレる
       results: バレずに済む
 
   value change:
-    - dn: キスカ
+    - vl-dn: キスカ
       value: 今の生活の保障
       change: .--- / .++++
 
@@ -215,9 +213,7 @@
   scene elements:
 
     - beat:
-      descriptor: 
-      interest: 
-      turning point: true/false
+      bt-descriptor: キスカが侯爵フェルダーの部屋に入るなり詰問する
       relationship:
         - item:
           send: 
@@ -225,32 +221,256 @@
 
       performance:
         - pre-action:
-          - dn: 
+          - pf-dn: 
             tone: 
-            contents: 
+            pf-contents: 
             activity: 
         - action:
-          - dn: 
+          - pf-dn: 
             tone: 
-            contents: 
+            pf-contents: 
             activity: 
             expectation: 
         - narration in beat:
             - 
         - reaction:
-          - dn: 
+          - pf-dn: 
             tone: 
-            contents: 
+            pf-contents: 
             activity: 
         - post-reaction:
-          - dn: 
+          - pf-dn: 
             tone: 
-            contents: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: キスカが侯爵フェルダーの思惑を探る
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: キスカが侯爵フェルダーの思惑を訝しむ
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: 侯爵フェルダーがエクトから何か重大なことを聞かされていないか尋ねる
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: キスカが侯爵フェルダーに何を知っているのか尋ねる
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: 侯爵フェルダーが淵神の恩寵について話す
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: 侯爵フェルダーが屍蝋の闇炎について話す
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: キスカはそんなことをなぜ知っているのか尋ねるが、キスカ嬢はお帰りだ
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
             activity: 
 
 
 - scene: 4
-  descriptor: エルミナの気持ち
+  sn-descriptor: エルミナの気持ち
   gist:
     - gis-item: エルミナがエクトに、キスカの恋人か尋ねる
     - gis-item: エルミナがエクトに、キスカは男性に興味がなかったけどエクトに対しては違うと言う
@@ -262,19 +482,19 @@
     - メイン 2, エクトとキスカの関係
 
   interest:
-    - int-item: こいのドキドキ
+    - int-item: 恋のドキドキ
 
   matters of desire:
-    - dn: エルミナ
+    - ds-dn: エルミナ
       desire: キスカを大切にしてほしいと伝えたい
       conflict:
-        - dn: エクト
+        - ds-dn: エクト
           desire: 不明
       risk: キスカの不幸
       results: 成功
 
   value change:
-    - dn: エクト
+    - vl-dn: エクト
       value: キスカに思いを伝えないと
       change: . / .+++++
 
@@ -282,4 +502,156 @@
     - キスカは何を話すのか
 
   scene elements:
+
+    - narration:
+      nr-descriptor: 広場の描写
+
+      relationship:
+        - item:
+          send: 
+          receive: # およその場合は次のシーン要素のreactionと同じになる
+
+      pf-contents:
+        - 
+
+    - beat:
+      bt-descriptor: エルミナがエクトにキスカとは恋人なのかと問う
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: エルミナが、キスカは男性に興味がなかったのにエクトへの態度は違うと言う
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: エルミナがエクトに、キスカを大切にしてと言う
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: エクトはフェリの手首を握っている
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
+    - beat:
+      bt-descriptor: キスカがやってくる
+
+      performance:
+        - pre-action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - action:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+            expectation: 
+        - narration in beat:
+            - 
+        - reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+        - post-reaction:
+          - pf-dn: 
+            tone: 
+            pf-contents: 
+            activity: 
+
 
