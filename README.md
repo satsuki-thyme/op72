@@ -19,6 +19,7 @@
 - text/01/tex-007.txt: 見えない敵の強襲
 - text/01/tex-008.txt: 許されざる者
 - text/01/tex-009.txt: 判決の行方を握るもの
+- text/01/tex-010.txt: タイトル未定
 
 #### チャプタープロット
 
@@ -48,6 +49,7 @@
 - plot/01/episode/ePl-008.yml: エピソードプロット 第1章 第8話
 - plot/01/episode/ePl-009.yml: エピソードプロット 第1章 第9話
 - plot/01/episode/ePl-010.yml: エピソードプロット 第1章 第10話
+- plot/01/episode/ePl-011.yml: エピソードプロット 第1章 第11話
 
 ### 設定
 

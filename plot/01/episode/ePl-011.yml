@@ -1,0 +1,20 @@
+        - beat:
+          bt-descriptor: 
+
+          performance:
+            - pre-action:
+              - pf-dn: エクト
+                tone: 穏やか
+                activity: どうだった
+            - action:
+              - pf-dn: キスカ
+                tone: 穏やか
+                activity: 話せてよかったわ　それでみんなに話しておかないといけないことがあるの　でもエクトも話があるんだよね
+            - reaction:
+              - pf-dn: エクト
+                tone: 緊張
+                activity: 
+            - post-reaction:
+              - pf-dn: 
+                tone: 
+                activity: 
