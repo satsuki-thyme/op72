@@ -1,470 +1,460 @@
 # エピソードプロット 第1章 第10話
 
 - scene: 1
-  sn-descriptor: ディックスの処理と裁判の終了
-  gist:
-    - gis-item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
+  scene descriptor: ディックスの処理と裁判の終了
+  scene gist:
+    - scene gist item: 侯爵フェルダーに襲い掛かるディックスをエクトが沈める
 
-  meaning of the scene: 前話フックの回収
+  scene meaning of the scene: 前話フックの回収
 
-  interest:
-    - int-item: なぜか余裕のフェルダー, 助けてもらえると信じていたよ
-    - int-item: エクトが一瞬で沈める
+  scene interest:
+    - scene interest item: なぜか余裕のフェルダー, 助けてもらえると信じていたよ
+    - scene interest item: エクトが一瞬で沈める
 
-  matters of desire:
-    - ds-dn: ディックス
-      desire: 裁判の行方を取り戻したい
-      conflict:
-        - ds-dn: エクト
-          desire: 無法は許さない
-      risk: 犯罪者になる
-      results: 沈められる
+  scene matters of desire:
+    - scene dn: ディックス
+      scene desire: 裁判の行方を取り戻したい
+      scene conflict:
+        - scene dn: エクト
+          scene desire: 無法は許さない
+      scene risk: 犯罪者になる
+      scene results: 沈められる
 
-  value change:
-    - vl-dn: エクト
-      value: 公正・平穏な裁判
-      change: .--- / .+++
+  scene value change:
+    - scene dn: エクト
+      scene value: 公正・平穏な裁判
+      scene change: .--- / .+++
 
-  unpredictability of the end: これからどうするのか
+  scene unpredictability of the end: これからどうするのか
 
   scene elements:
 
-    - beat group:
-      bg-descriptor: 
+    - beat group: 
 
-      bg-contents:
+      beat contents:
 
         - beat:
-          bt-descriptor: ディックス討伐
+          beat descriptor: ディックス討伐
 
-          performance:
-            - pre-action:
-              - pf-dn: ディックス
-                tone: 狂気
-                activity: 侯爵フェルダーに襲い掛かる
+          beat performance:
+            - beat pre-action:
+              - beat dn: ディックス
+                beat tone: 狂気
+                beat activity: 侯爵フェルダーに襲い掛かる
 
-            - action:
-              - pf-dn: 侯爵フェルダー
-                tone: 冷静
-                activity: 身動ぎもしない
+            - beat action:
+              - beat dn: 侯爵フェルダー
+                beat tone: 冷静
+                beat activity: 身動ぎもしない
 
-              - pf-dn: エクト
-                tone: 冷静
-                activity: ディックスに攻撃する
+              - beat dn: エクト
+                beat tone: 冷静
+                beat activity: ディックスに攻撃する
 
-            - reaction:
-              - pf-dn: ディックス
-                tone: 悶絶
-                activity: 沈む
+            - beat reaction:
+              - beat dn: ディックス
+                beat tone: 悶絶
+                beat activity: 沈む
 
-            - post-reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 満足
-                activity: 助けてくれると信じていたよ
+            - beat post-reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 満足
+                beat activity: 助けてくれると信じていたよ
 
-            - narration in beat:
+            - beat narration in beat:
                 - 結審
                 - エクトたちの縄と敗者の首輪が即座に解除される
                 - 貴族たちは退出し、傍聴者が帰され、最後にエクトたちが解放された
 
 - scene: 2
-  sn-descriptor: キスカが侯爵フェルダーに向かう
-  gist:
-    - gis-item: キスカが言いにくそうにして知り合いに会うと言う
-    - gis-item: エルミナが宝玉を見せたいから一緒に待つと言う
-    - gis-item: キスカがメイドを買収して侯爵フェルダーに会いにいく
+  scene descriptor: キスカが侯爵フェルダーに向かう
+  scene gist:
+    - scene gist item: キスカが言いにくそうにして知り合いに会うと言う
+    - scene gist item: エルミナが宝玉を見せたいから一緒に待つと言う
+    - scene gist item: キスカがメイドを買収して侯爵フェルダーに会いにいく
 
-  meaning of the scene: 接続部
+  scene meaning of the scene: 接続部
 
-  interest:
-    - int-item: キスカの様子が変
-    - int-item: キスカの世慣れた買収の様子
+  scene interest:
+    - scene interest item: キスカの様子が変
+    - scene interest item: キスカの世慣れた買収の様子
 
-  matters of desire:
-    - ds-dn: キスカ
-      desire: エクトたちにバレずに侯爵フェルダーに会いたい
-      conflict:
-        - ds-dn: エクトたち
-          desire: キスカの不審さへの困惑
-        - ds-dn: メイド
-          desire: 平民を貴人に会わせるなんてとんでもない
-      risk: エクトたちに身の上がバレたり、侯爵フェルダーの真意を知ることができない
-      results: 上手くいく
+  scene matters of desire:
+    - scene dn: キスカ
+      scene desire: エクトたちにバレずに侯爵フェルダーに会いたい
+      scene conflict:
+        - scene dn: エクトたち
+          scene desire: キスカの不審さへの困惑
+        - scene dn: メイド
+          scene desire: 平民を貴人に会わせるなんてとんでもない
+      scene risk: エクトたちに身の上がバレたり、侯爵フェルダーの真意を知ることができない
+      scene results: 上手くい
+  scene   value change:
+    - scene dn: キスカ
+      scene value: 作戦の成功
+      scene change: --. / .++
 
-  value change:
-    - vl-dn: キスカ
-      value: 作戦の成功
-      change: --. / .++
-
-  unpredictability of the end: キスカはなぜ侯爵フェルダーに会いたいのか
+  scene unpredictability of the end: キスカはなぜ侯爵フェルダーに会いたいのか
 
   scene elements:
 
-    - beat group:
-      bg-descriptor: 
+    - beat group: 
 
-      bg-contents:
-
-        - beat:
-          bt-descriptor: 不審なキスカ
-
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 不審
-                activity: 実家の知り合いに会ってくる
-
-            - reaction:
-              - pf-dn: エクト
-                tone: 何気ない
-                activity: さすがだと驚く
-
-              - pf-dn: フェリ
-                tone: 冷静
-                activity: キスカの名は聞き及んでいたけど城に伝があるなんて余程ですね
-
+      beat contents:
 
         - beat:
-          bt-descriptor: 言い繕うキスカ
+          beat descriptor: 不審なキスカ
 
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 不審
-                activity: 相手はそんなに偉い人じゃない
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 不審
+                beat activity: 実家の知り合いに会ってくる
 
-            - reaction:
-              - pf-dn: エクトとフェリ
-                tone: 和やか
-                activity: エクトとフェリは分かってますよ、という表情で了解する
+            - beat reaction:
+              - beat dn: エクト
+                beat tone: 何気ない
+                beat activity: さすがだと驚く
+
+              - beat dn: フェリ
+                beat tone: 冷静
+                beat activity: キスカの名は聞き及んでいたけど城に伝があるなんて余程ですね
 
 
-    - beat group:
-      bg-descriptor: 
+        - beat:
+          beat descriptor: 言い繕うキスカ
 
-      bg-contents:
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 不審
+                beat activity: 相手はそんなに偉い人じゃない
+
+            - beat reaction:
+              - beat dn: エクトとフェリ
+                beat tone: 和やか
+                beat activity: エクトとフェリは分かってますよ、という表情で了解する
+
+
+    - beat group: 
+
+      beat contents:
 
         - narration:
-          nr-descriptor: 後の予定調整
+          beat descriptor: 後の予定調整
 
-          nr-contents:
+          beat performance:
             - 城の門前広場には中央に古代の石柱があり、そこで待ち合わせすることに
             - エルミナが宝玉を見せたいから自分も待たせてもらいたい
             - 貴族の厄介さを知ったエクトが貴族に関わるとき助けてほしいとキスカとフェリに伝えたい
 
         - narration:
-          nr-descriptor: 世慣れしたキスカ
+          beat descriptor: 世慣れしたキスカ
 
-          nr-contents:
+          beat performance:
             - 通り掛かったメイドに銀貨を5枚掴ませて侯爵フェルダーと面会の機会を作った
             - 侯爵フェルダーの部屋の護衛に渡す銀貨もある
             - 侯爵フェルダーはこのことを予想していたので話は簡単だった
 
 - scene: 3
-  sn-descriptor: キスカと侯爵フェルダー
-  gist:
-    - gis-item: キスカが侯爵フェルダーに、お父様に報告するのか尋ねる
-    - gis-item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
+  scene descriptor: キスカと侯爵フェルダー
+  scene gist:
+    - scene gist item: キスカが侯爵フェルダーに、お父様に報告するのか尋ねる
+    - scene gist item: 侯爵フェルダーが淵神の恩寵、屍蝋の闇炎について話す
 
-  meaning of the scene: メイン 1 = キスカの事情
+  scene meaning of the scene: メイン 1 = キスカの事情
 
-  interest:
-    - int-item: キスカの秘密
-    - int-item: 侯爵フェルダーの軽妙さ
-    - int-item: 謎の解明
-    - int-item: 侯爵フェルダーがエクトに何か言われたか尋ねる
+  scene interest:
+    - scene interest item: キスカの秘密
+    - scene interest item: 侯爵フェルダーの軽妙さ
+    - scene interest item: 謎の解明
+    - scene interest item: 侯爵フェルダーがエクトに何か言われたか尋ねる
 
-  matters of desire:
-    - ds-dn: キスカ
-      desire: 侯爵フェルダーに報告させたくない
-      conflict:
-        - ds-dn: 侯爵フェルダー
-          desire: 不明
-      risk: 父王にバレる
-      results: バレずに済む
+  scene matters of desire:
+    - scene dn: キスカ
+      scene desire: 侯爵フェルダーに報告させたくない
+      scene conflict:
+        - scene dn: 侯爵フェルダー
+          scene desire: 不明
+      scene risk: 父王にバレる
+      scene results: バレずに済む
 
-  value change:
-    - vl-dn: キスカ
-      value: 今の生活の保障
-      change: .--- / .++++
+  scene value change:
+    - scene dn: キスカ
+      scene value: 今の生活の保障
+      scene change: .--- / .++++
 
-  unpredictability of the end: エクトは何か隠しているか
+  scene unpredictability of the end: エクトは何か隠しているか
 
   scene elements:
 
-    - beat group:
-      bg-descriptor: 
+    - beat group: 
 
-      bg-contents:
-
-        - beat:
-          bt-descriptor: キスカが侯爵フェルダーの部屋に入るなり詰問する
-
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 鬼気迫る
-                activity: お父様に報告するの！？
-
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 余裕を持ってレディに対する
-                activity: 真実の忠誠は時に王命をも凌ぎます
-
+      beat contents:
 
         - beat:
-          bt-descriptor: キスカが侯爵フェルダーの思惑を探る
+          beat descriptor: キスカが侯爵フェルダーの部屋に入るなり詰問する
 
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 詰問
-                activity: その発言は重罪よ。何を考えているの！？
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 鬼気迫る
+                beat activity: お父様に報告するの！？
 
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 余裕を持ってレディに対する
-                activity: 伝説と予言、その結晶を仰いでいるに過ぎません
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 余裕を持ってレディに対する
+                beat activity: 真実の忠誠は時に王命をも凌ぎます
 
 
         - beat:
-          bt-descriptor: キスカが侯爵フェルダーの思惑を訝しむ
+          beat descriptor: キスカが侯爵フェルダーの思惑を探る
 
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 胡乱
-                activity: 迂遠な言葉で煙に巻くのは上手ね
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 詰問
+                beat activity: その発言は重罪よ。何を考えているの！？
 
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 余裕を持ってレディに対する
-                activity: いずれ煙は晴れましょう
-
-
-    - beat group:
-      bg-descriptor: 
-
-      bg-contents:
-
-        - beat:
-          bt-descriptor: 侯爵フェルダーがエクトから何か重大なことを聞かされていないか尋ねる
-
-          performance:
-            - action:
-              - pf-dn: 侯爵フェルダー
-                tone: 余裕を持ってレディに対する
-                activity: それよりエクト少年は何か言っていませんでしたか
-
-            - reaction:
-              - pf-dn: キスカ
-                tone: 困惑
-                activity: 何って、なんのことだか分からないわ
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 余裕を持ってレディに対する
+                beat activity: 伝説と予言、その結晶を仰いでいるに過ぎません
 
 
         - beat:
-          bt-descriptor: キスカが侯爵フェルダーに強烈に反応する
+          beat descriptor: キスカが侯爵フェルダーの思惑を訝しむ
 
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 詰問
-                activity: エクトに手を出したら許さないわ！
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 胡乱
+                beat activity: 迂遠な言葉で煙に巻くのは上手ね
 
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 余裕を持ってレディに対する
-                activity: 忠誠に誓って悪いようには致しません
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 余裕を持ってレディに対する
+                beat activity: いずれ煙は晴れましょう
 
 
-    - beat group:
-      bg-descriptor: 
+    - beat group: 
 
-      bg-contents:
-
-        - beat:
-          bt-descriptor: 侯爵フェルダーが淵神の恩寵について話す
-
-          performance:
-            - action:
-              - pf-dn: 侯爵フェルダー
-                tone: 神妙
-                activity: ディックスの放った紫光の魔法に心当たりがあります　あれは淵神の恩寵という魔導具によるものです
-
-            - reaction:
-              - pf-dn: キスカ
-                tone: 真剣
-                activity: あんな恐ろしい魔導具が他にもあるの
-
+      beat contents:
 
         - beat:
-          bt-descriptor: 侯爵フェルダーが屍蝋の闇炎について話す
+          beat descriptor: 侯爵フェルダーがエクトから何か重大なことを聞かされていないか尋ねる
 
-          performance:
-            - action:
-              - pf-dn: 侯爵フェルダー
-                tone: 気掛かり
-                activity: 屍蝋の淵神と名乗る謎の郎党が目をつけた者に渡しているようです
+          beat performance:
+            - beat action:
+              - beat dn: 侯爵フェルダー
+                beat tone: 余裕を持ってレディに対する
+                beat activity: それよりエクト少年は何か言っていませんでしたか
 
-            - reaction:
-              - pf-dn: キスカ
-                tone: 真剣
-                activity: 覚えておくわ　油断していなくても勝てるかどうか……
-
-
-    - beat group:
-      bg-descriptor: 
-
-      bg-contents:
-
-        - beat:
-          bt-descriptor: キスカの重要性に釘を刺す侯爵フェルダーにキスカが尋ねる
-
-          performance:
-            - pre-action:
-              - pf-dn: 侯爵フェルダー
-                tone: 気掛かり
-                activity: お気をつけください　御身は自認されているより重要な存在でございます
-
-            - action:
-              - pf-dn: キスカ
-                tone: 真剣
-                activity: あなたは何を知っているの
-
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 真摯
-                activity: 今は何も、申せません
+            - beat reaction:
+              - beat dn: キスカ
+                beat tone: 困惑
+                beat activity: 何って、なんのことだか分からないわ
 
 
         - beat:
-          bt-descriptor: キスカは無理にでも聞こうとするが、キスカ嬢はお帰りだ
+          beat descriptor: キスカが侯爵フェルダーに強烈に反応する
 
-          performance:
-            - action:
-              - pf-dn: キスカ
-                tone: 怒り
-                activity: 命令よ、言いなさい
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 詰問
+                beat activity: エクトに手を出したら許さないわ！
 
-            - reaction:
-              - pf-dn: 侯爵フェルダー
-                tone: 勝ち誇る
-                activity: 衛兵、キスカ嬢はお帰りだ　表までお連れしろ
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 余裕を持ってレディに対する
+                beat activity: 忠誠に誓って悪いようには致しません
 
-            - post-reaction:
-              - pf-dn: キスカ
-                tone: 信じられない
-                activity: 憤怒に目を見張る
+
+    - beat group: 
+
+      beat contents:
+
+        - beat:
+          beat descriptor: 侯爵フェルダーが淵神の恩寵について話す
+
+          beat performance:
+            - beat action:
+              - beat dn: 侯爵フェルダー
+                beat tone: 神妙
+                beat activity: ディックスの放った紫光の魔法に心当たりがあります　あれは淵神の恩寵という魔導具によるものです
+
+            - beat reaction:
+              - beat dn: キスカ
+                beat tone: 真剣
+                beat activity: あんな恐ろしい魔導具が他にもあるの
+
+
+        - beat:
+          beat descriptor: 侯爵フェルダーが屍蝋の闇炎について話す
+
+          beat performance:
+            - beat action:
+              - beat dn: 侯爵フェルダー
+                beat tone: 気掛かり
+                beat activity: 屍蝋の淵神と名乗る謎の郎党が目をつけた者に渡しているようです
+
+            - beat reaction:
+              - beat dn: キスカ
+                beat tone: 真剣
+                beat activity: 覚えておくわ　油断していなくても勝てるかどうか……
+
+
+    - beat group: 
+
+      beat contents:
+
+        - beat:
+          beat descriptor: キスカの重要性に釘を刺す侯爵フェルダーにキスカが尋ねる
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 侯爵フェルダー
+                beat tone: 気掛かり
+                beat activity: お気をつけください　御身は自認されているより重要な存在でございます
+
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 真剣
+                beat activity: あなたは何を知っているの
+
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 真摯
+                beat activity: 今は何も、申せません
+
+
+        - beat:
+          beat descriptor: キスカは無理にでも聞こうとするが、キスカ嬢はお帰りだ
+
+          beat performance:
+            - beat action:
+              - beat dn: キスカ
+                beat tone: 怒り
+                beat activity: 命令よ、言いなさい
+
+            - beat reaction:
+              - beat dn: 侯爵フェルダー
+                beat tone: 勝ち誇る
+                beat activity: 衛兵、キスカ嬢はお帰りだ　表までお連れしろ
+
+            - beat post-reaction:
+              - beat dn: キスカ
+                beat tone: 信じられない
+                beat activity: 憤怒に目を見張る
 
 
 - scene: 4
-  sn-descriptor: エルミナの気持ち
-  gist:
-    - gis-item: エルミナがエクトに、キスカの恋人か尋ねる
-    - gis-item: エルミナがエクトに、キスカは男性に興味がなかったけどエクトに対しては違うと言う
-    - gis-item: エルミナがエクトに、キスカを大切にしてと言う
-    - gis-item: エクトはフェリの手首を握っている
-    - gis-item: キスカがやってくる
+  scene descriptor: エルミナの気持ち
+  scene gist:
+    - scene gist item: エルミナがエクトに、キスカの恋人か尋ねる
+    - scene gist item: エルミナがエクトに、キスカは男性に興味がなかったけどエクトに対しては違うと言う
+    - scene gist item: エルミナがエクトに、キスカを大切にしてと言う
+    - scene gist item: エクトはフェリの手首を握っている
+    - scene gist item: キスカがやってくる
 
-  meaning of the scene: メイン 2, エクトとキスカの関係
+  scene meaning of the scene: メイン 2, エクトとキスカの関係
 
-  interest:
-    - int-item: 恋のドキドキ
+  scene interest:
+    - scene interest item: 恋のドキドキ
 
-  matters of desire:
-    - ds-dn: エルミナ
-      desire: キスカを大切にしてほしいと伝えたい
-      conflict:
-        - ds-dn: エクト
-          desire: 不明
-      risk: キスカの不幸
-      results: 成功
+  scene matters of desire:
+    - scene dn: エルミナ
+      scene desire: キスカを大切にしてほしいと伝えたい
+      scene conflict:
+        - scene dn: エクト
+          scene desire: 不明
+      scene risk: キスカの不幸
+      scene results: 成功
 
-  value change:
-    - vl-dn: エクト
-      value: キスカに思いを伝えないと
-      change: . / .+++++
+  scene value change:
+    - scene dn: エクト
+      scene value: キスカに思いを伝えないと
+      scene change: . / .+++++
 
-  unpredictability of the end: エクトは何を話すのか
+  scene unpredictability of the end: エクトは何を話すのか
 
   scene elements:
 
-    - beat group:
-      bg-descriptor: 
+    - beat group: 
 
-      bg-contents:
+      beat contents:
 
         - narration:
-          nr-descriptor: 広場の描写
+          beat descriptor: 広場の描写
 
-          nr-contents:
+          beat performance:
             - 初夏の日射し、大勢の人出、広場外周の生け垣の花が香っている
             - エクト、フェリ、エルミナは石碑に向かうあいだで簡単な自己紹介をしている
 
         - beat:
-          bt-descriptor: エルミナがエクトにキスカとは恋人なのかと問う
+          beat descriptor: エルミナがエクトにキスカとは恋人なのかと問う
 
-          performance:
-            - action:
-              - pf-dn: エルミナ
-                tone: 思いつめたような様子
-                activity: キスカとは恋人同士なのか
+          beat performance:
+            - beat action:
+              - beat dn: エルミナ
+                beat tone: 思いつめたような様子
+                beat activity: キスカとは恋人同士なのか
 
-            - reaction:
-              - pf-dn: エクト
-                tone: 挙動不審
-                activity: え、あ、ちがう、けど
-
-
-        - beat:
-          bt-descriptor: エルミナが、キスカは男性に興味がなかったのにエクトへの態度は違うと言う
-
-          performance:
-            - action:
-              - pf-dn: エルミナ
-                tone: 真剣
-                activity: キスカの様子を説明する
-
-            - reaction:
-              - pf-dn: エクト
-                tone: 真剣
-                activity: フェリの手首を握る、キスカの気持ちは自信がなかったけどなんとなく……
+            - beat reaction:
+              - beat dn: エクト
+                beat tone: 挙動不審
+                beat activity: え、あ、ちがう、けど
 
 
         - beat:
-          bt-descriptor: エルミナがエクトに、キスカを大切にしてと言う
+          beat descriptor: エルミナが、キスカは男性に興味がなかったのにエクトへの態度は違うと言う
 
-          performance:
-            - action:
-              - pf-dn: エルミナ
-                tone: 真剣
-                activity: キスカを大切にしてほしい、思いを伝えてほしい
+          beat performance:
+            - beat action:
+              - beat dn: エルミナ
+                beat tone: 真剣
+                beat activity: キスカの様子を説明する
 
-            - reaction:
-              - pf-dn: エクト
-                tone: 真剣
-                activity: フェリの手首を握る力を増す、分かった
+            - beat reaction:
+              - beat dn: エクト
+                beat tone: 真剣
+                beat activity: フェリの手首を握る、キスカの気持ちは自信がなかったけどなんとなく……
 
-
-    - beat group:
-      bg-descriptor: 
-
-      bg-contents:
 
         - beat:
-          bt-descriptor: キスカがやってくる
+          beat descriptor: エルミナがエクトに、キスカを大切にしてと言う
 
-          performance:
-            - pre-action:
-              - pf-dn: エクト
-                tone: 緊張
-                activity: キスカに気づく
+          beat performance:
+            - beat action:
+              - beat dn: エルミナ
+                beat tone: 真剣
+                beat activity: キスカを大切にしてほしい、思いを伝えてほしい
 
-            - action:
-              - pf-dn: キスカ
-                tone: どこか安心した様子
-                activity: 手を振る
+            - beat reaction:
+              - beat dn: エクト
+                beat tone: 真剣
+                beat activity: フェリの手首を握る力を増す、分かった
 
-            - narration in beat:
+
+    - beat group: 
+
+      beat contents:
+
+        - beat:
+          beat descriptor: キスカがやってくる
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: エクト
+                beat tone: 緊張
+                beat activity: キスカに気づく
+
+            - beat action:
+              - beat dn: キスカ
+                beat tone: どこか安心した様子
+                beat activity: 手を振る
+
+            - beat narration in beat:
                 - 早足のキスカ
 
