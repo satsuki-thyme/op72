@@ -15,7 +15,8 @@
 - text/01/tex-007.txt: 見えない敵の強襲
 - text/01/tex-008.txt: 許されざる者
 - text/01/tex-009.txt: 判決の行方を握るもの
-- text/01/tex-010.txt: タイトル未定
+- text/01/tex-010.txt: 思惑と意思の舞踏
+- text/01/tex-011.txt: タイトル未定
 
 #### チャプタープロット
 
@@ -34,6 +35,7 @@
 - plot/01/build/eBu-008.md: 基礎計画 第1章 第8話
 - plot/01/build/eBu-009.md: 基礎計画 第1章 第9話
 - plot/01/build/eBu-010.md: 基礎計画 第1章 第10話
+- plot/01/build/eBu-011.md: 基礎計画 第1章 第11話
 
 #### エピソードプロット
 
