@@ -5,6 +5,21 @@
 #  - 社会が右辺に所属 . 左辺が所属する社会
 #  - 右辺を包含する社会 / 個人が左辺に所属
 
+- episode: 12
+  case: 
+  title: 
+  elapsed days: 
+  location: アルティバの街 . アルティノール領 . ロットエーク王国
+  time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
+  battle: 
+  erros: 
+  summary: 
+
 - episode: 11
   case: 
   title: 
@@ -21,22 +36,22 @@
   summary: 
 
 - episode: 10
-  case: 4(3/)
-  title: 
-  elapsed days: 
+  case: 4(3/3)
+  title: 思惑と意思の舞踏
+  elapsed days: 2
   location: アルティバの街 . アルティノール領 . ロットエーク王国
-  time: 
-  contact: 
-  first contact: 
-  first appearance: 
-  companion: 
-  monster: 
-  battle: 
-  erros: 
-  summary: 
+  time: 午前中
+  contact: エルミナ, ディックス, 侯爵フェルダー
+  first contact: null
+  first appearance: null
+  companion: キスカ, フェリ
+  monster: null
+  battle: true
+  erros: false
+  summary: 裁判でディックスが断罪されエクトたちは解放される。キスカは侯爵から危険な魔導具の情報を得る。エクトはエルミナにキスカへの想いを打ち明け、踏み込む決意をした。
 
 - episode: 9
-  case: 4(2/)
+  case: 4(2/3)
   title: 判決の行方を握るもの
   elapsed days: 2
   location: アルティバの街 . アルティノール領 . ロットエーク王国
@@ -45,13 +60,13 @@
   first contact: 伯爵ロディーノ, 侯爵フェルダー
   first appearance: 伯爵ロディーノ, 侯爵フェルダー（正体明白の人物として）
   companion: キスカ, フェリ
-  monster: 
+  monster: null
   battle: false
   erros: false
   summary: エクトたちが貴族の息子ディックスとの紛争で裁判にかけられるが、侯爵の証言によりエクト側の無罪が認められた。
 
 - episode: 8
-  case: 4(1/)
+  case: 4(1/3)
   title: 許されざる者
   elapsed days: 1
   location: アルティバの街 . アルティノール領 . ロットエーク王国
@@ -60,7 +75,7 @@
   first contact: エルミナ, ディックス
   first appearance: エルミナ, ディックス, 侯爵フェルダー（正体不明の人物として）
   companion: キスカ, フェリ
-  monster: 
+  monster: null
   battle: true
   erros: true
   summary: 魔法結社の影が迫る中、キスカたちは街で横暴な男を撃退するが、エクトの暴走で騒ぎとなり、衛兵に囲まれて捕らえられてしまう。
@@ -75,7 +90,7 @@
   first contact: 魔法の塔 / 使い魔
   first appearance: 魔法の塔 / 使い魔
   companion: キスカ, フェリ
-  monster: 
+  monster: null
   battle: true
   erros: false
   summary: 城塞都市に到着したエクトたちは、キスカの案内で彼女の家に到着。屋内に潜む水の使い魔を瞬時に無力化した後、三人は居間で夕食を囲む。食事の間、エクトは魔法使いの気配や潜在的な脅威について報告し、フェリとキスカはそれぞれ反応を示す。夜になり、就寝前にエクトは侵入者警戒用の魔法を施す。深夜、家に忍び込んだ五人の使い魔的存在を察知すると、エクトは影から奇襲し、格闘で次々と無力化。裏手に待機していた一人も逃れる間もなく制圧し、侵入者は完全に排除された。
@@ -86,9 +101,9 @@
   elapsed days: 0
   location: アルティバの街の近くの森からアルティバの街への道 . アルティノール領 . ロットエーク王国
   time: 午後
-  contact: 
-  first contact: 
-  first appearance: 
+  contact: null
+  first contact: null
+  first appearance: null
   companion: キスカ, フェリ
   monster: セラクル
   battle: false
@@ -103,9 +118,9 @@
   time: 昼
   contact: 男爵ロア
   first contact: フェリ, 男爵ロア
-  first appearance: 
-  companion: 
-  monster: 
+  first appearance: null
+  companion: null
+  monster: null
   battle: true
   erros: true
   summary: ロアに囚われたフェリを救うためエクトが乱入し、激戦の末ロアを討ち倒して彼女を解放する。
@@ -119,7 +134,7 @@
   contact: 男爵ロア一党 / 盗賊, 屍蝋の闇炎 / ゼヴァロ
   first contact: 屍蝋の闇炎 / ゼヴァロ
   first appearance: フェリ, 男爵ロア
-  companion: 
+  companion: null
   monster: 使役 / ゴブリン, トロール . 使役
   battle: true
   erros: true
@@ -133,7 +148,7 @@
   time: 午前中
   contact: 男爵ロア一党 / 盗賊
   first contact: 男爵ロア一党 / 盗賊
-  first appearance: 
+  first appearance: null
   companion: キスカ
   monster: 使役 / ゴブリン
   battle: true
@@ -146,10 +161,10 @@
   elapsed days: 0
   location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 午前中
-  contact: 
-  first contact: 
-  first appearance: 
-  companion: 
+  contact: null
+  first contact: null
+  first appearance: null
+  companion: null
   monster: ウィスプ
   battle: true
   erros: true
@@ -161,10 +176,10 @@
   elapsed days: 0
   location: アルティバの街の近くの森 . アルティノール領 . ロットエーク王国
   time: 午前中
-  contact: 
+  contact: null
   first contact: キスカ
   first appearance: キスカ
-  companion: 
+  companion: null
   monster: ゴブリン
   battle: true
   erros: false

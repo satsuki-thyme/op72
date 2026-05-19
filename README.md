@@ -27,27 +27,27 @@
 
 #### 基礎計画
 
-- plot/01/build/eBu-001.md: 基礎計画 第1章 第1話
-- plot/01/build/eBu-003.md: 基礎計画 第1章 第3話
-- plot/01/build/eBu-005.md: 基礎計画 第1章 第5話
-- plot/01/build/eBu-006.md: 基礎計画 第1章 第6話
-- plot/01/build/eBu-007.md: 基礎計画 第1章 第7話
-- plot/01/build/eBu-008.md: 基礎計画 第1章 第8話
-- plot/01/build/eBu-009.md: 基礎計画 第1章 第9話
-- plot/01/build/eBu-010.md: 基礎計画 第1章 第10話
-- plot/01/build/eBu-011.md: 基礎計画 第1章 第11話
+- plot/01/episode/build/eBu-001.md: 基礎計画 第1章 第1話
+- plot/01/episode/build/eBu-003.md: 基礎計画 第1章 第3話
+- plot/01/episode/build/eBu-005.md: 基礎計画 第1章 第5話
+- plot/01/episode/build/eBu-006.md: 基礎計画 第1章 第6話
+- plot/01/episode/build/eBu-007.md: 基礎計画 第1章 第7話
+- plot/01/episode/build/eBu-008.md: 基礎計画 第1章 第8話
+- plot/01/episode/build/eBu-009.md: 基礎計画 第1章 第9話
+- plot/01/episode/build/eBu-010.md: 基礎計画 第1章 第10話
+- plot/01/episode/build/eBu-011.md: 基礎計画 第1章 第11話
 
 #### エピソードプロット
 
-- plot/01/episode/ePl-001.md:  エピソードプロット 第1章 第1話
-- plot/01/episode/ePl-003.md:  エピソードプロット 第1章 第3話
-- plot/01/episode/ePl-005.md:  エピソードプロット 第1章 第5話
-- plot/01/episode/ePl-006.yml: エピソードプロット 第1章 第6話
-- plot/01/episode/ePl-007.yml: エピソードプロット 第1章 第7話
-- plot/01/episode/ePl-008.yml: エピソードプロット 第1章 第8話
-- plot/01/episode/ePl-009.yml: エピソードプロット 第1章 第9話
-- plot/01/episode/ePl-010.yml: エピソードプロット 第1章 第10話
-- plot/01/episode/ePl-011.yml: エピソードプロット 第1章 第11話
+- plot/01/episode/plot/ePl-001.md:  エピソードプロット 第1章 第1話
+- plot/01/episode/plot/ePl-003.md:  エピソードプロット 第1章 第3話
+- plot/01/episode/plot/ePl-005.md:  エピソードプロット 第1章 第5話
+- plot/01/episode/plot/ePl-006.yml: エピソードプロット 第1章 第6話
+- plot/01/episode/plot/ePl-007.yml: エピソードプロット 第1章 第7話
+- plot/01/episode/plot/ePl-008.yml: エピソードプロット 第1章 第8話
+- plot/01/episode/plot/ePl-009.yml: エピソードプロット 第1章 第9話
+- plot/01/episode/plot/ePl-010.yml: エピソードプロット 第1章 第10話
+- plot/01/episode/plot/ePl-011.yml: エピソードプロット 第1章 第11話
 
 ### 設定
 

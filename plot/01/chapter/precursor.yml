@@ -1,30 +1,55 @@
 # 前駆体
-- item: ゼヴァロ
-  resolution: 000 xxx
-  precursor:
-    - 004 男爵ロアの元から逃走
 
-- item: 魔物使い
+- item: 
   resolution: 000 xxx
   precursor:
-    - 003 短剣を持ったゴブリン
-    - 004 ゼヴァロがゴブリンとトロールを使役する
-    - 004 剣を持ったゴブリン
+    000 xxx
+
+
+- item: ゼレストラの騎士王の伝説
+  resolution: 000 xxx
+  precursor:
+    011 エルミナの宝玉
+  containing item:
+
+    - item: ゼレストラの神殿遺跡
+      resolution: 000 xxx
+      precursor:
+        011 エルミナが宝玉を見つけた場所
+
+
+
+- item: 屍蝋の闇炎
+  resolution: 000 xxx
+  precursor:
+    004 ゼヴァロ
+    005 男爵ロアが使った淵神の恩寵
+    008 ディックスが使った淵神の恩寵
+    010 ディックスが使った淵神の恩寵
+    010 侯爵フェルダーから情報がもたらされる
+    011 フェリの持つ情報を開示
+  containing item:
+
+    - item: ゼヴァロ
+      resolution: 000 xxx
+      precursor:
+        004 男爵ロアの元から逃走
+
+
+    - item: 魔物使い
+      resolution: 000 xxx
+      precursor:
+        003 短剣を持ったゴブリン
+        004 ゼヴァロがゴブリンとトロールを使役する
+        004 剣を持ったゴブリン
+
 
 - item: 魔法の塔
   resolution: 000 xxx
   precursor:
-    - 006 フェリのセリフ「魔法の塔に知られたらどうなるか」
-    - 007 キスカが魔法使いの集団に使い魔で襲われかける
-    - 007 寝ている間に強襲される
-    - 008 入れ墨の男についての証言が得られる
+    006 フェリのセリフ「魔法の塔に知られたらどうなるか」
+    007 キスカが魔法使いの集団に使い魔で襲われかける
+    007 寝ている間に強襲される
+    008 入れ墨の男についての証言が得られる
 
-- item: 
-  resolution: 000 xxx
-  precursor:
-    - 000 xxx
 
-- item: 
-  resolution: 000 xxx
-  precursor:
-    - 000 xxx

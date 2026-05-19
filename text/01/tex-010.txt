@@ -348,7 +348,7 @@ beat reaction:
 beat dn: エクト
 beat tone: 真剣
 beat activity: フェリの手首を握る力を増す、分かった
-　エクトはフェリの手首を握る力を増した。
+　エクトは握る力を増した。
 
 <エクト>「ああ。
 <エクト>はっきりさせる」
@@ -358,7 +358,7 @@ beat pre-action:
 beat dn: エクト
 beat tone: 緊張
 beat activity: キスカに気づく
-　そこで、石柱を背にしていた三人はキスカの到着に気づいた。
+　そこで石柱を背にしていた三人はキスカの到着に気づいた。
 エクトが手を振る。
 beat action:
 beat dn: キスカ

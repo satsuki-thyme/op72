@@ -1,20 +1,143 @@
-        - beat:
-          bt-descriptor: 
+- scene: 1
+  scene descriptor: エクトの告白
+  scene gist:
+    - scene gist item: キスカを迎え入れる（キスカの報告があることを示しておく）
+    - scene gist item: エルミナの退場
+    - scene gist item: エクトの告白（二人の女性に愛を告げること）
+    - scene gist item: 二人の告白
 
-          performance:
-            - pre-action:
-              - pf-dn: エクト
-                tone: 穏やか
-                activity: どうだった
-            - action:
-              - pf-dn: キスカ
-                tone: 穏やか
-                activity: 話せてよかったわ　それでみんなに話しておかないといけないことがあるの　でもエクトも話があるんだよね
-            - reaction:
-              - pf-dn: エクト
-                tone: 緊張
-                activity: 
-            - post-reaction:
-              - pf-dn: 
-                tone: 
-                activity: 
+  scene meaning of the scene:
+    - scene meaning item: 恋愛の儀式
+
+  scene interest:
+    - scene interest item: 恋愛模様
+
+  scene matters of desire:
+    - scene desire dn: 関係を進めたいエクト
+      scene desire: 告白して関係を進めたい
+      scene conflict:
+        - scene conflict dn: 弱気なエクト
+          scene conflict desire: このまま黙って平穏に過ごす
+      scene risk: 拒絶されたら苦しい
+      scene results: 二人に受け入れられ恋する想いを伝えられる
+      scene gap: null
+
+  scene value change:
+    - scene value dn: エクト
+      scene value: 二人に受け入れられるか
+      scene change: .--- / .+++++
+
+
+  scene unpredictability of the end:
+    - scene unpredictability item: キスカの報告
+
+  scene elements:
+
+
+- scene: 2
+  scene descriptor: キスカの報告
+  scene gist:
+    - scene gist item: エルミナの呼び戻し
+    - scene gist item: 内容説明
+    - scene gist item: エルミナの恐怖
+    - scene gist item: エクトの興味
+    - scene gist item: フェリの情報（人族ではない怪異によって構成され死や混乱を招くと恐れられている）
+
+  scene meaning of the scene:
+    - scene meaning item: 情報共有と新たな情報
+
+  scene interest:
+    - scene interest item: フェリの様子とエルミナ、エクトの反応
+    - scene interest item: フェリからの情報
+
+  scene matters of desire:
+    - scene desire dn: フェリ
+      scene desire: 危険を伝えたい
+      scene conflict:
+        - scene conflict dn: 常識外れの情報
+          scene conflict desire: 信じさせない
+      scene risk: 危険に注意を向けない
+      scene results: 真剣に受け取られる
+      scene gap: エクトが興味津々
+
+  scene value change:
+    - scene value dn: フェリ
+      scene value: 信じてもらえるか
+      scene change: .--- / .+++
+
+
+  scene unpredictability of the end:
+    - scene unpredictability item: 屍蝋の闇炎のこと
+
+  scene elements:
+
+- scene: 3
+  scene descriptor: エルミナの宝玉
+  scene gist:
+    - scene gist item: エルミナの宝玉（神殿遺跡で見つけた）
+    - scene gist item: 紋様の気づきと告白
+    - scene gist item: 取扱注意の情報はエルミナのいる前では話せない
+    - scene gist item: 宝玉の譲渡提案（宝玉の鑑定――金細工商）
+
+  scene meaning of the scene:
+    - scene meaning item: 新たな情報
+
+  scene interest:
+    - scene interest item: エクトたちの謎の繋がり
+    - scene interest item: エクトの秘密とそこから類推されるキスカ、フェリの秘密
+
+  scene matters of desire:
+    - scene desire dn: null
+      scene desire: null
+      scene conflict:
+        - scene conflict dn: null
+          scene conflict desire: null
+      scene risk: null
+      scene results: null
+      scene gap: null
+
+  scene value change:
+    - scene value dn: null
+      scene value: null
+      scene change: null
+
+
+  scene unpredictability of the end:
+    - scene unpredictability item: 紋様の意味、エクトの秘密とキスカ、フェリの秘密
+
+  scene elements:
+
+
+- scene: 4
+  scene descriptor: 神殿へ
+  scene gist:
+    - scene gist item: 四人で昼食してからエルミナとは分かれた
+    - scene gist item: 神殿へ（魔法の取得）
+
+  scene meaning of the scene:
+    - scene meaning item: フック
+
+  scene interest:
+    - scene interest item: 魔法の取得とは
+
+  scene matters of desire:
+    - scene desire dn: エクト
+      scene desire: 知らない魔法と出会いたい
+      scene conflict:
+        - scene conflict dn: null
+          scene conflict desire: null
+      scene risk: null
+      scene results: null
+      scene gap: null
+
+  scene value change:
+    - scene value dn: null
+      scene value: null
+      scene change: null
+
+
+  scene unpredictability of the end:
+    - scene unpredictability item: 世間の魔法とはどんなものか
+
+  scene elements:
+
