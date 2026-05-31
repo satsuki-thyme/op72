@@ -364,7 +364,7 @@ beat action:
 beat dn: キスカ
 beat tone: どこか安心した様子
 beat activity: 手を振る
-キスカはどこか安心したように、かすかな弱みを含んだ笑みだ。
+キスカはどこか安心したように、｜微《かす》かな弱みを含んだ笑みだ。
 手を振って応え、足早に歩み寄った。
 beat narration in beat:
 - 早足のキスカ
