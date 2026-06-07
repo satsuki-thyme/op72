@@ -1,4 +1,4 @@
-- scene: 1
+- 🟥 scene: 1
   scene descriptor: エクトの告白
   scene gist:
     - scene gist item: キスカを迎え入れる（キスカの報告があることを示しておく）
@@ -33,8 +33,275 @@
 
   scene elements:
 
+    - 🟧 beat group: 舞台が整う
+      beat contents:
 
-- scene: 2
+        - 🟨 narration:
+          beat descriptor: キスカの合流
+
+          beat performance:
+            - オープニングの情景描写
+            - 合流の事実確認
+            - キスカのことはあとで話すことになった
+
+
+
+        - 🟨 beat:
+          beat descriptor: エルミナが席を外す
+          beat configuration:
+
+            beat gist:
+              - beat gist item: ちょっと広場を回ってくるとか言う
+              - beat gist item: フェリに目配せする
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+        - 🟨 beat:
+          beat descriptor: 残されるフェリと察するエルミナ
+          beat configuration:
+
+            beat gist:
+              - beat gist item: フェリへの目配せに気づいたエクトがフェリを残らせる
+              - beat gist item: エルミナが察する
+              - beat gist item: 男が複数のパートナーを持つ風俗的了解
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+    - 🟧 beat group: 本番
+      beat contents:
+
+        - 🟨 beat:
+          beat descriptor: 期待のキスカとフェリ
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 二人は見詰め合って頷く
+              - beat gist item: エクトは緊張の面持ちで二人を見る
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+        - 🟨 narration:
+          beat descriptor: 二人の意図とエクトの覚悟
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 
+
+          beat performance:
+            - 男が複数のパートナーを持つことがあるとはいえ女は自分だけ愛されたいというのが普通だ
+            - だが二人の様子を見れば二人の気持ちは察せられる
+
+
+
+        - 🟨 beat:
+          beat descriptor: エクトの告白と願い
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 二人を同じだけ好きであること
+              - beat gist item: 旅についてきてほしいこと
+              - beat gist item: 将来のことも考えないといけないと思っていること
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+        - 🟨 beat:
+          beat descriptor: キスカの思い
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 嬉しい
+              - beat gist item: 私たちはそのつもりだったと視線をフェリに
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+        - 🟨 beat:
+          beat descriptor: フェリの思い
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 視線を受け微笑み
+              - beat gist item: 光栄で嬉しい
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+        - 🟨 beat:
+          beat descriptor: 三人の結束
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 未来を見据えて微笑み合う
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+
+- 🟥 scene: 2
   scene descriptor: キスカの報告
   scene gist:
     - scene gist item: エルミナの呼び戻し
@@ -71,7 +338,230 @@
 
   scene elements:
 
-- scene: 3
+    - 🟧 beat group: 
+      beat contents:
+
+        - 🟨 narration:
+          beat descriptor: エルミナの帰還と段取り
+
+          beat performance:
+            - ちょうどよいところを見計らってエルミナが帰ってきた
+            - キスカが私たちのことは上手くいったと伝える
+            - キスカが侯爵との話を報告する
+            - 報告内容のおさらい
+            - キスカの秘密
+
+
+
+        - 🟨 beat:
+          beat descriptor: エルミナの反応（淵神の恩寵）
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 恐ろしい　あんなものがならず者の手に
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: フェリの反応（淵神の恩寵）
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 屍蝋の闇炎の情報
+              - beat gist item: 魔法の塔とは方向性の違う恐ろしさがある
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 narration:
+          beat descriptor: エクトの思案と決意
+
+          beat performance:
+            - エクトにとって今のところ直接的な脅威でない
+            - キスカとフェリは危ない
+            - 守ることと強化が必要だと決意する
+
+
+
+        - 🟨 beat:
+          beat descriptor: エクトの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 二人へ、これからの行動で狙われるかもしれないが守ることを宣言する
+              - beat gist item: エルミナには、男爵ロアのこともあるしならず者に近寄らないようくれぐれも注意する
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: エルミナの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 心細そうにする
+              - beat gist item: キスカが注意していれば大丈夫と言う（侯爵の話ではそれほど広まっている感じはなかったことを思い出す）
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: フェリの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 喜び
+              - beat gist item: 私も負けないために強くなります
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: キスカの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 嬉しい
+              - beat gist item: フェリが強くなるなら負けてられない
+              - beat gist item: 注意はしないといけないが萎縮しても仕方ない　それにエクトがいてくれるし
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+- 🟥 scene: 3
   scene descriptor: エルミナの宝玉
   scene gist:
     - scene gist item: エルミナの宝玉（神殿遺跡で見つけた）
@@ -107,8 +597,186 @@
 
   scene elements:
 
+    - 🟧 beat group: 
+      beat contents:
 
-- scene: 4
+        - 🟨 narration:
+          beat descriptor: エルミナの要望
+
+          beat performance:
+            - エルミナが宝玉を見せたいと言って取り出す
+            - 宝玉の描写
+
+
+
+        - 🟨 beat:
+          beat descriptor: エクトの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 知っている紋章と同じ
+              - beat gist item: 紋章の意味
+              - beat gist item: 家に伝わる重要な紋章
+              - beat gist item: 中の紋章を探せと言われている
+              - beat gist item: 俺に関係ある紋章だ
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: キスカの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: こっちの紋章は私と関係があるわ
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 beat:
+          beat descriptor: フェリの反応
+          beat configuration:
+
+            beat gist:
+              - beat gist item: こっちの紋章は私と……
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 narration:
+          beat descriptor: 三人の黙秘
+
+          beat performance:
+            - それ以上は語らなかった
+
+
+
+    - 🟧 beat group: エルミナからの譲渡
+      beat contents:
+
+        - 🟨 narration:
+          beat descriptor: エルミナからの譲渡
+
+          beat performance:
+            - 三人が譲ってほしいと言う
+            - エルミナは快諾
+            - 宝飾品協会に認定された宝飾品店
+            - ひとまず金持ちのエクトが言われた額で買い取る
+
+
+
+    - 🟧 beat group: 神殿遺跡
+      beat contents:
+
+        - 🟨 beat:
+          beat descriptor: キスカの提案
+          beat configuration:
+
+            beat gist:
+              - beat gist item: 神殿遺跡に連れて行ってほしい
+              - beat gist item: エクト、フェリの同意
+              - beat gist item: エルミナの快諾
+
+          beat performance:
+            - beat pre-action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat action:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat narration in beat:
+                - 
+
+            - beat reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+            - beat post-reaction:
+              - beat dn: 
+                beat tone: 
+                beat activity: 
+
+
+        - 🟨 narration:
+          beat descriptor: 約束
+
+          beat performance:
+            - 日時の約束
+
+
+
+- 🟥 scene: 4
   scene descriptor: 神殿へ
   scene gist:
     - scene gist item: 四人で昼食してからエルミナとは分かれた
@@ -140,4 +808,15 @@
     - scene unpredictability item: 世間の魔法とはどんなものか
 
   scene elements:
+
+    - 🟧 beat group: 
+      beat contents:
+
+        - 🟨 narration:
+          beat descriptor: 未知の魔法へ
+
+          beat performance:
+            - エクトの知らないこちらの世界の魔法を使うために取得しに神殿に行く
+
+
 
