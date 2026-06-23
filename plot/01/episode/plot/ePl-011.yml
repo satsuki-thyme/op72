@@ -1,170 +1,81 @@
-- 🟥 scene: 1
-  scene descriptor: エクトの告白
+- 🟥 scene: エクトの告白
   scene gist:
     - scene gist item: キスカを迎え入れる（キスカの報告があることを示しておく）
     - scene gist item: エルミナの退場
     - scene gist item: エクトの告白（二人の女性に愛を告げること）
     - scene gist item: 二人の告白
 
-  scene meaning of the scene:
-    - scene meaning item: 恋愛の儀式
+  scene configuration:
 
-  scene interest:
-    - scene interest item: 恋愛模様
+    scene climax: エクトの告白の結果
 
-  scene matters of desire:
-    - scene desire dn: 関係を進めたいエクト
-      scene desire: 告白して関係を進めたい
-      scene conflict:
-        - scene conflict dn: 弱気なエクト
-          scene conflict desire: このまま黙って平穏に過ごす
-      scene risk: 拒絶されたら苦しい
-      scene results: 二人に受け入れられ恋する想いを伝えられる
-      scene gap: null
+    scene meaning of the scene:
+      - scene meaning item: 恋愛の儀式
 
-  scene value change:
-    - scene value dn: エクト
-      scene value: 二人に受け入れられるか
-      scene change: .--- / .+++++
+    scene interest:
+      - scene interest item: 恋愛模様
 
+    scene matters of desire:
+      - scene desire dn: 関係を進めたいエクト
+        scene desire: 告白して関係を進めたい
+        scene conflict:
+          - scene conflict dn: 弱気なエクト
+            scene conflict desire: このまま黙って平穏に過ごす
+        scene risk: 拒絶されたら苦しい
+        scene results: 二人に受け入れられ恋する想いを伝えられる
+        scene gap: null
 
-  scene unpredictability of the end:
-    - scene unpredictability item: キスカの報告
+    scene value change:
+      - scene value dn: エクト
+        scene value: 二人に受け入れられるか
+        scene change: .--- / .+++++
+
+    scene unpredictability of the end:
+      - scene unpredictability item: キスカの報告
 
   scene elements:
 
-    - 🟧 beat group: 舞台が整う
-      beat contents:
+    - 🟧 beat group: 告白の前段階
+      beat group configuration:
+        beat group role: 準備
+        beat group expressive staging: 緊張感を高める
 
-        - 🟨 narration:
-          beat descriptor: キスカの合流
-          beat performance:
+      beat group contents:
 
-            - オープニングの情景描写
-            - 合流の事実確認
-            - キスカのことはあとで話すことになった
+        - 🟨 beat: 情景描写
 
+        - 🟨 beat: キスカの合流
 
+        - 🟨 beat: エルミナの気遣い
 
-        - 🟨 beat:
-          beat descriptor: エルミナが席を外す
-          beat performance:
+        - 🟨 beat: フェリの残留
 
-            - beat action:
-              - beat dn: エルミナ
-                beat tone: 取って付けたようだが思い遣りがあふれる
-                beat activity: ちょっと広場を回ってくるとか言ってフェリに目配せする
+        - 🟨 beat: 一夫多妻の通俗認知
 
-            - beat reaction:
-              - beat dn: エクト
-                beat tone: 気まずそうに
-                beat activity: フェリへの目配せに気づいたエクトがフェリを残らせる
+    - 🟧 beat group: 告白の本番
+      beat group configuration:
+        beat group role: 出来事と後続
+        beat group expressive staging: 緊張と安堵
 
-        - 🟨 beat:
-          beat descriptor: 察するエルミナ
-          beat performance:
+      beat group contents:
 
-            - beat action:
-              - beat dn: エルミナ
-                beat tone: 少し驚いた
-                beat activity: 察する
+        - 🟨 beat: エクトの誤算
 
-            - beat narration in beat:
-                - 男が複数のパートナーを持つ風俗的了解
+        - 🟨 beat: キスカの待ち受け
 
+        - 🟨 beat: フェリの待ち受け
 
+        - 🟨 beat: エクトの宣言と頼み
 
-    - 🟧 beat group: 本番
-      beat contents:
+        - 🟨 beat: キスカの驚き
 
-        - 🟨 beat:
-          beat descriptor: 期待のキスカとフェリ
-          beat performance:
+        - 🟨 beat: フェリの感無量
 
-            - beat action:
-              - beat dn: 二人
-                beat tone: 期待感
-                beat activity: 見詰め合って頷く
+        - 🟨 beat: 二人の返事
 
-            - beat reaction:
-              - beat dn: エクト
-                beat tone: 緊張の面持ち
-                beat activity: 二人を見る
+        - 🟨 beat: エクトの安堵
 
-
-
-        - 🟨 narration:
-          beat descriptor: 二人の意図とエクトの覚悟
-          beat performance:
-
-            - 男が複数のパートナーを持つことがあるとはいえ女は自分だけ愛されたいというのが普通だ
-            - だが二人の様子を見れば二人の気持ちは察せられる
-
-
-
-        - 🟨 beat:
-          beat descriptor: エクトの告白と願い
-          beat performance:
-
-            - beat action:
-              - beat dn: 
-                beat tone: 
-                beat activity:
-                  - 二人を同じだけ好きであること
-                  - 旅についてきてほしいこと
-                  - 将来のことも考えないといけないと思っていること
-
-
-
-        - 🟨 beat:
-          beat descriptor: キスカの思い
-          beat performance:
-
-            - beat action:
-              - beat dn: キスカ
-                beat tone: 嬉しい
-                beat activity: ありがとうもちろん付いていく　私たちはそのつもりだったと視線をフェリに
-
-            - beat reaction:
-              - beat dn: エクト
-                beat tone: 安心
-                beat activity: 淡く笑んで頷く
-
-
-
-        - 🟨 beat:
-          beat descriptor: フェリの思い
-          beat performance:
-
-            - beat pre-action:
-              - beat dn: フェリ
-                beat tone: 納得
-                beat activity: 視線を受け微笑み
-
-            - beat action:
-              - beat dn: フェリ
-                beat tone: 光栄で嬉しい
-                beat activity: ありがとうございます　ずっと一緒です
-
-            - beat reaction:
-              - beat dn: エクト
-                beat tone: 安心
-                beat activity: 小さく息を吐いて、よかった
-
-
-
-        - 🟨 beat:
-          beat descriptor: 三人の結束
-          beat performance:
-            - beat pre-action:
-              - beat dn: 三人
-                beat tone: 明るい未来のビジョン
-                beat activity: 未来を見据えて微笑み合う
-
-
-
-- 🟥 scene: 2
-  scene descriptor: キスカの報告
+- 🟥 scene: キスカの報告
   scene gist:
     - scene gist item: エルミナの呼び戻し
     - scene gist item: 内容説明
@@ -172,313 +83,185 @@
     - scene gist item: エクトの興味
     - scene gist item: フェリの情報（人族ではない怪異によって構成され死や混乱を招くと恐れられている）
 
-  scene meaning of the scene:
-    - scene meaning item: 情報共有と新たな情報
+  scene configuration:
 
-  scene interest:
-    - scene interest item: フェリの様子とエルミナ、エクトの反応
-    - scene interest item: フェリからの情報
+    scene climax: フェリの情報
 
-  scene matters of desire:
-    - scene desire dn: フェリ
-      scene desire: 危険を伝えたい
-      scene conflict:
-        - scene conflict dn: 常識外れの情報
-          scene conflict desire: 信じさせない
-      scene risk: 危険に注意を向けない
-      scene results: 真剣に受け取られる
-      scene gap: エクトが興味津々
+    scene meaning of the scene:
+      - scene meaning item: 情報共有と新たな情報
 
-  scene value change:
-    - scene value dn: フェリ
-      scene value: 信じてもらえるか
-      scene change: .--- / .+++
+    scene interest:
+      - scene interest item: フェリの様子とエルミナ、エクトの反応
+      - scene interest item: フェリからの情報
 
+    scene matters of desire:
+      - scene desire dn: フェリ
+        scene desire: 危険を伝えたい
+        scene conflict:
+          - scene conflict dn: 常識外れの情報
+            scene conflict desire: 信じさせない
+        scene risk: 危険に注意を向けない
+        scene results: 真剣に受け取られる
+        scene gap: エクトが興味津々
 
-  scene unpredictability of the end:
-    - scene unpredictability item: 屍蝋の闇炎のこと
+    scene value change:
+      - scene value dn: フェリ
+        scene value: 信じてもらえるか
+        scene change: .--- / .+++
+
+    scene unpredictability of the end:
+      - scene unpredictability item: 屍蝋の闇炎のこと
 
   scene elements:
 
-    - 🟧 beat group: 
-      beat contents:
+    - 🟧 beat group: キスカの報告
+      beat group configuration:
+        beat group role: 準備
+        beat group expressive staging: 緊張感を高める
 
-        - 🟨 narration:
-          beat descriptor: エルミナの帰還と段取り
-          beat performance:
+      beat group contents:
 
-            - ちょうどよいところを見計らってエルミナが帰ってきた
-            - キスカが私たちのことは上手くいったと伝える
-            - キスカが侯爵との話を報告する
-            - 報告内容のおさらい
-            - キスカの秘密
+        - 🟨 beat: キスカの報告
 
+        - 🟨 beat: エルミナの反応
 
+    - 🟧 beat group: フェリの情報
+      beat group configuration:
+        beat group role: 出来事
+        beat group expressive staging: 緊張
 
-        - 🟨 beat:
-          beat descriptor: エルミナの反応（淵神の恩寵）
-          beat performance:
+      beat group contents:
 
-            - beat action:
-              - beat dn: エルミナ
-                beat tone: 恐ろしい
-                beat activity: あんなものがならず者の手に
+        - 🟨 beat: フェリの情報
 
+    - 🟧 beat group: 三人の反応
+      beat group configuration:
+        beat group role: 後続
+        beat group expressive staging: 冷静に立ち向かう
 
+      beat group contents:
 
-        - 🟨 beat:
-          beat descriptor: フェリの反応（淵神の恩寵）
-          beat performance:
+        - 🟨 beat: エルミナの反応
 
-            - beat action:
-              - beat dn: フェリ
-                beat tone: 真剣
-                beat activity: 屍蝋の闇炎の情報　魔法の塔とは方向性の違う恐ろしさがある
+        - 🟨 beat: キスカの反応
 
+        - 🟨 beat: キスカがエルミナに助言
 
+        - 🟨 beat: エクトの決意と宣言
 
-        - 🟨 narration:
-          beat descriptor: エクトの思案と決意
-          beat performance:
+        - 🟨 beat: キスカの反応
 
-            - エクトにとって今のところ直接的な脅威でない
-            - キスカとフェリは危ない
-            - 守ることと強化が必要だと決意する
+        - 🟨 beat: フェリの反応
 
-
-
-        - 🟨 beat:
-          beat descriptor: エクトの反応
-          beat performance:
-
-            - beat action:
-              - beat dn: エクト
-                beat tone: 力強く
-                beat activity: 二人へ、これからの行動で狙われるかもしれないが守ることを宣言する
-
-            - beat narration in beat:
-                - エルミナには、男爵ロアのこともあるしならず者に近寄らないようくれぐれも注意する
-
-
-
-        - 🟨 beat:
-          beat descriptor: エルミナの反応
-          beat performance:
-
-            - beat action:
-              - beat dn: エルミナ
-                beat tone: 心細そうにする
-                beat activity: 頷く
-
-            - beat reaction:
-              - beat dn: キスカ
-                beat tone: 穏やかに
-                beat activity: 注意していれば大丈夫と言う（侯爵の話ではそれほど広まっている感じはなかったことを思い出す）
-
-
-
-        - 🟨 beat:
-          beat descriptor: フェリの反応
-          beat performance:
-
-            - beat action:
-              - beat dn: フェリ
-                beat tone: 喜び
-                beat activity: 私も負けないために強くなります
-
-
-
-        - 🟨 beat:
-          beat descriptor: キスカの反応
-          beat performance:
-
-            - beat action:
-              - beat dn: 
-                beat tone: 嬉しい
-                beat activity: フェリが強くなるなら負けてられない　注意はしないといけないが萎縮しても仕方ない　それにエクトがいてくれるし
-
-
-
-- 🟥 scene: 3
-  scene descriptor: エルミナの宝玉
+- 🟥 scene: エルミナの宝玉
   scene gist:
     - scene gist item: エルミナの宝玉（神殿遺跡で見つけた）
     - scene gist item: 紋様の気づきと告白
     - scene gist item: 取扱注意の情報はエルミナのいる前では話せない
     - scene gist item: 宝玉の譲渡提案（宝玉の鑑定――金細工商）
 
-  scene meaning of the scene:
-    - scene meaning item: 新たな情報
+  scene configuration:
 
-  scene interest:
-    - scene interest item: エクトたちの謎の繋がり
-    - scene interest item: エクトの秘密とそこから類推されるキスカ、フェリの秘密
+    scene climax: エクトたちには秘密がある
 
-  scene matters of desire:
-    - scene desire dn: null
-      scene desire: null
-      scene conflict:
-        - scene conflict dn: null
-          scene conflict desire: null
-      scene risk: null
-      scene results: null
-      scene gap: null
+    scene meaning of the scene:
+      - scene meaning item: 新たな情報
 
-  scene value change:
-    - scene value dn: null
-      scene value: null
-      scene change: null
+    scene interest:
+      - scene interest item: エクトたちの謎の繋がり
+      - scene interest item: エクトの秘密とそこから類推されるキスカ、フェリの秘密
 
+    scene matters of desire:
+      - scene desire dn: null
+        scene desire: null
+        scene conflict:
+          - scene conflict dn: null
+            scene conflict desire: null
+        scene risk: null
+        scene results: null
+        scene gap: null
 
-  scene unpredictability of the end:
-    - scene unpredictability item: 紋様の意味、エクトの秘密とキスカ、フェリの秘密
+    scene value change:
+      - scene value dn: null
+        scene value: null
+        scene change: null
+
+    scene unpredictability of the end:
+      - scene unpredictability item: 紋様の意味、エクトの秘密とキスカ、フェリの秘密
 
   scene elements:
 
-    - 🟧 beat group: 
-      beat contents:
+    - 🟧 beat group: 宝玉の秘密
+      beat group configuration:
+        beat group role: 出来事
+        beat group expressive staging: 謎の深まり
 
-        - 🟨 narration:
-          beat descriptor: エルミナの要望
-          beat performance:
+      beat group contents:
 
-            - エルミナが宝玉を見せたいと言って取り出す
-            - 宝玉の描写
+        - 🟨 beat: エルミナの希望
 
+        - 🟨 beat: 宝玉
 
+        - 🟨 beat: エクトの反応
 
-        - 🟨 beat:
-          beat descriptor: エクトの反応
-          beat performance:
+        - 🟨 beat: キスカの反応
 
-            - beat action:
-              - beat dn: エクト
-                beat tone: 驚き
-                beat activity: 俺に関係ある紋章だ
+        - 🟨 beat: フェリの反応
 
-            - beat narration in beat:
-              - 知っている紋章と同じ
-              - 紋章の意味
-              - 家に伝わる重要な紋章
-              - 中の紋章を探せと言われている
+        - 🟨 beat: 今は言えないこと
 
+    - 🟧 beat group: 宝玉の譲渡と神殿遺跡探検の約束
+      beat group configuration:
+        beat group role: 後続
+        beat group expressive staging: 前向きな展望
 
+      beat group contents:
 
-        - 🟨 beat:
-          beat descriptor: キスカの反応
-          beat performance:
+        - 🟨 beat: 宝玉の譲渡
 
-            - beat action:
-              - beat dn: キスカ
-                beat tone: 覚悟が決まった
-                beat activity: こっちの紋章は私と関係があるわ
+        - 🟨 beat: 神殿遺跡探検の約束
 
-
-
-        - 🟨 beat:
-          beat descriptor: フェリの反応
-          beat performance:
-
-            - beat action:
-              - beat dn: フェリ
-                beat tone: ついに来た！
-                beat activity: こっちの紋章は私と……
-
-
-
-        - 🟨 narration:
-          beat descriptor: 三人の黙秘
-          beat performance:
-
-            - それ以上は語らなかった
-
-
-
-    - 🟧 beat group: エルミナからの譲渡
-      beat contents:
-
-        - 🟨 narration:
-          beat descriptor: エルミナからの譲渡
-          beat performance:
-
-            - 三人が譲ってほしいと言う
-            - エルミナは快諾
-            - 宝飾品協会に認定された宝飾品店
-            - ひとまず金持ちのエクトが言われた額で買い取る
-
-
-
-    - 🟧 beat group: 神殿遺跡
-      beat contents:
-
-        - 🟨 beat:
-          beat descriptor: キスカの提案
-          beat performance:
-
-            - beat action:
-              - beat dn: キスカ
-                beat tone: 真剣
-                beat activity: 神殿遺跡に連れて行ってほしい
-
-            - beat narration in beat:
-                - エクト、フェリの同意
-
-            - beat reaction:
-              - beat dn: エルミナ
-                beat tone: 乗り気
-                beat activity: エルミナの快諾
-
-
-
-        - 🟨 narration:
-          beat descriptor: 約束
-          beat performance:
-
-            - 日時の約束
-
-
-
-- 🟥 scene: 4
-  scene descriptor: 神殿へ
+- 🟥 scene: 神殿へ
   scene gist:
     - scene gist item: 四人で昼食してからエルミナとは分かれた
     - scene gist item: 神殿へ（魔法の取得）
 
-  scene meaning of the scene:
-    - scene meaning item: フック
+  scene configuration:
 
-  scene interest:
-    - scene interest item: 魔法の取得とは
+    scene climax: 未知の魔法への期待
 
-  scene matters of desire:
-    - scene desire dn: エクト
-      scene desire: 知らない魔法と出会いたい
-      scene conflict:
-        - scene conflict dn: null
-          scene conflict desire: null
-      scene risk: null
-      scene results: null
-      scene gap: null
+    scene meaning of the scene:
+      - scene meaning item: フック
 
-  scene value change:
-    - scene value dn: null
-      scene value: null
-      scene change: null
+    scene interest:
+      - scene interest item: 魔法の取得とは
 
+    scene matters of desire:
+      - scene desire dn: エクト
+        scene desire: 知らない魔法と出会いたい
+        scene conflict:
+          - scene conflict dn: null
+            scene conflict desire: null
+        scene risk: null
+        scene results: null
+        scene gap: null
 
-  scene unpredictability of the end:
-    - scene unpredictability item: 世間の魔法とはどんなものか
+    scene value change:
+      - scene value dn: null
+        scene value: null
+        scene change: null
+
+    scene unpredictability of the end:
+      - scene unpredictability item: 世間の魔法とはどんなものか
 
   scene elements:
 
-    - 🟧 beat group: 
-      beat contents:
+    - 🟧 beat group: 未知の魔法への期待
+      beat group configuration:
+        beat group role: 後続
+        beat group expressive staging: フック
 
-        - 🟨 narration:
-          beat descriptor: 未知の魔法へ
-          beat performance:
+      beat group contents:
 
-            - エクトの知らないこちらの世界の魔法を使うために取得しに神殿に行く
-
-
+        - 🟨 beat: エクトの知らない魔法
 
