@@ -21,9 +21,9 @@
 #### チャプタープロット
 
 - plot/01/chapter/character-base.yml: キャラクターの基礎設定
-- plot/01/chapter/log.yml:            ログ
-- plot/01/chapter/plan.md:            計画
-- plot/01/chapter/precursor.yml:      前駆体
+- plot/01/chapter/log.yml: .......... ログ
+- plot/01/chapter/plan.md: .......... 計画
+- plot/01/chapter/precursor.yml: .... 前駆体
 
 #### 基礎計画
 
@@ -53,8 +53,8 @@
 
 - settings/background.yml: 背景設定
 - settings/characters.yml: キャラクター設定
-- settings/place.yml:      場所設定
-- settings/things.yml:     物事設定
+- settings/place.yml: .... 場所設定
+- settings/things.yml: ... 物事設定
 
 ### メモ
 
@@ -64,7 +64,7 @@
 
 ### etc.
 
-- etc/MGMT.md:             作業管理
+- etc/MGMT.md: ........... 作業管理
 - plot/00/title-idea.md: タイトル案
 
 ### 思考ノート
