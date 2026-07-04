@@ -64,16 +64,15 @@
 
 ### etc.
 
-- etc/MGMT.md: ........... 作業管理
 - plot/00/title-idea.md: タイトル案
 
-### 思考ノート
+### アイデアノート
 
-- thinking-notes/thi-001.md: ウィスプ
-- thinking-notes/thi-002.md: 暴行
-- thinking-notes/thi-003.md: 魔法の塔の改名
-- thinking-notes/thi-004.md: 魔法の塔の目的
-- thinking-notes/thi-005.md: 屍蝋の闇炎
-- thinking-notes/thi-006.md: 淵神
-- thinking-notes/thi-007.md: 裁判
-- thinking-notes/thi-008.md: 牢の面白み
+- idea-notes/ide-001.md: ウィスプ
+- idea-notes/ide-002.md: 暴行
+- idea-notes/ide-003.md: 魔法の塔の改名
+- idea-notes/ide-004.md: 魔法の塔の目的
+- idea-notes/ide-005.md: 屍蝋の闇炎
+- idea-notes/ide-006.md: 淵神
+- idea-notes/ide-007.md: 裁判
+- idea-notes/ide-008.md: 牢の面白み

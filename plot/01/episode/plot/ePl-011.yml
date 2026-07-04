@@ -43,37 +43,89 @@
       beat group contents:
 
         - 🟨 beat: 情景描写
+          beat configuration:
+            beat role: 情景描写 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 情景描写 # 言葉上の意味
+            beat expressive staging: 明るい世界 # 表現上の演出
 
         - 🟨 beat: キスカの合流
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 合流した # 言葉上の意味
+            beat expressive staging: 中程度の硬さ # 表現上の演出
 
         - 🟨 beat: エルミナの気遣い
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 場を離れる # 言葉上の意味
+            beat expressive staging: 中程度の硬さ # 表現上の演出
 
         - 🟨 beat: フェリの残留
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: フェリは残る # 言葉上の意味
+            beat expressive staging: 緊張感 # 表現上の演出
 
         - 🟨 beat: 一夫多妻の通俗認知
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 一夫多妻の通俗認知 # 言葉上の意味
+            beat expressive staging: 硬い # 表現上の演出
 
     - 🟧 beat group: 告白の本番
       beat group configuration:
-        beat group role: 出来事と後続
+        beat group role: 本番と後続
         beat group expressive staging: 緊張と安堵
 
       beat group contents:
 
         - 🟨 beat: エクトの誤算
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 貴族の厄介さなど世の中のことを教えてくれるよう頼むつもりだったのに期待されているし変な流れになったな # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
         - 🟨 beat: キスカの待ち受け
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 期待している # 言葉上の意味
+            beat expressive staging: 楽しそう # 表現上の演出
 
         - 🟨 beat: フェリの待ち受け
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 男らしさを見せてください # 言葉上の意味
+            beat expressive staging: 期待 # 表現上の演出
 
         - 🟨 beat: エクトの宣言と頼み
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 好きだからついてきてくれ # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
         - 🟨 beat: キスカの驚き
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: いい話が聞けると思っていたけど、こんなにいい話とは # 言葉上の意味
+            beat expressive staging: 驚きと舞い上がり # 表現上の演出
 
         - 🟨 beat: フェリの感無量
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 感無量の幸せ # 言葉上の意味
+            beat expressive staging: 感情が溢れる # 表現上の演出
 
         - 🟨 beat: 二人の返事
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 私たちも好き　もちろん # 言葉上の意味
+            beat expressive staging: 誠実 # 表現上の演出
 
         - 🟨 beat: エクトの安堵
+          beat configuration:
+            beat role: 後続 # 役割（準備・本番・後続、その他）
+            beat literal meaning: よかった # 言葉上の意味
+            beat expressive staging: 弛緩と感無量 # 表現上の演出
 
 - 🟥 scene: キスカの報告
   scene gist:
@@ -122,17 +174,29 @@
       beat group contents:
 
         - 🟨 beat: キスカの報告
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 説明 # 言葉上の意味
+            beat expressive staging: 深刻だが楽観 # 表現上の演出
 
         - 🟨 beat: エルミナの反応
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 不安 # 言葉上の意味
+            beat expressive staging: 不安だがそこまで気にしてない # 表現上の演出
 
     - 🟧 beat group: フェリの情報
       beat group configuration:
-        beat group role: 出来事
+        beat group role: 本番
         beat group expressive staging: 緊張
 
       beat group contents:
 
         - 🟨 beat: フェリの情報
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 人外の集団 # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
     - 🟧 beat group: 三人の反応
       beat group configuration:
@@ -142,16 +206,40 @@
       beat group contents:
 
         - 🟨 beat: エルミナの反応
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 恐れ # 言葉上の意味
+            beat expressive staging: 低迷 # 表現上の演出
 
         - 🟨 beat: キスカの反応
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 真剣 # 言葉上の意味
+            beat expressive staging: 慎重で硬い # 表現上の演出
 
         - 🟨 beat: キスカがエルミナに助言
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 励ましと注意 # 言葉上の意味
+            beat expressive staging: 低調 # 表現上の演出
 
         - 🟨 beat: エクトの決意と宣言
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: これから関わるかもしれないが守る # 言葉上の意味
+            beat expressive staging: 力強く断定的 # 表現上の演出
 
         - 🟨 beat: キスカの反応
+          beat configuration:
+            beat role: 後続 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 希望 # 言葉上の意味
+            beat expressive staging: 安寧 # 表現上の演出
 
         - 🟨 beat: フェリの反応
+          beat configuration:
+            beat role: 後続 # 役割（準備・本番・後続、その他）
+            beat literal meaning: エクトの力への気づき # 言葉上の意味
+            beat expressive staging: 少し安心 # 表現上の演出
 
 - 🟥 scene: エルミナの宝玉
   scene gist:
@@ -193,22 +281,46 @@
 
     - 🟧 beat group: 宝玉の秘密
       beat group configuration:
-        beat group role: 出来事
+        beat group role: 本番
         beat group expressive staging: 謎の深まり
 
       beat group contents:
 
         - 🟨 beat: エルミナの希望
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 素敵だから見せたい # 言葉上の意味
+            beat expressive staging: 楽しげ # 表現上の演出
 
         - 🟨 beat: 宝玉
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 描写 # 言葉上の意味
+            beat expressive staging: 不思議 # 表現上の演出
 
         - 🟨 beat: エクトの反応
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 知っている # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
         - 🟨 beat: キスカの反応
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 知っている # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
         - 🟨 beat: フェリの反応
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 知っている # 言葉上の意味
+            beat expressive staging: 緊迫 # 表現上の演出
 
         - 🟨 beat: 今は言えないこと
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 言えない # 言葉上の意味
+            beat expressive staging: 謎 # 表現上の演出
 
     - 🟧 beat group: 宝玉の譲渡と神殿遺跡探検の約束
       beat group configuration:
@@ -218,8 +330,16 @@
       beat group contents:
 
         - 🟨 beat: 宝玉の譲渡
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 譲渡の説明 # 言葉上の意味
+            beat expressive staging: 短く硬く # 表現上の演出
 
         - 🟨 beat: 神殿遺跡探検の約束
+          beat configuration:
+            beat role: 準備 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 約束 # 言葉上の意味
+            beat expressive staging: 短く硬く # 表現上の演出
 
 - 🟥 scene: 神殿へ
   scene gist:
@@ -264,4 +384,8 @@
       beat group contents:
 
         - 🟨 beat: エクトの知らない魔法
+          beat configuration:
+            beat role: 本番 # 役割（準備・本番・後続、その他）
+            beat literal meaning: 神殿へ # 言葉上の意味
+            beat expressive staging: 希望と楽しさと期待 # 表現上の演出
 
