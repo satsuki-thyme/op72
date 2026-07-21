@@ -1,8 +1,8 @@
 # management
 
-## special notes
+## AI usege
 
-- AI利用: 参考情報の調査
+- 参考情報の調査
 
 ## notes
 
@@ -19,6 +19,7 @@
 
 - 🟨 task
   - 🟦 reserve
+    - [ ] ;ePl-012;
   - 🟦 await
   - 🟦 archive
     - [x] ;det-009;
