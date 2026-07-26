@@ -19,7 +19,8 @@
 
 - task
   - reserve
-    - [ ] ;ePl-012;
+    - [n] ;eBu-012;
+    - [ ] ;eSt-012;
   - await
   - archive
     - [x] ;det-009;

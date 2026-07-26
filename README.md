@@ -36,6 +36,7 @@
 - plot/01/episode/build/eBu-009.md: 基礎計画 第1章 第9話
 - plot/01/episode/build/eBu-010.md: 基礎計画 第1章 第10話
 - plot/01/episode/build/eBu-011.md: 基礎計画 第1章 第11話
+- plot/01/episode/build/eBu-012.md: 基礎計画 第1章 第12話
 
 #### エピソードプロット
 
