@@ -6,17 +6,17 @@
 
 #### 本文
 
-- text/01/tex-001.txt: 憤れる森の美少女
-- text/01/tex-002.txt: 決闘への乱入者
-- text/01/tex-003.txt: 盗賊城への招待状
-- text/01/tex-004.txt: 放つ災禍の影
-- text/01/tex-005.txt: 舞い踊る武闘
-- text/01/tex-006.txt: 少女たちの事情
-- text/01/tex-007.txt: 見えない敵の強襲
-- text/01/tex-008.txt: 許されざる者
-- text/01/tex-009.txt: 判決の行方を握るもの
-- text/01/tex-010.txt: 思惑と意思の舞踏
-- text/01/tex-011.txt: 告白、そして願い
+- text/01/op72-tex-001.txt: 憤れる森の美少女
+- text/01/op72-tex-002.txt: 決闘への乱入者
+- text/01/op72-tex-003.txt: 盗賊城への招待状
+- text/01/op72-tex-004.txt: 放つ災禍の影
+- text/01/op72-tex-005.txt: 舞い踊る武闘
+- text/01/op72-tex-006.txt: 少女たちの事情
+- text/01/op72-tex-007.txt: 見えない敵の強襲
+- text/01/op72-tex-008.txt: 許されざる者
+- text/01/op72-tex-009.txt: 判決の行方を握るもの
+- text/01/op72-tex-010.txt: 思惑と意思の舞踏
+- text/01/op72-tex-011.txt: 告白、そして願い
 
 #### チャプタープロット
 
