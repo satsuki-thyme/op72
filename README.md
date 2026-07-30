@@ -49,6 +49,7 @@
 - plot/01/episode/structure/eSt-009.yml: エピソード構造体 第1章 第9話
 - plot/01/episode/structure/eSt-010.yml: エピソード構造体 第1章 第10話
 - plot/01/episode/structure/eSt-011.yml: エピソード構造体 第1章 第11話
+- plot/01/episode/structure/eSt-012.yml: エピソード構造体 第1章 第12話
 
 ### 設定
 
