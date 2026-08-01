@@ -5,20 +5,224 @@
     - sequence gist item: 女神像がアーシェス神と違う　髪が長くない　カイ神
     - sequence gist item: エルミナから譲ってもらった宝玉とも関係があるけど後で話すわ　フェリが静かに聞いている
 
+  sequence configuration:
+
+    sequence climax: キスカの後で話す
+
+    sequence meaning of the sequence:
+      - sequence meaning item: 導入
+      - sequence meaning item: 伏線
+
+    sequence interest:
+      - sequence interest item: 神殿の豪華な描写
+      - sequence interest item: エクトの困惑
+      - sequence interest item: キスカの後で話す
+
+    sequence matters of desire:
+      - sequence desire dn: エクト
+        sequence desire: アーシェス神に感謝したい
+        sequence conflict:
+          - sequence conflict dn: アーシェス神の不在
+            sequence conflict desire: none
+        sequence risk: 信仰の阻害
+        sequence results: 会えない
+        sequence gap: 当然アーシェス神だと思っていたが
+
+    sequence value change:
+      - sequence value dn: エクト
+        sequence value: アーシェス神に会えるか
+        sequence change: .+++ \ .---
+        sequence value note: none
+
+    sequence unpredictability of the end:
+      - sequence unpredictability item: キスカの後で話す
+
+  sequence elements:
+
+    - scene: 1-1
+      emotion: 畏敬の念
+      scene gist:
+        - scene gist item: 神殿の外観　列をなす人
+        - scene gist item: 神殿の内観　そこかしこに人
+
+      scene elements:
+
+        - beat group: 
+          beat group configuration:
+            beat group role: # 役割（準備・本番・後続、その他）
+            beat group behavior meaning: # 振る舞い上の意味
+            beat group expressive staging: # 表現上の演出
+
+          beat group contents:
+
+            - beat: 
+              beat configuration:
+                beat role: # 役割（準備・本番・後続、その他）
+                beat literal meaning: # 言葉上の意味
+                beat expressive staging: # 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 
+                  beat metaphor: false
+                  beat contents:
+                    - 
+
+
+
+        - beat group: 
+          beat group configuration:
+            beat group role: # 役割（準備・本番・後続、その他）
+            beat group behavior meaning: # 振る舞い上の意味
+            beat group expressive staging: # 表現上の演出
+
+          beat group contents:
+
+            - beat: 
+              beat configuration:
+                beat role: # 役割（準備・本番・後続、その他）
+                beat literal meaning: # 言葉上の意味
+                beat expressive staging: # 表現上の演出
+
+              beat performance:
+
+                - beat pre-action:
+                  - beat dn: 
+                    beat tone: 
+                    beat metaphor: false
+                    beat activity: 
+
+                - beat action:
+                  - beat dn: 
+                    beat tone: 
+                    beat metaphor: false
+                    beat activity: 
+
+                - beat narration in beat:
+                    - 
+
+                - beat reaction:
+                  - beat dn: 
+                    beat tone: 
+                    beat metaphor: false
+                    beat activity: 
+
+                - beat post-reaction:
+                  - beat dn: 
+                    beat tone: 
+                    beat metaphor: false
+                    beat activity: 
+
+
+
+        - beat group: 
+          beat group configuration:
+            beat group role: # 役割（準備・本番・後続、その他）
+            beat group behavior meaning: # 振る舞い上の意味
+            beat group expressive staging: # 表現上の演出
+
+          beat group contents:
+
+            - beat: 
+              beat configuration:
+                beat role: # 役割（準備・本番・後続、その他）
+                beat literal meaning: # 言葉上の意味
+                beat expressive staging: # 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 
+                  beat metaphor: false
+                  beat contents:
+                    - ⬜⬜⬜ work location ⬜⬜⬜
+
+
+
+    - scene: 1-2
+      emotion: 不思議
+      scene gist:
+        - scene gist item: 巨大な神像　アーシェス神ではない　髪が長くない　キスカ、エルミナの宝玉にも関わりがあるけど後で言う
+
+      scene elements:
 
 - sequence: 2
   sequence gist:
-    - sequence gist item: フェリこっちに行きましょう　並ぶ人が少ない　キスカがへぇ、という顔　エクトは説明を求め聞いて不安がりキスカが呆れる
+    - sequence gist item: 最強に行きたいフェリ　最強は遠慮したいエクト　キスカがへぇ、という顔　エクトは説明を求め聞いて不安がりキスカが呆れる
     - sequence gist item: 運び出される魔法使い　エクト不安がる
     - sequence gist item: 神官が問う　初めてじゃないんですか大丈夫ですかここは中級ですよ　フェリ問題ありません　エクト不安　フェリ金の無駄
     - sequence gist item: 神官負ければ精神にダメージがあるけどいいのか　エクト驚く　フェリは太鼓判　いざ
 
+  sequence configuration:
+
+    sequence climax: いざ
+
+    sequence meaning of the sequence:
+      - sequence meaning item: 楽観と緊張の高まり
+
+    sequence interest:
+      - sequence interest item: 楽観と緊張の高まり
+
+    sequence matters of desire:
+      - sequence desire dn: エクト
+        sequence desire: 神の代行者への不安
+        sequence conflict:
+          - sequence conflict dn: フェリ
+            sequence conflict desire: 強い神の代行者と戦わせたい
+        sequence risk: 強い神の代行者と当たる
+        sequence results: 中くらい
+        sequence gap: ちょっとヤバい
+
+    sequence value change:
+      - sequence value dn: エクト
+        sequence value: 程々の神の代行者と戦いたい
+        sequence change: . \ .---
+        sequence value note: none
+
+    sequence unpredictability of the end:
+      - sequence unpredictability item: どんな神の代行者なのか
+
+  sequence elements:
+
+    - scene: 2-1
+      emotion: コミカル
+      scene gist:
+        - scene gist item: 最強を目指すフェリ　列がなく閑散
+        - scene gist item: 理由を尋ねるエクト　最強だからとフェリ　ふうんとキスカ
+        - scene gist item: 最弱からがいいとエクト　最強にこだわるフェリ　真ん中を取ろうとキスカ
+
+      scene elements:
+
+    - scene: 2-2
+      emotion: 安心と不安
+      scene gist:
+        - scene gist item: 中央の扉の近くには短い列が　仲間がいて安心のエクト　フェリはがっかり
+        - scene gist item: 扉から出てきて倒れる人　不安になるエクト
+
+      scene elements:
+
+    - scene: 2-3
+      emotion: 呆れ
+      scene gist:
+        - scene gist item: エクトの番　代金を払ってくださいとフェリ
+        - scene gist item: 呆れる神官　魔法力をまるで感じない　身体強化もままならない　こういうバカなやつがたまにいるんだよ
+        - scene gist item: 周囲の見物人もエクトをバカにする
+
+      scene elements:
+
+    - scene: 2-4
+      emotion: 呆れ
+      scene gist:
+        - scene gist item: キスカ知らないって幸せなことね　フェリ人族に推し量れる程度ではありませんから
+
+      scene elements:
 
 - sequence: 3
   sequence gist:
     - sequence gist item: 巨大な火をまとう狼　このくらいなら大丈夫
     - sequence gist item: 空間がゆがんで赤髪の若い女が出てくる　おまえじゃ力不足だ　私がやろう　不満そうな狼だが
-    - sequence gist item: お姉さんは狼より強そうだね　神殿の立像は見なかったのかもっと有名かと思っていたのにショックだ　ごめんなさい
+    - sequence gist item: お姉さんは狼より強そうだね　神殿の立像は見なかったのかもっと有名かと思っていたのにショックだ　これでも神よ　ごめんなさい
     - sequence gist item: いいわ　あなたでも本気を出さないと死ぬわよ
     - sequence gist item: 大火　熱を感じる！　くっ
     - sequence gist item: これならどう！？　大火　第三障壁を越えてこんなに熱が伝わるなんてドラゴンよりすごい　当たり前よ
@@ -26,7 +230,137 @@
     - sequence gist item: 僕も火を使うよこれより熱ければいいのかな　大火　蒸発　エクトが焦る　神復活
     - sequence gist item: 溶けて蒸発する世界でカイ神がフェリア見てるんでしょ冷やしてちょうだい　あなたが負けるなんてね　正直怖いわ
     - sequence gist item: 時間がかかるが冷え始める　エクトが気を利かせて一瞬で冷やす　フェリア驚愕　負けだよ
+    - sequence gist item: アーシェス神ほどじゃなかったと内心思うエクト
 
+  sequence configuration:
+
+    sequence climax: カイ神を倒す
+
+    sequence meaning of the sequence:
+      - sequence meaning item: バトル
+
+    sequence interest:
+      - sequence interest item: バトル
+
+    sequence matters of desire:
+      - sequence desire dn: エクト
+        sequence desire: 勝ちたい
+        sequence conflict:
+          - sequence conflict dn: カイ神
+            sequence conflict desire: 下したい
+        sequence risk: 精神にダメージを受ける
+        sequence results: 快勝
+        sequence gap: 思っていたほどじゃない
+
+    sequence value change:
+      - sequence value dn: エクト
+        sequence value: 程々の神の代行者と
+        sequence change: .--- / .+++++
+        sequence value note: none
+
+    sequence unpredictability of the end:
+      - sequence unpredictability item: アーシェス神とは
+
+  sequence elements:
+
+    - scene: 3-1
+      emotion: 戦々恐々
+      scene gist:
+        - scene gist item: 入室　着席　目を閉じて祈る
+        - scene gist item: 神殿の天井が高い大広間の端
+
+      scene elements:
+
+    - scene: 3-2
+      emotion: 一安心
+      scene gist:
+        - scene gist item: 中央で炎が渦巻く
+        - scene gist item: エクト一安心　このくらいなら問題ない
+        - scene gist item: 炎を纏った大柄な狼　今さらフェリの気持ちが分かる気がする
+        - scene gist item: 炎の狼が唸る
+
+      scene elements:
+
+    - scene: 3-3
+      emotion: 不思議
+      scene gist:
+        - scene gist item: 空間がゆがんで若い女が出現する
+        - scene gist item: 狼が伏せる　おまえには荷が重い　私が出よう
+        - scene gist item: 神像に似てるけど誰？　有名なつもりだったんだけどショック
+        - scene gist item: 私はカイ　私が直接相手をしよう
+        - scene gist item: エクトに恐れはない
+
+      scene elements:
+
+    - scene: 3-4
+      emotion: 尊大
+      scene gist:
+        - scene gist item: かかってくるがいい　そっちからお願いします　僕は凌ぐので
+        - scene gist item: 舐められたものだな　おまえでも本気を出さねば命はないぞ
+
+      scene elements:
+
+    - scene: 3-5
+      emotion: 驚き
+      scene gist:
+        - scene gist item: 強烈ファイア　まるで意に介さないエクト
+        - scene gist item: 厚さも感じぬか、褒めてやろう　だが次はどうかな
+
+      scene elements:
+
+    - scene: 3-6
+      emotion: 驚愕
+      scene gist:
+        - scene gist item: 激烈ファイア　暖かい　第三障壁を熱が越えるなんて久しぶりだ
+        - scene gist item: バカな　もう手加減はしない
+
+      scene elements:
+
+    - scene: 3-7
+      emotion: 戦慄
+      scene gist:
+        - scene gist item: 激甚ファイア　床や壁が溶ける　春の日の日向のように心地いい　これならエンシェントドラゴンより強い
+        - scene gist item: ありえない……　だが防いでばかりでは認めてやれないぞ
+
+      scene elements:
+
+    - scene: 3-8
+      emotion: 敗北の味
+      scene gist:
+        - scene gist item: エクト極大の劫熾　全体が蒸発して漆黒の空間に　敗北を味わい消滅するカイ神
+        - scene gist item: 再び出現するカイ神　強い男が好きだ
+
+      scene elements:
+
+    - scene: 3-9
+      emotion: 諦め
+      scene gist:
+        - scene gist item: フェリア見てるんでしょ　冷やしてよまた消滅しそうだわ　あなたが負けるなんてね　冷やすには時間がかかるわ
+
+      scene elements:
+
+    - scene: 3-10
+      emotion: 感動と諦め
+      scene gist:
+        - scene gist item: すごい冷気だ　これも久しぶりの感覚　あなたにはその程度なのね
+
+      scene elements:
+
+    - scene: 3-11
+      emotion: ご褒美
+      scene gist:
+        - scene gist item: フェリア正直あなたが私の神殿に来るのは怖いの　私の権能も授けるわ　エクト？
+        - scene gist item: さようなら、また会いましょう
+
+      scene elements:
+
+    - scene: 3-12
+      emotion: ご褒美
+      scene gist:
+        - scene gist item: 当然私の権能も授ける　いつかまた会えるだろう　そのときは……　エクト？
+        - scene gist item: 炎と凍結の魔法がすべて感じられる　去っていくエクト
+
+      scene elements:
 
 - sequence: 4
   sequence gist:
@@ -35,5 +369,120 @@
     - sequence gist item: フェリ驚愕　キスカ呆れる　神官訝しむ　水晶　ひれ伏す　老神官すぐに立てと言う
     - sequence gist item: 奥へ　老神官もひれ伏す　口外しないほうがいいでしょう　塔の連中　搦め手
     - sequence gist item: 奥から出てくる　見ている男　小さな水晶を通してエクトを見る　驚愕して去っていく
+
+  sequence configuration:
+
+    sequence climax: 神官のひれ伏し
+
+    sequence meaning of the sequence:
+      - sequence meaning item: 結果
+
+    sequence interest:
+      - sequence interest item: 神官の驚き
+
+    sequence matters of desire:
+      - sequence desire dn: エクト
+        sequence desire: なんだったのか知りたい
+        sequence conflict:
+          - sequence conflict dn: 誰も
+            sequence conflict desire: 驚きと恐れ多さで語れない
+        sequence risk: 何も知れないまま
+        sequence results: 何も知れない
+        sequence gap: 教えてもらえなかった
+
+    sequence value change:
+      - sequence value dn: エクト
+        sequence value: 知りたい
+        sequence change: . \ .---
+        sequence value note: none
+
+    sequence unpredictability of the end:
+      - sequence unpredictability item: アーシェス神とは
+
+  sequence elements:
+
+    - scene: 4-1
+      emotion: 不安
+      scene gist:
+        - scene gist item: エクトの帰りが遅いことにフェリとキスカが不安になる
+
+      scene elements:
+
+    - scene: 4-2
+      emotion: 神官の呆れ
+      scene gist:
+        - scene gist item: 神官、当たり前だという態度
+        - scene gist item: 周囲の見物人も呆れた様子
+
+      scene elements:
+
+    - scene: 4-3
+      emotion: 驚き
+      scene gist:
+        - scene gist item: ケロッとしたエクト
+        - scene gist item: キスカ、フェリ安心
+        - scene gist item: 神官、大丈夫なのか
+
+      scene elements:
+
+    - scene: 4-4
+      emotion: 驚愕
+      scene gist:
+        - scene gist item: どうだった？　カイって女の人と戦った
+        - scene gist item: 神官が小バカにしていちおう水晶を通してエクトを見て確認する　驚愕
+
+      scene elements:
+
+    - scene: 4-5
+      emotion: ひれ伏し
+      scene gist:
+        - scene gist item: フェリア神まで　ひれ伏し
+
+      scene elements:
+
+    - scene: 4-6
+      emotion: 驚愕と困惑
+      scene gist:
+        - scene gist item: キスカ、フェリ驚愕
+        - scene gist item: エクト困惑
+
+      scene elements:
+
+    - scene: 4-7
+      emotion: おごそか
+      scene gist:
+        - scene gist item: 老神官が現れる　こちらへ
+
+      scene elements:
+
+    - scene: 4-8
+      emotion: ひれ伏し
+      scene gist:
+        - scene gist item: 奥の一室　扉を閉めて神官がひれ伏す
+
+      scene elements:
+
+    - scene: 4-9
+      emotion: 真実
+      scene gist:
+        - scene gist item: カイとフェリアの権能をお持ちだ
+
+      scene elements:
+
+    - scene: 4-10
+      emotion: 警戒
+      scene gist:
+        - scene gist item: 他言は無用　塔の連中が嗅ぎつけたら厄介だ
+        - scene gist item: 力では及ばないだろうが搦め手が得意だ
+
+      scene elements:
+
+    - scene: 4-11
+      emotion: 危機感
+      scene gist:
+        - scene gist item: 奥から出てくるエクトたち
+        - scene gist item: 片手に収まる水晶でエクトを見、去っていく男　首に塔の入れ墨
+
+      scene elements:
 
 
