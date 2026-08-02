@@ -5,6 +5,21 @@
 #  - 社会が右辺に所属.左辺が所属する社会
 #  - 右辺を包含する社会 / 個人が左辺に所属
 
+- episode: template
+  case: 
+  title: 
+  elapsed days: 
+  location: 
+  time: 
+  contact: 
+  first contact: 
+  first appearance: 
+  companion: 
+  monster: 
+  battle: 
+  eros: 
+  summary: 
+
 - episode: 13
   case: 
   title: 
@@ -17,7 +32,7 @@
   companion: 
   monster: 
   battle: 
-  erros: 
+  eros: 
   summary: 
 
 - episode: 12
@@ -32,7 +47,7 @@
   companion: 
   monster: 
   battle: 
-  erros: 
+  eros: 
   summary: 
 
 - episode: 11
@@ -47,7 +62,7 @@
   companion: キスカ, フェリ
   monster: none
   battle: false
-  erros: false
+  eros: false
   summary: エクトがキスカとフェリに愛を告白し二人と旅を共にする誓いを交わす。その後、エルミナの持つ宝玉がエクト一行それぞれのルーツと繋がると判明し、神殿遺跡を訪れることになった。
 
 - episode: 10
@@ -62,7 +77,7 @@
   companion: キスカ, フェリ
   monster: none
   battle: true
-  erros: false
+  eros: false
   summary: 裁判でディックスが断罪されエクトたちは解放される。キスカは侯爵から危険な魔導具の情報を得る。エクトはエルミナにキスカへの想いを打ち明け、踏み込む決意をした。
 
 - episode: 9
@@ -77,7 +92,7 @@
   companion: キスカ, フェリ
   monster: none
   battle: false
-  erros: false
+  eros: false
   summary: エクトたちが貴族の息子ディックスとの紛争で裁判にかけられるが、侯爵の証言によりエクト側の無罪が認められた。
 
 - episode: 8
@@ -92,7 +107,7 @@
   companion: キスカ, フェリ
   monster: none
   battle: true
-  erros: true
+  eros: true
   summary: 魔法結社の影が迫る中、キスカたちは街で横暴な男を撃退するが、エクトの暴走で騒ぎとなり、衛兵に囲まれて捕らえられてしまう。
 
 - episode: 7
@@ -107,7 +122,7 @@
   companion: キスカ, フェリ
   monster: none
   battle: true
-  erros: false
+  eros: false
   summary: 城塞都市に到着したエクトたちは、キスカの案内で彼女の家に到着。屋内に潜む水の使い魔を瞬時に無力化した後、三人は居間で夕食を囲む。食事の間、エクトは魔法使いの気配や潜在的な脅威について報告し、フェリとキスカはそれぞれ反応を示す。夜になり、就寝前にエクトは侵入者警戒用の魔法を施す。深夜、家に忍び込んだ五人の使い魔的存在を察知すると、エクトは影から奇襲し、格闘で次々と無力化。裏手に待機していた一人も逃れる間もなく制圧し、侵入者は完全に排除された。
 
 - episode: 6
@@ -122,7 +137,7 @@
   companion: キスカ, フェリ
   monster: セラクル
   battle: false
-  erros: false
+  eros: false
   summary: ロア撃破後、エクトはフェリを救出し治癒する。彼女は同行を願い出て承諾されるが、合流したキスカと火花を散らす。道中の魔物を撃退し和解した二人は共に旅へ加わる。
 
 - episode: 5
@@ -137,7 +152,7 @@
   companion: none
   monster: none
   battle: true
-  erros: true
+  eros: true
   summary: ロアに囚われたフェリを救うためエクトが乱入し、激戦の末ロアを討ち倒して彼女を解放する。
 
 - episode: 4
@@ -152,7 +167,7 @@
   companion: none
   monster: 使役 / ゴブリン, トロール.使役
   battle: true
-  erros: true
+  eros: true
   summary: エクトは仲間を残して城へ突入し、盗賊やゴブリン、トロールを圧倒。首魁の側近ゼヴァロは転移で逃亡し、敵はほぼ制圧される。
 
 - episode: 3
@@ -167,7 +182,7 @@
   companion: キスカ
   monster: 使役 / ゴブリン
   battle: true
-  erros: true
+  eros: true
   summary: エクトとキスカは和解して急速に距離を縮め、共に森を進む中でゴブリンや暴漢を撃退。助けた女から盗賊の城の存在を聞き、三人で救出に向かう決意を固める。
 
 - episode: 2
@@ -182,7 +197,7 @@
   companion: none
   monster: ウィスプ
   battle: true
-  erros: true
+  eros: true
   summary: エクトはキスカとの決闘を制するが、直後に現れた強力なウィスプを聖なる魔法で撃破し、彼女を守る。
 
 - episode: 1
@@ -197,5 +212,5 @@
   companion: none
   monster: ゴブリン
   battle: true
-  erros: false
+  eros: false
   summary: エクトは森で魔物を倒しつつ進み、泉で入浴中の少女キスカを誤って見てしまい、怒った彼女に決闘を申し込まれる。
