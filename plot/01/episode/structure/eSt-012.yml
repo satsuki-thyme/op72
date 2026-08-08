@@ -46,18 +46,72 @@
         - beat group: 神殿の外観　列をなす人
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 荘厳、にぎわい# 振る舞い上の意味
+            beat group behavior: 壮麗、にぎわい# 振る舞い
             beat group expressive staging: 潤う表現# 表現上の演出
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 壮麗、にぎわい# 言葉上の意味
+                beat expressive staging: 潤う表現# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 
+                  beat metaphor: false
+                  beat contents:
+                    - 壮麗　火のイメージだが火を使わないで表現
+                    - 深紅の装飾　ふんだん
+                    - 賑わい　列をなす人　普通の市民や商人　魔法使いだろうスタッフやワンド　ローブやマントのない人は｜腰背《ようはい》にナイフ　フェリと同じ
+
         - beat group: 神殿の内観　そこかしこに人
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: エクトの驚き# 振る舞い上の意味
+            beat group behavior: エクトの驚き# 振る舞い
             beat group expressive staging: 情感豊か# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 入場# 言葉上の意味
+                beat expressive staging: 一文# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 軽やか
+                  beat metaphor: false
+                  beat contents:
+                    - 入場
+
+            - beat:
+              beat configuration:
+                beat role: 本番# 役割（準備・本番・後続、その他）
+                beat literal meaning: 驚き# 言葉上の意味
+                beat expressive staging: 明るく晴れやか手短# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: 驚き感動
+                    beat metaphor: true
+                    beat activity: こんなに広いのは初めてだ
+
+                - beat reaction:
+                  - beat dn: フェリ
+                    beat tone: 誇らしげ
+                    beat metaphor: false
+                    beat activity: エクトを驚かせられるなんて
+                  - beat dn: キスカ
+                    beat tone: 楽しげ
+                    beat metaphor: false
+                    beat activity: 世界は広い
 
     - scene: 1-2
       emotion: 不思議
@@ -66,10 +120,33 @@
         - beat group: 巨大な神像　アーシェス神ではない　髪が長くない　キスカ、エルミナの宝玉にも関わりがあるけど後で言う
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 不思議がるエクト# 振る舞い上の意味
+            beat group behavior: 不思議がるエクト# 振る舞い
             beat group expressive staging: 緊張と締まり# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 疑問# 言葉上の意味
+                beat expressive staging: ポカンと秘密# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: ポカン
+                    beat metaphor: false
+                    beat activity: アーシェスじゃない
+
+                - beat narration in beat:
+                    - 髪が長くない
+
+                - beat reaction:
+                  - beat dn: キスカ
+                    beat tone: 内緒
+                    beat metaphor: true
+                    beat activity: エルミナの宝玉にも関わりがあるけど帰ったら話す
 
 - sequence: 2
   sequence gist:
@@ -116,26 +193,133 @@
         - beat group: 最強を目指すフェリ　列がなく閑散
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 閑散# 振る舞い上の意味
+            beat group behavior: 閑散# 振る舞い
             beat group expressive staging: 簡潔# 表現上の演出
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat role: 本番# 役割（準備・本番・後続、その他）
+                beat literal meaning: 行きたい# 言葉上の意味
+                beat expressive staging: 自信満々# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: フェリ
+                    beat tone: 楽しげ
+                    beat metaphor: true
+                    beat activity: あっちへ
+
+                - beat narration in beat:
+                    - 閑散　扉と人が並んでいるところが三ヵ所　神像の横手
+
         - beat group: 理由を尋ねるエクト　最強だからとフェリ　ふうんとキスカ
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 答え# 振る舞い上の意味
+            beat group behavior: 答え# 振る舞い
             beat group expressive staging: コミカル# 表現上の演出
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 懐疑# 言葉上の意味
+                beat expressive staging: なぜ人が少ない　そそれは# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: 懐疑
+                    beat metaphor: false
+                    beat activity: 問う
+
+                - beat reaction:
+                  - beat dn: フェリ
+                    beat tone: 訳知り顔
+                    beat metaphor: false
+                    beat activity: 当然最強だから
+
+                - beat post-reaction:
+                  - beat dn: キスカ
+                    beat tone: 関心
+                    beat metaphor: false
+                    beat activity: 訳知り顔
+
         - beat group: 最弱からがいいとエクト　最強にこだわるフェリ　真ん中を取ろうとキスカ
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: おじけ# 振る舞い上の意味
+            beat group behavior: おじけ# 振る舞い
             beat group expressive staging: あおり# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 嫌だとなぜ# 言葉上の意味
+                beat expressive staging: 滑稽# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: びっくり
+                    beat metaphor: false
+                    beat activity: 嫌だ　簡単なの
+
+                - beat reaction:
+                  - beat dn: フェリ
+                    beat tone: 意外
+                    beat metaphor: false
+                    beat activity: 変な顔でなに言ってるんだろう
+
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 意味不明# 言葉上の意味
+                beat expressive staging: ぽつねんと短く# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: フェリ
+                    beat tone: 不思議
+                    beat metaphor: true
+                    beat activity: なぜ
+
+                - beat reaction:
+                  - beat dn: エクト
+                    beat tone: 恐怖
+                    beat metaphor: false
+                    beat activity: 嫌がる
+
+            - beat:
+              beat configuration:
+                beat role: 本番# 役割（準備・本番・後続、その他）
+                beat literal meaning: いいこと思いついたキスカと不満げなエクトフェリ# 言葉上の意味
+                beat expressive staging: ちゃんちゃん# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: キスカ
+                    beat tone: いいこと思いついた
+                    beat metaphor: true
+                    beat activity: 真ん中
+
+                - beat reaction:
+                  - beat dn: フェリ
+                    beat tone: 不満
+                    beat metaphor: false
+                    beat activity: えー
+                  - beat dn: エクト
+                    beat tone: 不満
+                    beat metaphor: false
+                    beat activity: えー
 
     - scene: 2-2
       emotion: 安心と不安
@@ -144,18 +328,84 @@
         - beat group: 中央の扉の近くには短い列が　仲間がいて安心のエクト　フェリは残念
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 安堵# 振る舞い上の意味
+            beat group behavior: 安堵# 振る舞い
             beat group expressive staging: 簡潔# 表現上の演出
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: そのまま# 言葉上の意味
+                beat expressive staging: ゆったりと# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 普通
+                  beat metaphor: false
+                  beat contents:
+                    - 中央の扉近くには短い列
+
+            - beat:
+              beat configuration:
+                beat role: 準備# 役割（準備・本番・後続、その他）
+                beat literal meaning: 少し安心# 言葉上の意味
+                beat expressive staging: ゆったりと表現# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: 少し安心、少し強気
+                    beat metaphor: false
+                    beat activity: よし負けないぞ
+
         - beat group: 扉から出てきて倒れる人　不安になるエクト
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 不安# 振る舞い上の意味
+            beat group behavior: 不安# 振る舞い
             beat group expressive staging: 潤う表現# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat role: 本番# 役割（準備・本番・後続、その他）
+                beat literal meaning: 事実の提示# 言葉上の意味
+                beat expressive staging: あっさりと倒れる# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 本番
+                  beat metaphor: true
+                  beat contents:
+                    - 扉から出てきて倒れる
+
+            - beat:
+              beat configuration:
+                beat role: 後続# 役割（準備・本番・後続、その他）
+                beat literal meaning: 不安# 言葉上の意味
+                beat expressive staging: 手短に# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: エクト
+                    beat tone: 不安
+                    beat metaphor: false
+                    beat activity: 大丈夫かな
+
+                - beat reaction:
+                  - beat dn: フェリ
+                    beat tone: 気にしないでいい
+                    beat metaphor: true
+                    beat activity: 弱いからですよ
+                  - beat dn: キスカ
+                    beat tone: 気にしないでいい
+                    beat metaphor: false
+                    beat activity: たまにはああいうことも、ね
 
     - scene: 2-3
       emotion: 呆れ
@@ -164,15 +414,15 @@
         - beat group: エクトの番　代金を払ってくださいとフェリ
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 戸惑い# 振る舞い上の意味
+            beat group behavior: 戸惑い# 振る舞い
             beat group expressive staging: 速いテンポ# 表現上の演出
 
           beat group contents:
-
+            ⬜⬜⬜ work location ⬜⬜⬜
         - beat group: 呆れる神官　魔法力をまるで感じない　身体強化もままならない　こういうバカなやつがたまにいるんだよ
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 呆れ# 振る舞い上の意味
+            beat group behavior: 呆れ# 振る舞い
             beat group expressive staging: 簡潔# 表現上の演出
 
           beat group contents:
@@ -180,7 +430,7 @@
         - beat group: 周囲の見物人もエクトをバカにする
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: バカにする# 振る舞い上の意味
+            beat group behavior: バカにする# 振る舞い
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
           beat group contents:
@@ -192,7 +442,7 @@
         - beat group: キスカ知らないって幸せなことね　フェリ人族に推し量れる程度ではありませんから
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 逆に呆れ# 振る舞い上の意味
+            beat group behavior: 逆に呆れ# 振る舞い
             beat group expressive staging: 簡潔# 表現上の演出
 
           beat group contents:
@@ -249,7 +499,7 @@
         - beat group: 入室　着席　目を閉じて祈る
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 厳粛に# 振る舞い上の意味
+            beat group behavior: 厳粛に# 振る舞い
             beat group expressive staging: サッパリと# 表現上の演出
 
           beat group contents:
@@ -257,7 +507,7 @@
         - beat group: 神殿の天井が高い大広間の端
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 荘厳# 振る舞い上の意味
+            beat group behavior: 荘厳# 振る舞い
             beat group expressive staging: 情景豊かに# 表現上の演出
 
           beat group contents:
@@ -269,7 +519,7 @@
         - beat group: 中央で炎が渦巻く
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 畏敬# 振る舞い上の意味
+            beat group behavior: 畏敬# 振る舞い
             beat group expressive staging: シンプル# 表現上の演出
 
           beat group contents:
@@ -277,7 +527,7 @@
         - beat group: エクト一安心　このくらいなら問題ない
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 安堵# 振る舞い上の意味
+            beat group behavior: 安堵# 振る舞い
             beat group expressive staging: ゆったり# 表現上の演出
 
           beat group contents:
@@ -285,7 +535,7 @@
         - beat group: 炎を纏った大柄な狼　今さらフェリの気持ちが分かる気がする
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: のんき# 振る舞い上の意味
+            beat group behavior: のんき# 振る舞い
             beat group expressive staging: ゆったり# 表現上の演出
 
           beat group contents:
@@ -293,7 +543,7 @@
         - beat group: 炎の狼が唸る
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 威勢がいい# 振る舞い上の意味
+            beat group behavior: 威勢がいい# 振る舞い
             beat group expressive staging: テンポよく# 表現上の演出
 
           beat group contents:
@@ -305,7 +555,7 @@
         - beat group: 空間がゆがんで若い女が出現する
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 風雲急を告げる# 振る舞い上の意味
+            beat group behavior: 風雲急を告げる# 振る舞い
             beat group expressive staging: テンポよく# 表現上の演出
 
           beat group contents:
@@ -313,7 +563,7 @@
         - beat group: 狼が伏せる　おまえには荷が重い　私が出よう
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 楽しそう# 振る舞い上の意味
+            beat group behavior: 楽しそう# 振る舞い
             beat group expressive staging: テンポよく# 表現上の演出
 
           beat group contents:
@@ -321,7 +571,7 @@
         - beat group: 像に似てるけど誰？　有名なつもりだったんだけどショック
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: ちぐはぐ# 振る舞い上の意味
+            beat group behavior: ちぐはぐ# 振る舞い
             beat group expressive staging: コミカル# 表現上の演出
 
           beat group contents:
@@ -329,7 +579,7 @@
         - beat group: はカイ　私が直接相手をしよう
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 楽しみなカイ# 振る舞い上の意味
+            beat group behavior: 楽しみなカイ# 振る舞い
             beat group expressive staging: 手短# 表現上の演出
 
           beat group contents:
@@ -337,7 +587,7 @@
         - beat group: クトに恐れはない
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 余裕# 振る舞い上の意味
+            beat group behavior: 余裕# 振る舞い
             beat group expressive staging: たっぷり# 表現上の演出
 
           beat group contents:
@@ -349,7 +599,7 @@
         - beat group: かってくるがいい　そっちからお願いします　僕は凌ぐので
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: つばぜり合い# 振る舞い上の意味
+            beat group behavior: つばぜり合い# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -357,7 +607,7 @@
         - beat group: められたものだな　おまえでも本気を出さねば命はないぞ
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 危機感# 振る舞い上の意味
+            beat group behavior: 危機感# 振る舞い
             beat group expressive staging: 強くサッと# 表現上の演出
 
           beat group contents:
@@ -369,7 +619,7 @@
         - beat group: 烈ファイア　まるで意に介さないエクト
           beat group configuration:
             beat group role: 準備、本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 余裕# 振る舞い上の意味
+            beat group behavior: 余裕# 振る舞い
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
           beat group contents:
@@ -377,11 +627,10 @@
         - beat group: さも感じぬか、褒めてやろう　だが次はどうかな
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 余裕# 振る舞い上の意味
+            beat group behavior: 余裕# 振る舞い
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
           beat group contents:
-
 
     - scene: 3-6
       emotion: 驚愕
@@ -390,7 +639,7 @@
         - beat group: 烈ファイア　暖かい　第三障壁を熱が越えるなんて久しぶりだ
           beat group configuration:
             beat group role: 準備、本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 余裕# 振る舞い上の意味
+            beat group behavior: 余裕# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -398,7 +647,7 @@
         - beat group: カな　もう手加減はしない
           beat group configuration:
             beat group role: 準備、本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 焦り# 振る舞い上の意味
+            beat group behavior: 焦り# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -410,7 +659,7 @@
         - beat group: 甚ファイア　床や壁が溶ける　春の日の日向のように心地いい　これならエンシェントドラゴンより強い
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 激しい# 振る舞い上の意味
+            beat group behavior: 激しい# 振る舞い
             beat group expressive staging: テンポよくたっぷりと# 表現上の演出
 
           beat group contents:
@@ -418,7 +667,7 @@
         - beat group: りえない……　だが防いでばかりでは認めてやれないぞ
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 絶望とヤケ# 振る舞い上の意味
+            beat group behavior: 絶望とヤケ# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -430,7 +679,7 @@
         - beat group: クト極大の劫熾　全体が蒸発して漆黒の空間に　敗北を味わい消滅するカイ神
           beat group configuration:
             beat group role: 準備と本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 甘美な敗北# 振る舞い上の意味
+            beat group behavior: 甘美な敗北# 振る舞い
             beat group expressive staging: たっぷり# 表現上の演出
 
           beat group contents:
@@ -438,7 +687,7 @@
         - beat group: び出現するカイ神　強い男が好きだ
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 興奮# 振る舞い上の意味
+            beat group behavior: 興奮# 振る舞い
             beat group expressive staging: エロチック# 表現上の演出
 
           beat group contents:
@@ -450,7 +699,7 @@
         - beat group: ェリア見てるんでしょ　冷やしてよまた消滅しそうだわ　あなたが負けるなんてね　冷やすには時間がかかるわ
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: フレンドリー# 振る舞い上の意味
+            beat group behavior: フレンドリー# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -462,7 +711,7 @@
         - beat group: エクトにぶつける冷気　すごい冷気だ　これも久しぶりの感覚　あなたにはその程度なのね
           beat group configuration:
             beat group role: 準備と本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 余裕と諦め# 振る舞い上の意味
+            beat group behavior: 余裕と諦め# 振る舞い
             beat group expressive staging: たっぷり# 表現上の演出
 
           beat group contents:
@@ -474,7 +723,7 @@
         - beat group: ェリア正直あなたが私の神殿に来るのは怖いの　私の権能も授けるわ　エクト？
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 冷静のなかの情熱# 振る舞い上の意味
+            beat group behavior: 冷静のなかの情熱# 振る舞い
             beat group expressive staging: コンパクト# 表現上の演出
 
           beat group contents:
@@ -482,7 +731,7 @@
         - beat group: ようなら、また会いましょう
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 怪しい笑み# 振る舞い上の意味
+            beat group behavior: 怪しい笑み# 振る舞い
             beat group expressive staging: コンパクト# 表現上の演出
 
           beat group contents:
@@ -494,7 +743,7 @@
         - beat group: 然私の権能も授ける　いつかまた会えるだろう　そのときは……　エクト？
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 情熱# 振る舞い上の意味
+            beat group behavior: 情熱# 振る舞い
             beat group expressive staging: エロチック# 表現上の演出
 
           beat group contents:
@@ -502,7 +751,7 @@
         - beat group: と凍結の魔法がすべて感じられる　消えるエクト
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: 事実の説明# 振る舞い上の意味
+            beat group behavior: 事実の説明# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
           beat group contents:
@@ -552,9 +801,9 @@
 
         - beat group: クトの帰りが遅いことにフェリとキスカが不安になる
           beat group configuration:
-            beat group role: ⬜⬜⬜ work location ⬜⬜⬜# 役割（準備・本番・後続、その他）
-            beat group behavior meaning: # 振る舞い上の意味
-            beat group expressive staging: # 表現上の演出
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 不安を示す# 振る舞い
+            beat group expressive staging: 不安がる滑稽さ# 表現上の演出
 
           beat group contents:
 
@@ -562,67 +811,167 @@
       emotion: 神官の呆れ
       scene elements:
 
-        - beat group: 官、当たり前だという態度
-        - beat group: 囲の見物人も呆れた様子
+        - beat group: 神官、むしろ健闘しているほうだという態度
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 関心# 振る舞い
+            beat group expressive staging: 関心の滑稽さ# 表現上の演出
+
+          beat group contents:
+
+        - beat group: 囲の見物人は感心した様子
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 見直した# 振る舞い
+            beat group expressive staging: 見直しの滑稽# 表現上の演出
+
+          beat group contents:
 
     - scene: 4-3
       emotion: 驚き
       scene elements:
 
-        - beat group: ロッとしたエクト
-        - beat group: スカ、フェリ安心
-        - beat group: 官、大丈夫なのか
+        - beat group: ケロッとしたエクト
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: 久しぶりに少し楽しめた# 振る舞い
+            beat group expressive staging: 手短に# 表現上の演出
+
+          beat group contents:
+
+        - beat group: キスカ、フェリ安心
+          beat group configuration:
+            beat group role: 後続# 役割（準備・本番・後続、その他）
+            beat group behavior: 安心# 振る舞い
+            beat group expressive staging: 十分にしっかりと# 表現上の演出
+
+          beat group contents:
+
+        - beat group: 神官、よく頑張ったな
+          beat group configuration:
+            beat group role: 後続、準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 偉そう# 振る舞い
+            beat group expressive staging: 滑稽さを# 表現上の演出
+
+          beat group contents:
 
     - scene: 4-4
       emotion: 驚愕
       scene elements:
 
-        - beat group: うだった？　カイって女の人と戦った
-        - beat group: 官が小バカにしていちおう水晶を通してエクトを見て確認する　驚愕
+        - beat group: どうだった？　カイって女の人と戦った
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 心配とあっけらかん# 振る舞い
+            beat group expressive staging: とっぴょうしもない# 表現上の演出
+
+          beat group contents:
+
+        - beat group: 神官が小バカにしていちおう水晶を通してエクトを見て確認する　驚愕　カイ神とフェリア神まで
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: 態度の変化# 振る舞い
+            beat group expressive staging: 手短に# 表現上の演出
+
+          beat group contents:
+
+        - beat group: ひれ伏し
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: 手のひら返し# 振る舞い
+            beat group expressive staging: 手短に# 表現上の演出
+
+          beat group contents:
 
     - scene: 4-5
-      emotion: ひれ伏し
-      scene elements:
-
-        - beat group: ェリア神まで　ひれ伏し
-
-    - scene: 4-6
       emotion: 驚愕と困惑
       scene elements:
 
-        - beat group: スカ、フェリ驚愕
-        - beat group: クト困惑
+        - beat group: キスカ、フェリ驚愕
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: キスカの驚愕、フェリの驚愕と納得# 振る舞い
+            beat group expressive staging: たっぷり# 表現上の演出
 
-    - scene: 4-7
+          beat group contents:
+
+        - beat group: エクト困惑
+          beat group configuration:
+            beat group role: 後続# 役割（準備・本番・後続、その他）
+            beat group behavior: うーん# 振る舞い
+            beat group expressive staging: 手短に# 表現上の演出
+
+          beat group contents:
+
+    - scene: 4-6
       emotion: おごそか
       scene elements:
 
-        - beat group: 神官が現れる　こちらへ
+        - beat group: 老神官が現れる　こちらへ
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 穏やかにおごそかに# 振る舞い
+            beat group expressive staging: しっかり描く# 表現上の演出
 
-    - scene: 4-8
+          beat group contents:
+
+    - scene: 4-7
       emotion: ひれ伏し
       scene elements:
 
-        - beat group: の一室　扉を閉めて神官がひれ伏す
+        - beat group: 奥の一室　扉を閉めて神官がひれ伏す
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: 敬意# 振る舞い
+            beat group expressive staging: たっぷりと# 表現上の演出
+
+          beat group contents:
+
+    - scene: 4-8
+      emotion: 真実と警戒
+      scene elements:
+
+        - beat group: カイとフェリアの権能をお持ちだ
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 興奮# 振る舞い
+            beat group expressive staging: 地の文で手短に# 表現上の演出
+
+          beat group contents:
+
+        - beat group: 他言は無用　塔の連中が嗅ぎつけたら厄介だ
+          beat group configuration:
+            beat group role: 本番、準備# 役割（準備・本番・後続、その他）
+            beat group behavior: ひそひそ# 振る舞い
+            beat group expressive staging: しっかりと# 表現上の演出
+
+          beat group contents:
+
+        - beat group: 力では及ばないだろうが搦め手が得意だ
+          beat group configuration:
+            beat group role: 本番、準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 真摯に# 振る舞い
+            beat group expressive staging: しっかりと# 表現上の演出
+
+          beat group contents:
 
     - scene: 4-9
-      emotion: 真実
-      scene elements:
-
-        - beat group: イとフェリアの権能をお持ちだ
-
-    - scene: 4-10
-      emotion: 警戒
-      scene elements:
-
-        - beat group: 言は無用　塔の連中が嗅ぎつけたら厄介だ
-        - beat group: では及ばないだろうが搦め手が得意だ
-
-    - scene: 4-11
       emotion: 危機感
       scene elements:
 
-        - beat group: から出てくるエクトたち
-        - beat group: 手に収まる水晶でエクトを見、去っていく男　首に塔の入れ墨
+        - beat group: 奥から出てくるエクトたち
+          beat group configuration:
+            beat group role: 準備# 役割（準備・本番・後続、その他）
+            beat group behavior: 楽しそう# 振る舞い
+            beat group expressive staging: 明るい# 表現上の演出
 
+          beat group contents:
+
+        - beat group: 片手に収まる水晶でエクトを見、去っていく男　首に塔の入れ墨
+          beat group configuration:
+            beat group role: 本番# 役割（準備・本番・後続、その他）
+            beat group behavior: 無# 振る舞い
+            beat group expressive staging: じっとりと# 表現上の演出
+
+          beat group contents:
 
