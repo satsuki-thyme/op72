@@ -39,7 +39,7 @@
 
   sequence elements:
 
-    - scene: 1-1
+    - scene: 1 - 1
       emotion: 畏敬の念
       scene elements:
 
@@ -55,7 +55,7 @@
             beat group behavior: エクトの驚き# 振る舞い
             beat group expressive staging: 情感豊か# 表現上の演出
 
-    - scene: 1-2
+    - scene: 1 - 2
       emotion: 不思議
       scene elements:
 
@@ -103,7 +103,7 @@
 
   sequence elements:
 
-    - scene: 2-1
+    - scene: 2 - 1
       emotion: コミカル
       scene elements:
 
@@ -125,7 +125,7 @@
             beat group behavior: おじけ# 振る舞い
             beat group expressive staging: あおり# 表現上の演出
 
-    - scene: 2-2
+    - scene: 2 - 2
       emotion: 安心と不安
       scene elements:
 
@@ -141,7 +141,7 @@
             beat group behavior: 不安# 振る舞い
             beat group expressive staging: 潤う表現# 表現上の演出
 
-    - scene: 2-3
+    - scene: 2 - 3
       emotion: 呆れ
       scene elements:
 
@@ -163,7 +163,7 @@
             beat group behavior: バカにする# 振る舞い
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
-    - scene: 2-4
+    - scene: 2 - 4
       emotion: 呆れ
       scene elements:
 
@@ -218,7 +218,7 @@
 
   sequence elements:
 
-    - scene: 3-1
+    - scene: 3 - 1
       emotion: 戦々恐々
       scene elements:
 
@@ -234,7 +234,7 @@
             beat group behavior: 荘厳# 振る舞い
             beat group expressive staging: 情景豊かに# 表現上の演出
 
-    - scene: 3-2
+    - scene: 3 - 2
       emotion: 一安心
       scene elements:
 
@@ -262,7 +262,7 @@
             beat group behavior: 威勢がいい# 振る舞い
             beat group expressive staging: テンポよく# 表現上の演出
 
-    - scene: 3-3
+    - scene: 3 - 3
       emotion: 不思議
       scene elements:
 
@@ -296,7 +296,7 @@
             beat group behavior: 余裕# 振る舞い
             beat group expressive staging: たっぷり# 表現上の演出
 
-    - scene: 3-4
+    - scene: 3 - 4
       emotion: 尊大
       scene elements:
 
@@ -312,7 +312,7 @@
             beat group behavior: 危機感# 振る舞い
             beat group expressive staging: 強くサッと# 表現上の演出
 
-    - scene: 3-5
+    - scene: 3 - 5
       emotion: 驚き
       scene elements:
 
@@ -328,7 +328,7 @@
             beat group behavior: 余裕# 振る舞い
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
-    - scene: 3-6
+    - scene: 3 - 6
       emotion: 驚愕
       scene elements:
 
@@ -344,7 +344,7 @@
             beat group behavior: 焦り# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
-    - scene: 3-7
+    - scene: 3 - 7
       emotion: 戦慄
       scene elements:
 
@@ -360,7 +360,7 @@
             beat group behavior: 絶望とヤケ# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
-    - scene: 3-8
+    - scene: 3 - 8
       emotion: 敗北の味
       scene elements:
 
@@ -376,7 +376,7 @@
             beat group behavior: 興奮# 振る舞い
             beat group expressive staging: エロチック# 表現上の演出
 
-    - scene: 3-9
+    - scene: 3 - 9
       emotion: 諦め
       scene elements:
 
@@ -386,7 +386,7 @@
             beat group behavior: フレンドリー# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
-    - scene: 3-10
+    - scene: 3 - 10
       emotion: 感動と諦め
       scene elements:
 
@@ -396,7 +396,7 @@
             beat group behavior: 余裕と諦め# 振る舞い
             beat group expressive staging: たっぷり# 表現上の演出
 
-    - scene: 3-11
+    - scene: 3 - 11
       emotion: ご褒美
       scene elements:
 
@@ -412,7 +412,7 @@
             beat group behavior: 怪しい笑み# 振る舞い
             beat group expressive staging: コンパクト# 表現上の演出
 
-    - scene: 3-12
+    - scene: 3 - 12
       emotion: ご褒美
       scene elements:
 
@@ -467,7 +467,7 @@
 
   sequence elements:
 
-    - scene: 4-1
+    - scene: 4 - 1
       emotion: 不安
       scene elements:
 
@@ -477,7 +477,7 @@
             beat group behavior: 不安を示す# 振る舞い
             beat group expressive staging: 不安がる滑稽さ# 表現上の演出
 
-    - scene: 4-2
+    - scene: 4 - 2
       emotion: 神官の呆れ
       scene elements:
 
@@ -493,7 +493,7 @@
             beat group behavior: 見直した# 振る舞い
             beat group expressive staging: 見直しの滑稽# 表現上の演出
 
-    - scene: 4-3
+    - scene: 4 - 3
       emotion: 驚き
       scene elements:
 
@@ -515,7 +515,7 @@
             beat group behavior: 偉そう# 振る舞い
             beat group expressive staging: 滑稽さを# 表現上の演出
 
-    - scene: 4-4
+    - scene: 4 - 4
       emotion: 驚愕
       scene elements:
 
@@ -537,7 +537,7 @@
             beat group behavior: 手のひら返し# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
-    - scene: 4-5
+    - scene: 4 - 5
       emotion: 驚愕と困惑
       scene elements:
 
@@ -553,7 +553,7 @@
             beat group behavior: うーん# 振る舞い
             beat group expressive staging: 手短に# 表現上の演出
 
-    - scene: 4-6
+    - scene: 4 - 6
       emotion: おごそか
       scene elements:
 
@@ -563,7 +563,7 @@
             beat group behavior: 穏やかにおごそかに# 振る舞い
             beat group expressive staging: しっかり描く# 表現上の演出
 
-    - scene: 4-7
+    - scene: 4 - 7
       emotion: ひれ伏し
       scene elements:
 
@@ -573,7 +573,7 @@
             beat group behavior: 敬意# 振る舞い
             beat group expressive staging: たっぷりと# 表現上の演出
 
-    - scene: 4-8
+    - scene: 4 - 8
       emotion: 真実と警戒
       scene elements:
 
@@ -595,7 +595,7 @@
             beat group behavior: 真摯に# 振る舞い
             beat group expressive staging: しっかりと# 表現上の演出
 
-    - scene: 4-9
+    - scene: 4 - 9
       emotion: 危機感
       scene elements:
 
