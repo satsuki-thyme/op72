@@ -53,7 +53,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 壮麗、にぎわい# 言葉上の意味
                 beat expressive staging: 潤う表現# 表現上の演出
 
@@ -77,7 +76,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 入場# 言葉上の意味
                 beat expressive staging: 一文# 表現上の演出
 
@@ -88,10 +86,10 @@
                   beat metaphor: false
                   beat contents:
                     - 入場
+                    - 開け放たれた大窓から入る光、明るい堂内、魔光結晶に照らされる天井画、そこかしこに人
 
             - beat:
               beat configuration:
-                beat role: 本番# 役割（準備・本番・後続、その他）
                 beat literal meaning: 驚き# 言葉上の意味
                 beat expressive staging: 明るく晴れやか手短# 表現上の演出
 
@@ -127,7 +125,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 疑問# 言葉上の意味
                 beat expressive staging: ポカンと秘密# 表現上の演出
 
@@ -200,7 +197,6 @@
 
             - beat:
               beat configuration:
-                beat role: 本番# 役割（準備・本番・後続、その他）
                 beat literal meaning: 行きたい# 言葉上の意味
                 beat expressive staging: 自信満々# 表現上の演出
 
@@ -225,7 +221,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 懐疑# 言葉上の意味
                 beat expressive staging: なぜ人が少ない　そそれは# 表現上の演出
 
@@ -259,7 +254,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 嫌だとなぜ# 言葉上の意味
                 beat expressive staging: 滑稽# 表現上の演出
 
@@ -279,7 +273,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 意味不明# 言葉上の意味
                 beat expressive staging: ぽつねんと短く# 表現上の演出
 
@@ -299,7 +292,6 @@
 
             - beat:
               beat configuration:
-                beat role: 本番# 役割（準備・本番・後続、その他）
                 beat literal meaning: いいこと思いついたキスカと不満げなエクトフェリ# 言葉上の意味
                 beat expressive staging: ちゃんちゃん# 表現上の演出
 
@@ -335,7 +327,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: そのまま# 言葉上の意味
                 beat expressive staging: ゆったりと# 表現上の演出
 
@@ -349,7 +340,6 @@
 
             - beat:
               beat configuration:
-                beat role: 準備# 役割（準備・本番・後続、その他）
                 beat literal meaning: 少し安心# 言葉上の意味
                 beat expressive staging: ゆったりと表現# 表現上の演出
 
@@ -371,7 +361,6 @@
 
             - beat:
               beat configuration:
-                beat role: 本番# 役割（準備・本番・後続、その他）
                 beat literal meaning: 事実の提示# 言葉上の意味
                 beat expressive staging: あっさりと倒れる# 表現上の演出
 
@@ -385,7 +374,6 @@
 
             - beat:
               beat configuration:
-                beat role: 後続# 役割（準備・本番・後続、その他）
                 beat literal meaning: 不安# 言葉上の意味
                 beat expressive staging: 手短に# 表現上の演出
 
@@ -418,7 +406,59 @@
             beat group expressive staging: 速いテンポ# 表現上の演出
 
           beat group contents:
-            ⬜⬜⬜ work location ⬜⬜⬜
+
+            - beat:
+              beat configuration:
+                beat literal meaning: エクトの番# 言葉上の意味
+                beat expressive staging: こそっと# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: フェリ
+                    beat tone: こそっと
+                    beat metaphor: false
+                    beat activity: エクトの番
+
+                - beat reaction:
+                  - beat dn: エクト
+                    beat tone: びっくり
+                    beat metaphor: false
+                    beat activity: あ、うん　どうするの
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 金払って# 言葉上の意味
+                beat expressive staging: こそこそっと# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: フェリ
+                    beat tone: こそっと
+                    beat metaphor: false
+                    beat activity: 金払って
+
+                - beat reaction:
+                  - beat dn: エクト
+                    beat tone: あ、はい
+                    beat metaphor: false
+                    beat activity: あ、はい
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 読めるから分かる# 言葉上の意味
+                beat expressive staging: 当然読めるのが魔法使い# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 真面目
+                  beat metaphor: false
+                  beat contents:
+                    - 読めるから分かる
+                    - 2レクロ銀貨
+
         - beat group: 呆れる神官　魔法力をまるで感じない　身体強化もままならない　こういうバカなやつがたまにいるんだよ
           beat group configuration:
             beat group role: 準備# 役割（準備・本番・後続、その他）
@@ -427,6 +467,25 @@
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat literal meaning: 呆れ# 言葉上の意味
+                beat expressive staging: 困ったやつ# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: 神官
+                    beat tone: 呆れ
+                    beat metaphor: true
+                    beat activity: 困ったやつだ　いるんだよ　たまに　魔法力が小さいのに分不相応な挑戦をするやつが
+
+                - beat reaction:
+                  - beat dn: エクト
+                    beat tone: えへへ
+                    beat metaphor: false
+                    beat activity: すみません
+
         - beat group: 周囲の見物人もエクトをバカにする
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
@@ -434,6 +493,25 @@
             beat group expressive staging: 情感たっぷり# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 呆れと面白くない# 言葉上の意味
+                beat expressive staging: エクトを多く書く# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: 周囲
+                    beat tone: 呆れ
+                    beat metaphor: false
+                    beat activity: わはは
+
+                - beat reaction:
+                  - beat dn: エクト
+                    beat tone: むっ
+                    beat metaphor: true
+                    beat activity: むっ
 
     - scene: 2-4
       emotion: 呆れ
@@ -446,6 +524,38 @@
             beat group expressive staging: 簡潔# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 生ぬるい視線# 言葉上の意味
+                beat expressive staging: 簡潔# 表現上の演出
+
+              beat performance:
+
+                - beat action:
+                  - beat dn: フェリ
+                    beat tone: 呆れ
+                    beat metaphor: false
+                    beat activity: 人族に推し量れる程度じゃないですから
+
+                - beat reaction:
+                  - beat dn: キスカ
+                    beat tone: 呆れ
+                    beat metaphor: false
+                    beat activity: 知らないって幸せなことかもね
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 説明を受ける# 言葉上の意味
+                beat expressive staging: 端的に# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 事務的
+                  beat metaphor: false
+                  beat contents:
+                    - 説明を受けるエクトを眺めながら
 
 - sequence: 3
   sequence gist:
@@ -504,6 +614,22 @@
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat literal meaning: 説明# 言葉上の意味
+                beat expressive staging: 簡潔# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 事務的
+                  beat metaphor: false
+                  beat contents:
+                    - 魔光結晶が小さく灯る階段を登るとこぢんまりした半球の部屋
+                    - 半球には魔法文字がびっしり
+                    - 中央に大きめの威厳ある椅子
+                    - 目を閉じて祈る　神の代行者よ来たれ
+
         - beat group: 神殿の天井が高い大広間の端
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
@@ -511,6 +637,22 @@
             beat group expressive staging: 情景豊かに# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 雰囲気が変わり目をあける# 言葉上の意味
+                beat expressive staging: 情景豊か# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 情景豊か
+                  beat metaphor: false
+                  beat contents:
+                    - 雰囲気が変わり目をあけると美麗な大広間の端に立っていた
+                    - 赤を基調とした装飾に金のアクセント
+                    - 周囲には光源のない不思議な光が降り注いでいる
+                    - エクトは雰囲気に飲み込まれていた
 
     - scene: 3-2
       emotion: 一安心
@@ -524,6 +666,19 @@
 
           beat group contents:
 
+            - beat:
+              beat configuration:
+                beat literal meaning: 轟々# 言葉上の意味
+                beat expressive staging: 表情豊かに# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 勇壮
+                  beat metaphor: true
+                  beat contents:
+                    - 部屋中央に渦巻く炎
+
         - beat group: エクト一安心　このくらいなら問題ない
           beat group configuration:
             beat group role: 本番# 役割（準備・本番・後続、その他）
@@ -532,13 +687,41 @@
 
           beat group contents:
 
-        - beat group: 炎を纏った大柄な狼　今さらフェリの気持ちが分かる気がする
+            - beat:
+              beat configuration:
+                beat literal meaning: 炎を纏った狼# 言葉上の意味
+                beat expressive staging: 勇壮、だが# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: コミカル
+                  beat metaphor: false
+                  beat contents:
+                    - 炎を纏った狼　普通の狼より縦横それぞれ三倍はある
+                    - 吠える　猛る
+                    - 敵を見れば敵が分かるエクト　あ……これなら大丈夫だ
+
+        - beat group: 今さらフェリの気持ちが分かる気がする
           beat group configuration:
             beat group role: 後続# 役割（準備・本番・後続、その他）
             beat group behavior: のんき# 振る舞い
             beat group expressive staging: ゆったり# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 今さらフェリの言が分かる# 言葉上の意味
+                beat expressive staging: のんき# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: のんき
+                  beat metaphor: true
+                  beat contents:
+                    - 弱い
 
         - beat group: 炎の狼が唸る
           beat group configuration:
@@ -547,6 +730,19 @@
             beat group expressive staging: テンポよく# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: 唸る# 言葉上の意味
+                beat expressive staging: ひるみ# 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: ひるみ
+                  beat metaphor: false
+                  beat contents:
+                    - うなる
 
     - scene: 3-3
       emotion: 不思議
@@ -559,6 +755,19 @@
             beat group expressive staging: テンポよく# 表現上の演出
 
           beat group contents:
+
+            - beat:
+              beat configuration:
+                beat literal meaning: # 言葉上の意味
+                beat expressive staging: # 表現上の演出
+
+              beat performance:
+
+                - beat narration:
+                  beat tone: 
+                  beat metaphor: false
+                  beat contents:
+                    - 
 
         - beat group: 狼が伏せる　おまえには荷が重い　私が出よう
           beat group configuration:
