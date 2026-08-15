@@ -15,9 +15,10 @@
 
 - task
   - reserve
-    - [n] ;eSt-012;
+    - [n] ;tex-012;
   - await
   - archive
+    - [x] ;eSt-012;
     - [x] ;eBu-012;
     - [x] ;det-009;
     - [x] 問い（主人公の課題）が途切れないようプロットに項目を設ける
