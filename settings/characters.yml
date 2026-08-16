@@ -85,7 +85,7 @@ details:
           race: 葦人
           gender: 女
           age: 17
-          birthplace: 王都ハーバネリア . イースエイク王国
+          birthplace: 王都ハーバネリア . クレアレイド王国
         current status:
           address: （アルティバの街 . アルティノール領 . ロートエリナ王国）
           affiliation: 魔狩
@@ -211,13 +211,13 @@ details:
           voice: 
 
 
-  - group: イースエイク王国
+  - group: クレアレイド王国
     member:
 
 
       - dn: フェルダー
         meta data:
-          role: キスカとイースエイク王国をつなぐ
+          role: キスカとクレアレイド王国をつなぐ
           applicable chapter: 1
         innate nature:
           self awareness: 
@@ -228,7 +228,7 @@ details:
           age: 33
           birthplace: 
         current status:
-          address: ロンディーフ領 . イースエイク王国
+          address: ロンディーフ領 . クレアレイド王国
           affiliation: 
         approximate nature:
           壮健な立ち姿を｜洒落者《しゃれもの》然とした衣装に身を包んだ男だ。

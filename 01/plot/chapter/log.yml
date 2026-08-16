@@ -3,7 +3,7 @@
 
 # rule:
 #  - 社会が右辺に所属.左辺が所属する社会
-#  - 右辺を包含する社会 / 個人が左辺に所属
+#  - 右辺を包含する社会/個人が左辺に所属
 
 - episode: template
   case: 
@@ -116,9 +116,9 @@
   elapsed days: 0
   location: アルティバの街.アルティノール領.ロットエーク王国
   time: 晩～夜
-  contact: 魔法の塔 / 使い魔
-  first contact: 魔法の塔 / 使い魔
-  first appearance: 魔法の塔 / 使い魔
+  contact: 魔法の塔/使い魔
+  first contact: 魔法の塔/使い魔
+  first appearance: 魔法の塔/使い魔
   companion: キスカ, フェリ
   monster: none
   battle: true
@@ -161,11 +161,11 @@
   elapsed days: 0
   location: アルティバの街の近くの森.アルティノール領.ロットエーク王国
   time: 昼
-  contact: 男爵ロア一党 / 盗賊, 屍蝋の闇炎 / ゼヴァロ
-  first contact: 屍蝋の闇炎 / ゼヴァロ
+  contact: 男爵ロア一党/盗賊, 屍蝋の闇炎/ゼヴァロ
+  first contact: 屍蝋の闇炎/ゼヴァロ
   first appearance: フェリ, 男爵ロア
   companion: none
-  monster: 使役 / ゴブリン, トロール.使役
+  monster: 使役/ゴブリン, トロール.使役
   battle: true
   eros: true
   summary: エクトは仲間を残して城へ突入し、盗賊やゴブリン、トロールを圧倒。首魁の側近ゼヴァロは転移で逃亡し、敵はほぼ制圧される。
@@ -176,11 +176,11 @@
   elapsed days: 0
   location: アルティバの街の近くの森.アルティノール領.ロットエーク王国
   time: 午前中
-  contact: 男爵ロア一党 / 盗賊
-  first contact: 男爵ロア一党 / 盗賊
+  contact: 男爵ロア一党/盗賊
+  first contact: 男爵ロア一党/盗賊
   first appearance: none
   companion: キスカ
-  monster: 使役 / ゴブリン
+  monster: 使役/ゴブリン
   battle: true
   eros: true
   summary: エクトとキスカは和解して急速に距離を縮め、共に森を進む中でゴブリンや暴漢を撃退。助けた女から盗賊の城の存在を聞き、三人で救出に向かう決意を固める。

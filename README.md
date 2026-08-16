@@ -6,57 +6,58 @@
 
 #### 本文
 
-- text/01/tex-001.txt: 憤れる森の美少女
-- text/01/tex-002.txt: 決闘への乱入者
-- text/01/tex-003.txt: 盗賊城への招待状
-- text/01/tex-004.txt: 放つ災禍の影
-- text/01/tex-005.txt: 舞い踊る武闘
-- text/01/tex-006.txt: 少女たちの事情
-- text/01/tex-007.txt: 見えない敵の強襲
-- text/01/tex-008.txt: 許されざる者
-- text/01/tex-009.txt: 判決の行方を握るもの
-- text/01/tex-010.txt: 思惑と意思の舞踏
-- text/01/tex-011.txt: 告白、そして願い
+- 01/text/tex-001.txt: 憤れる森の美少女
+- 01/text/tex-002.txt: 決闘への乱入者
+- 01/text/tex-003.txt: 盗賊城への招待状
+- 01/text/tex-004.txt: 放つ災禍の影
+- 01/text/tex-005.txt: 舞い踊る武闘
+- 01/text/tex-006.txt: 少女たちの事情
+- 01/text/tex-007.txt: 見えない敵の強襲
+- 01/text/tex-008.txt: 許されざる者
+- 01/text/tex-009.txt: 判決の行方を握るもの
+- 01/text/tex-010.txt: 思惑と意思の舞踏
+- 01/text/tex-011.txt: 告白、そして願い
 
 #### チャプタープロット
 
-- plot/01/chapter/character-base.yml: キャラクターの基礎設定
-- plot/01/chapter/log.yml:            ログ
-- plot/01/chapter/plan.md:            計画
-- plot/01/chapter/precursor.yml:      前駆体
+- 01/plot/chapter/character-base.yml: キャラクターの基礎設定
+- 01/plot/chapter/log.yml:            ログ
+- 01/plot/chapter/memo.yml:           メモ
+- 01/plot/chapter/plan.md:            計画
+- 01/plot/chapter/precursor.yml:      前駆体
+- 01/plot/chapter/reference.yml:      参照
 
 #### 基礎計画
 
-- plot/01/episode/build/eBu-001.md: 基礎計画 第1章 第1話
-- plot/01/episode/build/eBu-003.md: 基礎計画 第1章 第3話
-- plot/01/episode/build/eBu-005.md: 基礎計画 第1章 第5話
-- plot/01/episode/build/eBu-006.md: 基礎計画 第1章 第6話
-- plot/01/episode/build/eBu-007.md: 基礎計画 第1章 第7話
-- plot/01/episode/build/eBu-008.md: 基礎計画 第1章 第8話
-- plot/01/episode/build/eBu-009.md: 基礎計画 第1章 第9話
-- plot/01/episode/build/eBu-010.md: 基礎計画 第1章 第10話
-- plot/01/episode/build/eBu-011.md: 基礎計画 第1章 第11話
-- plot/01/episode/build/eBu-012.md: 基礎計画 第1章 第12話
+- 01/plot/episode/build/eBu-001.md: 基礎計画 第1章 第1話
+- 01/plot/episode/build/eBu-003.md: 基礎計画 第1章 第3話
+- 01/plot/episode/build/eBu-005.md: 基礎計画 第1章 第5話
+- 01/plot/episode/build/eBu-006.md: 基礎計画 第1章 第6話
+- 01/plot/episode/build/eBu-007.md: 基礎計画 第1章 第7話
+- 01/plot/episode/build/eBu-008.md: 基礎計画 第1章 第8話
+- 01/plot/episode/build/eBu-009.md: 基礎計画 第1章 第9話
+- 01/plot/episode/build/eBu-010.md: 基礎計画 第1章 第10話
+- 01/plot/episode/build/eBu-011.md: 基礎計画 第1章 第11話
+- 01/plot/episode/build/eBu-012.md: 基礎計画 第1章 第12話
 
 #### エピソードプロット
 
-- plot/01/episode/structure/eSt-001.md:  エピソード構造体 第1章 第1話
-- plot/01/episode/structure/eSt-003.md:  エピソード構造体 第1章 第3話
-- plot/01/episode/structure/eSt-005.md:  エピソード構造体 第1章 第5話
-- plot/01/episode/structure/eSt-006.yml: エピソード構造体 第1章 第6話
-- plot/01/episode/structure/eSt-007.yml: エピソード構造体 第1章 第7話
-- plot/01/episode/structure/eSt-008.yml: エピソード構造体 第1章 第8話
-- plot/01/episode/structure/eSt-009.yml: エピソード構造体 第1章 第9話
-- plot/01/episode/structure/eSt-010.yml: エピソード構造体 第1章 第10話
-- plot/01/episode/structure/eSt-011.yml: エピソード構造体 第1章 第11話
-- plot/01/episode/structure/eSt-012.yml: エピソード構造体 第1章 第12話
+- 01/plot/episode/structure/eSt-001.md:  エピソード構造体 第1章 第1話
+- 01/plot/episode/structure/eSt-003.md:  エピソード構造体 第1章 第3話
+- 01/plot/episode/structure/eSt-005.md:  エピソード構造体 第1章 第5話
+- 01/plot/episode/structure/eSt-006.yml: エピソード構造体 第1章 第6話
+- 01/plot/episode/structure/eSt-007.yml: エピソード構造体 第1章 第7話
+- 01/plot/episode/structure/eSt-008.yml: エピソード構造体 第1章 第8話
+- 01/plot/episode/structure/eSt-009.yml: エピソード構造体 第1章 第9話
+- 01/plot/episode/structure/eSt-010.yml: エピソード構造体 第1章 第10話
+- 01/plot/episode/structure/eSt-011.yml: エピソード構造体 第1章 第11話
+- 01/plot/episode/structure/eSt-012.yml: エピソード構造体 第1章 第12話
 
 ### 設定
 
-- settings/background.yml: 背景設定
-- settings/characters.yml: キャラクター設定
-- settings/place.yml:      場所設定
-- settings/things.yml:     物事設定
+- settings/background.yml:    背景設定
+- settings/character-mob.yml: モブキャラクター設定
+- settings/characters.yml:    キャラクター設定
 
 ### メモ
 
