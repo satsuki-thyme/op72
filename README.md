@@ -17,12 +17,13 @@
 - 01/text/tex-009.txt: 判決の行方を握るもの
 - 01/text/tex-010.txt: 思惑と意思の舞踏
 - 01/text/tex-011.txt: 告白、そして願い
+- 01/text/tex-012.txt: タイトル未定
 
 #### チャプタープロット
 
 - 01/plot/chapter/character-base.yml: キャラクターの基礎設定
 - 01/plot/chapter/log.yml:            ログ
-- 01/plot/chapter/memo.yml:           メモ
+- 01/plot/chapter/memo.md:            メモ
 - 01/plot/chapter/plan.md:            計画
 - 01/plot/chapter/precursor.yml:      前駆体
 - 01/plot/chapter/reference.yml:      参照
@@ -55,19 +56,13 @@
 
 ### 設定
 
-- settings/background.yml:    背景設定
-- settings/character-mob.yml: モブキャラクター設定
-- settings/characters.yml:    キャラクター設定
-
-### メモ
-
-#### 第1章
-
-- memo/01/mem-001.md: キスカと実家
+- settings/background.yml:     背景設定
+- settings/characters-mob.yml: モブキャラクター設定
+- settings/characters.yml:     キャラクター設定
 
 ### etc.
 
-- plot/00/title-idea.md: タイトル案
+- 00/title-idea.md: タイトル案
 
 ### アイデアノート
 
