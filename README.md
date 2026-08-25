@@ -26,15 +26,16 @@
 ### 全体計画
 
 - 00/plan/intention.md:  目論見
+- 00/plan/theme.yml:     テーマ
 - 00/plan/title-idea.md: タイトル案
 
 ### アイデアノート
 
-## アーカイブ
+### アーカイブ
 
-### 2026-08-25
+#### 2026-08-25
 
-#### 本文
+##### 本文
 
 - archive/2026-08-25/01/text/tex-001.txt: 憤れる森の美少女
 - archive/2026-08-25/01/text/tex-002.txt: 決闘への乱入者
@@ -49,7 +50,7 @@
 - archive/2026-08-25/01/text/tex-011.txt: 告白、そして願い
 - archive/2026-08-25/01/text/tex-012.txt: タイトル未定
 
-#### 計画構築
+##### 計画構築
 
 - archive/2026-08-25/01/plot/episode/build/eBu-001.md: 計画構築 第1章 第1話
 - archive/2026-08-25/01/plot/episode/build/eBu-003.md: 計画構築 第1章 第3話
@@ -62,7 +63,7 @@
 - archive/2026-08-25/01/plot/episode/build/eBu-011.md: 計画構築 第1章 第11話
 - archive/2026-08-25/01/plot/episode/build/eBu-012.md: 計画構築 第1章 第12話
 
-#### エピソード構造体
+##### エピソード構造体
 
 - archive/2026-08-25/01/plot/episode/structure/eSt-001.md:  エピソード構造体 第1章 第1話
 - archive/2026-08-25/01/plot/episode/structure/eSt-003.md:  エピソード構造体 第1章 第3話
@@ -75,7 +76,7 @@
 - archive/2026-08-25/01/plot/episode/structure/eSt-011.yml: エピソード構造体 第1章 第11話
 - archive/2026-08-25/01/plot/episode/structure/eSt-012.yml: エピソード構造体 第1章 第12話
 
-#### アイデアノート
+##### アイデアノート
 
 - archive/2026-08-25/idea-notes/ide-001.md: ウィスプ
 - archive/2026-08-25/idea-notes/ide-002.md: 暴行
@@ -85,5 +86,4 @@
 - archive/2026-08-25/idea-notes/ide-006.md: 淵神
 - archive/2026-08-25/idea-notes/ide-007.md: 裁判
 - archive/2026-08-25/idea-notes/ide-008.md: 牢の面白み
-
 
