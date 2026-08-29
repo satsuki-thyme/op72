@@ -10,6 +10,7 @@
 
 - task
   - reserve
-  - await
+    - [n] ;base-idea;
   - archive
+    - [x] ;config;
   - void

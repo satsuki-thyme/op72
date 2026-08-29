@@ -25,8 +25,8 @@
 
 ### 全体計画
 
-- 00/plan/intention.md:  目論見
-- 00/plan/theme.yml:     テーマ
+- 00/plan/base-idea.md:  ベースアイデア
+- 00/plan/config.yml:    設定
 - 00/plan/title-idea.md: タイトル案
 
 ### アイデアノート

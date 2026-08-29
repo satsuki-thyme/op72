@@ -1,13 +1,16 @@
 # キャラクター
 
+
 summary:
   エクト
   キスカ
   フェリ
 
+
 details:
   - group: メインキャラクター
     member:
+
 
       - dn: エクト
         meta data:
@@ -69,6 +72,7 @@ details:
             buttocks: 
             leg: 
           voice: 
+
 
       - dn: キスカ
         meta data:
@@ -139,6 +143,7 @@ details:
             leg: 
           voice: 
 
+
       - dn: フェリ
         meta data:
           role: ヒロイン
@@ -205,8 +210,30 @@ details:
             leg: 
           voice: 
 
-  - group: 
+
+  - group: クレアレイド王国
     member:
+
+
+      - dn: フェルダー
+        meta data:
+          role: キスカとクレアレイド王国をつなぐ
+          applicable chapter: 1
+        innate nature:
+          self awareness: 
+          full name: ロンディーフ侯爵 フェルダー・ゼルフ・ハイフレック
+          nickname: フェルダー
+          race: 葦人
+          gender: 男
+          age: 33
+          birthplace: 
+        current status:
+          address: ロンディーフ領 . クレアレイド王国
+          affiliation: 
+        approximate nature:
+          壮健な立ち姿を｜洒落者《しゃれもの》然とした衣装に身を包んだ男だ。
+          力が｜漲《みなぎ》り、しかし三十を過ぎたほどとは思えない｜老獪《ろうかい》な眼差しをしている。
+
 
       - dn: 
         meta data:
@@ -225,8 +252,10 @@ details:
           affiliation: 
         approximate nature:
 
+
   - group: 
     member:
+
 
       - dn: 
         meta data:
@@ -244,6 +273,7 @@ details:
           address: 
           affiliation: 
         approximate nature:
+
 
   ## ##      ######## ########  ######
   ## ##      ##          ##    ##    ##
@@ -253,8 +283,10 @@ details:
   ## ##      ##          ##    ##    ##
   ## ##      ########    ##     ######
 
+
   - group: その他
     member:
+
 
       - dn: 
         meta data:
@@ -272,4 +304,95 @@ details:
           address: 
           affiliation: 
         approximate nature:
+
+
+      - dn: 淵神
+        meta data:
+          role: 敵
+          applicable chapter: 1
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+          /[thi-006]
+          妖怪的な存在
+          屍蝋の闇炎と手を組んでアルトレア王国の$秘宝$を盗み出そうとしている
+          $秘宝$で寿命を延ばそうとしている
+          衰えてきているため聖戦姫でも倒せた
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+
+
+  ## ##       #######  ########   ######         ##
+  ## ##      ##     ## ##     ## ##    ##      ####
+#########    ##     ## ##     ## ##              ##
+  ## ##      ##     ## ########  ##   ####       ##
+#########    ##     ## ##   ##   ##    ##        ##
+  ## ##      ##     ## ##    ##  ##    ##        ##
+  ## ##       #######  ##     ##  ######       ######
+
+
+  - group: 屍蝋の闇炎
+    member:
+
+
+      - dn: 
+        meta data:
+          role: 
+          applicable chapter: 
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+
+
+      - dn: ゼヴァロ
+        meta data:
+          role: 敵
+          applicable chapter: 1
+        innate nature:
+          self awareness: 
+          full name: 
+          nickname: 
+          race: 
+          gender:
+          age: 
+          birthplace: 
+        current status:
+          address: 
+          affiliation: 
+        approximate nature:
+
 
